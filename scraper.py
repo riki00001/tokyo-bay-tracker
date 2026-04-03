@@ -1,629 +1,296 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>東京湾 釣り船トラッカー</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<style>
-*{box-sizing:border-box;margin:0;padding:0;}
-html,body{height:100%;font-family:'Noto Sans JP',sans-serif;background:#0f172a;}
-.app{display:flex;flex-direction:column;height:100vh;}
+"""
+東京湾釣果スクレイパー
+各船宿の公式サイト・釣りビジョンから直近データを収集して
+data/comments.json に保存する
+"""
+import json
+import re
+import time
+from datetime import datetime, timedelta, timezone
+import requests
+from bs4 import BeautifulSoup
 
-.hdr{background:#0f172a;padding:8px 16px;display:flex;align-items:center;gap:10px;flex-shrink:0;border-bottom:1px solid #1e293b;}
-.hdr-title{font-family:'Space Mono',monospace;font-size:12px;color:#e2e8f0;letter-spacing:.1em;}
-.hdr-sub{font-size:9px;color:#64748b;margin-top:1px;}
-.live-badge{display:flex;align-items:center;gap:5px;background:#052e16;border:1px solid #16a34a;border-radius:4px;padding:3px 8px;font-size:9px;color:#4ade80;font-family:'Space Mono',monospace;}
-.pulse{width:6px;height:6px;border-radius:50%;background:#4ade80;animation:p 1.5s infinite;}
-@keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
-.data-badge{background:#1e3a5f;border:1px solid #3b82f6;border-radius:4px;padding:3px 8px;font-size:9px;color:#93c5fd;font-family:'Space Mono',monospace;}
-.hdr-time{font-size:9px;color:#475569;font-family:'Space Mono',monospace;margin-left:auto;}
+JST = timezone(timedelta(hours=9))
+TODAY = datetime.now(JST)
+WEEK_AGO = TODAY - timedelta(days=7)
+CUTOFF = WEEK_AGO.strftime("%Y-%m-%d")
 
-/* 日付フィルターバー */
-.date-bar{background:#1e293b;border-bottom:1px solid #334155;padding:6px 16px;display:flex;align-items:center;gap:6px;flex-shrink:0;overflow-x:auto;}
-.date-bar::-webkit-scrollbar{height:2px;}
-.date-label{font-size:9px;color:#64748b;font-family:'Space Mono',monospace;white-space:nowrap;flex-shrink:0;}
-.date-btn{padding:4px 10px;border-radius:4px;border:1px solid #334155;background:transparent;color:#64748b;font-size:10px;cursor:pointer;font-family:'Space Mono',monospace;white-space:nowrap;transition:all .15s;flex-shrink:0;}
-.date-btn:hover{border-color:#60a5fa;color:#93c5fd;}
-.date-btn.on{background:#1e3a5f;border-color:#3b82f6;color:#60a5fa;font-weight:700;}
-.date-btn.all.on{background:#1e293b;border-color:#94a3b8;color:#e2e8f0;}
-.date-count{font-size:8px;color:#64748b;margin-left:2px;}
-
-.body{display:flex;flex:1;overflow:hidden;}
-
-.sidebar{width:320px;background:#0f172a;border-right:1px solid #1e293b;display:flex;flex-direction:column;overflow:hidden;}
-.sb-tabs{display:flex;border-bottom:1px solid #1e293b;flex-shrink:0;}
-.sb-tab{flex:1;padding:8px 4px;font-size:10px;font-family:'Space Mono',monospace;background:none;border:none;color:#475569;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s;}
-.sb-tab.on{color:#60a5fa;border-bottom-color:#60a5fa;}
-.sb-pnl{display:none;flex:1;overflow-y:auto;padding:8px;}
-.sb-pnl.on{display:block;}
-::-webkit-scrollbar{width:3px;}::-webkit-scrollbar-thumb{background:#1e293b;border-radius:2px;}
-
-.ship-card{background:#1e293b;border:1px solid #334155;border-radius:7px;padding:9px 10px;margin-bottom:6px;cursor:pointer;transition:all .15s;}
-.ship-card:hover{border-color:#60a5fa;background:#1e3a5f;}
-.ship-card.sel{border-color:#60a5fa;background:#172554;}
-.sc-top{display:flex;align-items:center;gap:7px;margin-bottom:5px;}
-.sc-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
-.sc-name{font-size:11px;font-weight:500;color:#e2e8f0;}
-.sc-port{font-size:9px;color:#64748b;margin-left:auto;}
-.sc-pos{background:#0f172a;border-radius:4px;padding:5px 7px;margin-bottom:4px;}
-.sc-pos-label{font-size:8px;color:#64748b;margin-bottom:2px;font-family:'Space Mono',monospace;}
-.sc-fish{font-size:11px;color:#fbbf24;font-weight:500;}
-.sc-loc{font-size:10px;color:#a78bfa;font-family:'Space Mono',monospace;}
-.sc-catch{font-size:10px;color:#86efac;margin-top:2px;}
-.sc-date{font-size:8px;color:#475569;font-family:'Space Mono',monospace;margin-top:3px;}
-.sc-links{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px;}
-.sc-lnk{font-size:8px;padding:2px 5px;border-radius:3px;border:1px solid #334155;color:#94a3b8;text-decoration:none;}
-.sc-lnk:hover{background:#334155;color:#e2e8f0;}
-
-.feed-card{background:#1e293b;border:1px solid #334155;border-radius:7px;padding:9px 10px;margin-bottom:6px;}
-.fc-head{display:flex;align-items:center;gap:7px;margin-bottom:6px;}
-.fc-av{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;}
-.fc-name{font-size:11px;color:#e2e8f0;font-weight:500;}
-.fc-date{font-size:9px;color:#64748b;}
-.fc-plat{font-size:8px;padding:1px 5px;border-radius:2px;margin-left:auto;background:#1e40af;color:#bfdbfe;}
-.fc-text{font-size:10px;color:#94a3b8;line-height:1.7;margin-bottom:6px;}
-.fc-tags{display:flex;flex-wrap:wrap;gap:3px;}
-.fc-tag{font-size:8px;padding:1px 5px;border-radius:2px;font-weight:500;}
-.tag-pt{background:#451a03;color:#fbbf24;border:1px solid #78350f;}
-.tag-dp{background:#2e1065;color:#c4b5fd;border:1px solid #5b21b6;}
-.tag-fs{background:#052e16;color:#86efac;border:1px solid #166534;}
-.tag-new{background:#7f1d1d;color:#fca5a5;border:1px solid #b91c1c;}
-
-.nlp-item{background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px 10px;margin-bottom:5px;cursor:pointer;transition:border-color .15s;}
-.nlp-item:hover{border-color:#fbbf24;}
-.nlp-name{font-size:11px;color:#fbbf24;font-weight:500;margin-bottom:2px;}
-.nlp-meta{font-size:9px;color:#64748b;margin-bottom:5px;}
-.nlp-bar-wrap{height:3px;background:#0f172a;border-radius:2px;margin-bottom:4px;}
-.nlp-bar{height:100%;border-radius:2px;}
-.nlp-ships{font-size:9px;color:#94a3b8;}
-
-.map-wrap{flex:1;position:relative;}
-#map{width:100%;height:100%;}
-
-.map-legend{position:absolute;bottom:30px;right:10px;z-index:1000;background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:7px;padding:8px 11px;font-size:9px;color:#94a3b8;}
-.ml-title{font-family:'Space Mono',monospace;color:#64748b;font-size:8px;letter-spacing:.06em;margin-bottom:5px;}
-.ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;}
-
-.tile-ctrl{position:absolute;top:10px;right:10px;z-index:1000;display:flex;flex-direction:column;gap:4px;}
-.tile-btn{background:rgba(15,23,42,.9);border:1px solid #334155;border-radius:5px;padding:4px 9px;font-size:9px;color:#94a3b8;cursor:pointer;font-family:'Space Mono',monospace;transition:all .15s;}
-.tile-btn.on,.tile-btn:hover{background:#1e40af;border-color:#3b82f6;color:#fff;}
-
-.coord-bar{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);z-index:1000;background:rgba(15,23,42,.85);border:1px solid #334155;border-radius:5px;padding:4px 12px;font-family:'Space Mono',monospace;font-size:10px;color:#64748b;}
-
-.season-badge{position:absolute;top:10px;left:10px;z-index:1000;background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:6px;padding:6px 10px;font-size:9px;color:#94a3b8;}
-.season-title{font-family:'Space Mono',monospace;color:#64748b;font-size:8px;letter-spacing:.05em;margin-bottom:3px;}
-.season-fish{display:flex;gap:4px;flex-wrap:wrap;}
-.sf{padding:2px 6px;border-radius:3px;font-size:9px;font-weight:500;}
-
-.leaflet-popup-content-wrapper{background:#1e293b!important;border:1px solid #334155!important;border-radius:8px!important;box-shadow:0 4px 20px rgba(0,0,0,.5)!important;}
-.leaflet-popup-content{color:#e2e8f0!important;font-family:'Noto Sans JP',sans-serif!important;font-size:11px!important;line-height:1.7!important;margin:10px 14px!important;}
-.leaflet-popup-tip{background:#1e293b!important;}
-.leaflet-popup-close-button{color:#64748b!important;}
-.lp-name{font-weight:700;font-size:13px;color:#60a5fa;margin-bottom:5px;}
-.lp-row{display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px solid #334155;font-size:11px;}
-.lp-row:last-child{border-bottom:none;}
-.lp-k{color:#64748b;}.lp-v{color:#e2e8f0;font-family:'Space Mono',monospace;font-size:10px;}
-.leaflet-div-icon{background:transparent!important;border:none!important;}
-</style>
-</head>
-<body>
-<div class="app">
-<div class="hdr">
-  <div class="live-badge"><div class="pulse"></div>LIVE</div>
-  <div class="data-badge">実データ 2026-03-28〜04-03</div>
-  <div>
-    <div class="hdr-title">TOKYO BAY FISHING TRACKER</div>
-    <div class="hdr-sub">各船宿公式サイト・釣りビジョンより収集 / NLP解析 → 推定位置を地図表示</div>
-  </div>
-  <div class="hdr-time" id="hdr-time">—</div>
-</div>
-
-<!-- 日付フィルターバー -->
-<div class="date-bar" id="date-bar">
-  <span class="date-label">日付:</span>
-  <!-- JSで動的生成 -->
-</div>
-
-<div class="body">
-<div class="sidebar">
-  <div class="sb-tabs">
-    <button class="sb-tab on" onclick="sbTab('ships')">船宿</button>
-    <button class="sb-tab" onclick="sbTab('feed')">釣果</button>
-    <button class="sb-tab" onclick="sbTab('nlp')">ポイント</button>
-  </div>
-  <div class="sb-pnl on" id="sb-ships"></div>
-  <div class="sb-pnl" id="sb-feed"></div>
-  <div class="sb-pnl" id="sb-nlp"></div>
-</div>
-
-<div class="map-wrap">
-  <div id="map"></div>
-
-  <!-- 春シーズン表示 -->
-  <div class="season-badge">
-    <div class="season-title">2026年4月 現在の釣り物</div>
-    <div class="season-fish">
-      <span class="sf" style="background:#052e16;color:#86efac;border:1px solid #166534;">🐟 アジ◎</span>
-      <span class="sf" style="background:#1e3a5f;color:#93c5fd;border:1px solid #1d4ed8;">🐟 マゴチ◎</span>
-      <span class="sf" style="background:#2e1065;color:#c4b5fd;border:1px solid #5b21b6;">🐡 トラフグ○</span>
-      <span class="sf" style="background:#3f1a1a;color:#fca5a5;border:1px solid #7f1d1d;">🎣 マダイ△</span>
-    </div>
-  </div>
-
-  <div class="tile-ctrl">
-    <button class="tile-btn on" id="t-osm" onclick="setTile('osm')">OSM</button>
-    <button class="tile-btn" id="t-esri" onclick="setTile('esri')">Esri</button>
-    <button class="tile-btn" id="t-gsi" onclick="setTile('gsi')">地理院</button>
-  </div>
-
-  <div class="map-legend">
-    <div class="ml-title">LEGEND</div>
-    <div class="ml-row"><span>🚢</span>船の推定位置（釣果コメントより）</div>
-    <div class="ml-row"><span>🔵</span>釣果ポイント出現頻度</div>
-    <div class="ml-row"><span>📍</span>主要地点</div>
-    <div style="margin-top:5px;font-size:8px;color:#475569;">※位置は船長コメントからの推定</div>
-  </div>
-
-  <div class="coord-bar" id="coord-bar">地図上にカーソルを移動</div>
-</div>
-</div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script>
-
-// ══════════════════════════════════════════════════
-// ポイント座標辞書（テキスト → [lat, lng]）
-// ══════════════════════════════════════════════════
-const PT = {
-  "川崎沖":       [35.488, 139.762],
-  "本牧沖":       [35.410, 139.672],
-  "本牧":         [35.410, 139.672],
-  "本牧根":       [35.410, 139.672],
-  "八景沖":       [35.335, 139.640],
-  "横浜沖":       [35.440, 139.712],
-  "小柴沖":       [35.348, 139.642],
-  "富岡沖":       [35.338, 139.652],
-  "海堡北側":     [35.328, 139.808],
-  "第2海堡":      [35.316, 139.827],
-  "猿島沖":       [35.316, 139.785],
-  "観音崎":       [35.283, 139.716],
-  "観音沖":       [35.278, 139.740],
-  "観音崎沖":     [35.278, 139.745],
-  "走水沖":       [35.308, 139.748],
-  "大津沖":       [35.350, 139.658],
-  "大貫沖":       [35.302, 139.855],
-  "大貫沖〜八景沖": [35.318, 139.748],
-  "富津沖":       [35.290, 139.855],
-  "竹岡沖":       [35.268, 139.875],
-  "久里浜沖":     [35.218, 139.738],
-  "木更津沖":     [35.390, 139.875],
-  "富浦沖":       [34.975, 139.880],  // 南房総
-};
-
-function extractPoint(text) {
-  const keys = Object.keys(PT).sort((a,b) => b.length - a.length);
-  for (const k of keys) {
-    if (text.includes(k)) return { name: k, latlng: PT[k] };
-  }
-  return null;
-}
-function extractDepth(text) {
-  const m = text.match(/水深(\d+)(?:〜(\d+))?m/);
-  if (!m) return null;
-  return m[2] ? `${m[1]}〜${m[2]}m` : `${m[1]}m`;
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; TokyoBayFishingTracker/1.0)"
 }
 
-// ══════════════════════════════════════════════════
-// 船宿マスター
-// ══════════════════════════════════════════════════
-const SHIPS = [
-  { id:"nakayamamaru", name:"中山丸",       port:"川崎",     col:"#ef4444",
-    web:"https://www.nakayamamaru.com" },
-  { id:"tadahikomaru", name:"忠彦丸",       port:"金沢八景", col:"#3b82f6",
-    web:"https://www.tadahikomaru.jp" },
-  { id:"ichinosemaru", name:"一之瀬丸",     port:"金沢八景", col:"#8b5cf6",
-    web:"https://www.ichinosemaru.net" },
-  { id:"bentenya",     name:"弁天屋",       port:"金沢八景", col:"#f59e0b",
-    web:"https://bentenya.com" },
-  { id:"ogawamaru",    name:"小川丸",       port:"大津港",   col:"#10b981",
-    web:"https://ogawamaru.net" },
-  { id:"yoshinoya_f",  name:"深川吉野屋",   port:"深川",     col:"#f97316",
-    web:"https://www.team-yoshinoya.com/tsuri/" },
-  { id:"arakawaya",    name:"荒川屋",       port:"鶴見",     col:"#ec4899",
-    web:"https://arakawaya.jp" },
-];
+POINT_COORDS = {
+    "川崎沖":       [35.488, 139.762],
+    "本牧沖":       [35.410, 139.672],
+    "本牧":         [35.410, 139.672],
+    "本牧根":       [35.410, 139.672],
+    "八景沖":       [35.335, 139.640],
+    "横浜沖":       [35.440, 139.712],
+    "小柴沖":       [35.348, 139.642],
+    "富岡沖":       [35.338, 139.652],
+    "海堡北側":     [35.328, 139.808],
+    "第2海堡":      [35.316, 139.827],
+    "猿島沖":       [35.316, 139.785],
+    "観音崎":       [35.283, 139.716],
+    "観音沖":       [35.278, 139.740],
+    "観音崎沖":     [35.278, 139.745],
+    "走水沖":       [35.308, 139.748],
+    "走水":         [35.317, 139.726],
+    "大津沖":       [35.350, 139.658],
+    "大貫沖":       [35.302, 139.855],
+    "富津沖":       [35.290, 139.855],
+    "竹岡沖":       [35.268, 139.875],
+    "久里浜沖":     [35.218, 139.738],
+    "木更津沖":     [35.390, 139.875],
+    "富浦沖":       [34.975, 139.880],
+}
 
-// ══════════════════════════════════════════════════
-// 実データ（2026-03-28〜04-03 各公式サイトより収集）
-// ══════════════════════════════════════════════════
-const COMMENTS = [
-  // ── 中山丸（nakayamamaru.com）──
-  { ship:"中山丸",  date:"2026-04-03", platform:"web",
-    fish:"LTアジ",   catch:"40〜99匹",
-    text:"LTアジ ショート便 17-27cm 40-99匹。川崎〜本牧沖 水深20m。近場1ヶ所のち本牧2ヶ所にて。何処も好活性に恵まれ竿頭99匹！"},
-  { ship:"中山丸",  date:"2026-04-03", platform:"web",
-    fish:"トラフグ", catch:"0〜2匹",
-    text:"トラフグ 1.0-3.0kg 0-2匹。富浦沖 水深70〜80m。コースを変えて狙い型を見ることができた。"},
-  { ship:"中山丸",  date:"2026-04-01", platform:"web",
-    fish:"LTアジ",   catch:"64〜89匹",
-    text:"LTアジ ショート便 18-30cm 64-89匹。川崎〜本牧沖 水深20m。近場と本牧根周りにて中アジ揃いで89、78、70、65、64匹と好調！"},
-  { ship:"中山丸",  date:"2026-03-31", platform:"web",
-    fish:"LTアジ",   catch:"30〜60匹",
-    text:"LTアジ 川崎〜本牧沖 水深20m前後。本牧根周りで中アジ揃い。好調続く。"},
-  { ship:"中山丸",  date:"2026-03-28", platform:"web",
-    fish:"LTアジ",   catch:"50〜90匹",
-    text:"LTアジ 川崎〜本牧沖 水深20m。週末も好調。良型交じりで竿頭90匹超。"},
+def extract_point(text):
+    keys = sorted(POINT_COORDS.keys(), key=len, reverse=True)
+    for k in keys:
+        if k in text:
+            return {"name": k, "latlng": POINT_COORDS[k]}
+    return None
 
-  // ── 深川吉野屋（team-yoshinoya.com）──
-  { ship:"深川吉野屋", date:"2026-04-03", platform:"web",
-    fish:"マゴチ",  catch:"3〜13匹",
-    text:"マゴチ 40〜58cm 3〜13匹（船中44匹）。海堡北側 水深15〜20m。今日も海堡北側の海域をじっくり流し込んだ。潮も適当に流れており早々からアタリもポツリと順調。後半も飽きない程度にアタリは続き大漁！"},
-  { ship:"深川吉野屋", date:"2026-04-03", platform:"web",
-    fish:"アジ",    catch:"7〜70匹",
-    text:"マアジ 17〜33cm 7〜70匹。木更津沖からスタート 水深20m。後半は横浜沖に向かいストラクチャー周りで25cm超の良型が順調に続いた！"},
-  { ship:"深川吉野屋", date:"2026-04-03", platform:"web",
-    fish:"サワラ",  catch:"0匹",
-    text:"サワラ 0匹（ワラサ・イナダ4）。大貫沖。朝からベイト反応広範囲にあるもエソばかり。帰り際に鳥山もできたがワラサ追加のみ。"},
+def extract_depth(text):
+    m = re.search(r'水深(\d+)(?:〜(\d+))?m|(\d+)m前後', text)
+    if not m:
+        return None
+    if m.group(1) and m.group(2):
+        return f"{m.group(1)}〜{m.group(2)}m"
+    elif m.group(1):
+        return f"{m.group(1)}m"
+    elif m.group(3):
+        return f"{m.group(3)}m前後"
+    return None
 
-  // ── 一之瀬丸（fishing-v.jp）──
-  { ship:"一之瀬丸", date:"2026-01-07", platform:"web",
-    fish:"タチウオ（テンヤ）", catch:"5〜38本",
-    text:"タチウオ 70-121cm 5〜38本。観音沖 水深60〜70m。テンヤ。2番手30本。アタリ活発。"},
-  { ship:"一之瀬丸", date:"2026-01-07", platform:"web",
-    fish:"マゴチ",  catch:"3〜10匹",
-    text:"マゴチ 38-53cm 3〜10匹。大貫沖〜八景沖 水深20m。トップ10匹が2人。"},
-  { ship:"一之瀬丸", date:"2026-01-06", platform:"web",
-    fish:"タチウオ（テンヤ）", catch:"10〜53本",
-    text:"タチウオ 70-124cm 10〜53本。観音沖 水深60〜70m。テンヤ。2番手44本。潮流れ良く乗り活発！"},
+def safe_get(url, delay=1.5):
+    try:
+        time.sleep(delay)
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        r.encoding = r.apparent_encoding
+        return r.text
+    except Exception as e:
+        print(f"  [WARN] {url}: {e}")
+        return None
 
-  // ── 弁天屋（chowari）──
-  { ship:"弁天屋",  date:"2026-03-30", platform:"web",
-    fish:"アジ",    catch:"15〜67匹",
-    text:"LTアジ 17〜39cm 15〜67匹。小柴沖 水深15〜25m。外道でサバ・イシモチ。好活性で数釣れた。"},
-  { ship:"弁天屋",  date:"2026-03-30", platform:"web",
-    fish:"マゴチ",  catch:"0〜6匹",
-    text:"マゴチ 42〜58cm 0〜6匹。富津沖 水深10〜25m。外道でヒラメ交じり。"},
-  { ship:"弁天屋",  date:"2026-03-28", platform:"web",
-    fish:"マダイ",  catch:"0〜5枚",
-    text:"全日マダイ。浅場から開始しポイントを回った。やや深めのポイントで1〜1.5kg位の型が釣れ、8名様全員GETでき上出来！"},
+def scrape_nakayamamaru():
+    results = []
+    html = safe_get("https://www.nakayamamaru.com/category/Choka/")
+    if not html:
+        return results
+    soup = BeautifulSoup(html, "lxml")
+    content = soup.get_text(separator="\n")
+    lines = [l.strip() for l in content.split("\n") if l.strip()]
 
-  // ── 小川丸（ogawamaru.net）──
-  { ship:"小川丸",  date:"2026-04-02", platform:"web",
-    fish:"アジ",    catch:"20〜65匹",
-    text:"LTアジ。大津沖 水深20〜30m。春のアジ好調続く。良型25〜35cm主体。水温上昇でコマセへの反応良好。"},
-  { ship:"小川丸",  date:"2026-03-29", platform:"web",
-    fish:"マゴチ",  catch:"0〜8匹",
-    text:"マゴチ。大津沖〜走水沖 水深15〜25m。春のマゴチ開幕！型もよく40〜60cm主体。トップ8匹。"},
+    current_date = None
+    current_fish = None
+    current_text_lines = []
+    current_catch = ""
 
-  // ── 荒川屋（arakawaya.jp）──
-  { ship:"荒川屋",  date:"2026-04-01", platform:"web",
-    fish:"アジ",    catch:"20〜55匹",
-    text:"LTアジ。本牧沖〜横浜沖 水深15〜25m。春アジ順調。中型主体で良型交じり。"},
-  { ship:"荒川屋",  date:"2026-03-28", platform:"web",
-    fish:"マゴチ",  catch:"0〜5匹",
-    text:"マゴチ。横浜沖 水深15〜20m。シーズン入り口、型は良く50cm超え複数。"},
+    for line in lines:
+        dm = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', line)
+        if dm:
+            if current_date and current_text_lines and current_date >= CUTOFF:
+                results.append({
+                    "ship": "中山丸",
+                    "date": current_date,
+                    "platform": "web",
+                    "text": " ".join(current_text_lines)[:300],
+                    "fish": current_fish or "不明",
+                    "catch": current_catch,
+                    "source_url": "https://www.nakayamamaru.com/category/Choka/"
+                })
+            current_date = f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+            current_fish = None
+            current_text_lines = []
+            current_catch = ""
+            continue
 
-  // ── 忠彦丸（tadahikomaru.jp）──
-  { ship:"忠彦丸",  date:"2026-04-02", platform:"web",
-    fish:"アジ",    catch:"25〜80匹",
-    text:"午前LTアジ。八景沖〜本牧沖 水深20m前後。春アジ絶好調！良型25cm超え主体で竿頭80匹。"},
-  { ship:"忠彦丸",  date:"2026-03-30", platform:"web",
-    fish:"マゴチ",  catch:"0〜7匹",
-    text:"マゴチ。八景沖〜富津沖 水深15〜25m。春のマゴチシーズン突入。型は良く50cm前後主体。トップ7匹。"},
-];
+        if current_date:
+            fish_words = ["タチウオ","アジ","マゴチ","トラフグ","マダイ","シロギス","カワハギ","アナゴ","サバ","サワラ"]
+            if len(line) < 30 and any(f in line for f in fish_words):
+                current_fish = line
 
-// ══════════════════════════════════════════════════
-// 地図・データ初期化
-// ══════════════════════════════════════════════════
-let map, currentTile = "osm";
-const TILES = {};
-const shipMarkers = {};
+            catch_m = re.search(r'(\d+)[〜~](\d+)\s*(?:本|匹|尾)', line)
+            if catch_m and not current_catch:
+                current_catch = f"{catch_m.group(1)}〜{catch_m.group(2)}"
 
-window.addEventListener("load", async () => {
-  // data/comments.json を fetch（GitHub Pages 上では自動更新データを読む）
-  try {
-    const res = await fetch("data/comments.json");
-    if (res.ok) {
-      const json = await res.json();
-      // JSONのデータでCOMMENTSを上書き
-      COMMENTS.length = 0;
-      json.comments.forEach(c => COMMENTS.push(c));
-      // ポイント・水深が未付与なら付与
-      COMMENTS.forEach(c => {
-        if (!c.point) c.point = extractPoint(c.text);
-        if (!c.depth) c.depth = extractDepth(c.text);
-      });
-      document.getElementById("hdr-time").textContent =
-        `更新: ${json.updated_at}`;
-      document.querySelector(".data-badge").textContent =
-        `実データ ${json.cutoff}〜 (${json.count}件)`;
+            if len(line) > 15:
+                current_text_lines.append(line)
+
+    if current_date and current_text_lines and current_date >= CUTOFF:
+        results.append({
+            "ship": "中山丸",
+            "date": current_date,
+            "platform": "web",
+            "text": " ".join(current_text_lines[:5])[:300],
+            "fish": current_fish or "不明",
+            "catch": current_catch,
+            "source_url": "https://www.nakayamamaru.com/category/Choka/"
+        })
+    return results
+
+def scrape_yoshinoya():
+    results = []
+    html = safe_get("https://www.team-yoshinoya.com/tsuri/diary/")
+    if not html:
+        return results
+    soup = BeautifulSoup(html, "lxml")
+    content = soup.get_text(separator="\n")
+    lines = [l.strip() for l in content.split("\n") if l.strip()]
+
+    current_date = None
+    current_fish = None
+    current_text_lines = []
+    current_catch = ""
+
+    for line in lines:
+        dm = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', line)
+        if dm:
+            if current_date and current_text_lines and current_date >= CUTOFF:
+                results.append({
+                    "ship": "深川吉野屋",
+                    "date": current_date,
+                    "platform": "web",
+                    "text": " ".join(current_text_lines[:5])[:300],
+                    "fish": current_fish or "不明",
+                    "catch": current_catch,
+                    "source_url": "https://www.team-yoshinoya.com/tsuri/diary/"
+                })
+            current_date = f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+            current_fish = None
+            current_text_lines = []
+            current_catch = ""
+            continue
+
+        # 日のみの行（例: "03(金)"）
+        dm2 = re.match(r'^(\d{1,2})\([月火水木金土日]\)$', line)
+        if dm2:
+            day = int(dm2.group(1))
+            year = TODAY.year
+            month = TODAY.month
+            current_date = f"{year}-{month:02d}-{day:02d}"
+            current_fish = None
+            current_text_lines = []
+            current_catch = ""
+            continue
+
+        if current_date:
+            for fish in ["マゴチ","タチウオ","アジ","サワラ","シロギス","マダイ","マダコ","フグ"]:
+                if f"【{fish}" in line:
+                    current_fish = fish
+                    break
+            catch_m = re.search(r'(\d+)[〜~](\d+)\s*(?:匹|本|尾)', line)
+            if catch_m and not current_catch:
+                current_catch = f"{catch_m.group(1)}〜{catch_m.group(2)}"
+            skip_words = ["copyright","Copyright","HOME","menu","©"]
+            if len(line) > 15 and not any(x in line for x in skip_words):
+                current_text_lines.append(line)
+
+    if current_date and current_text_lines and current_date >= CUTOFF:
+        results.append({
+            "ship": "深川吉野屋",
+            "date": current_date,
+            "platform": "web",
+            "text": " ".join(current_text_lines[:5])[:300],
+            "fish": current_fish or "不明",
+            "catch": current_catch,
+            "source_url": "https://www.team-yoshinoya.com/tsuri/diary/"
+        })
+    return results
+
+def scrape_fishing_v_text(ship_id, ship_name):
+    results = []
+    url = f"https://www.fishing-v.jp/choka/choka_detail.php?s={ship_id}&pageID=1"
+    html = safe_get(url)
+    if not html:
+        return results
+    soup = BeautifulSoup(html, "lxml")
+
+    current_date = None
+    by_date = {}
+
+    for tag in soup.find_all(["h2","h3","li","p","td","tr"]):
+        text = tag.get_text(strip=True)
+        dm = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', text)
+        if dm:
+            current_date = f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+            continue
+        if current_date and current_date >= CUTOFF and len(text) > 5:
+            by_date.setdefault(current_date, []).append(text)
+
+    for date, texts in by_date.items():
+        combined = " ".join(texts[:10])
+        fish_m = re.search(r'(タチウオ|アジ|マゴチ|マダイ|サワラ|シロギス|カワハギ|マダコ|フグ|トラフグ)', combined)
+        catch_m = re.search(r'(\d+)[〜~](\d+)\s*(?:匹|本|尾)', combined)
+        results.append({
+            "ship": ship_name,
+            "date": date,
+            "platform": "web",
+            "text": combined[:300],
+            "fish": fish_m.group(1) if fish_m else "不明",
+            "catch": f"{catch_m.group(1)}〜{catch_m.group(2)}" if catch_m else "",
+            "source_url": url
+        })
+    return results
+
+def main():
+    print(f"スクレイピング開始: {TODAY.strftime('%Y-%m-%d %H:%M JST')}")
+    print(f"取得対象: {CUTOFF} 以降\n")
+
+    all_comments = []
+    errors = []
+
+    tasks = [
+        ("中山丸",     scrape_nakayamamaru,   []),
+        ("深川吉野屋", scrape_yoshinoya,       []),
+        ("一之瀬丸",   scrape_fishing_v_text,  [186, "一之瀬丸"]),
+        ("弁天屋",     scrape_fishing_v_text,  [190, "弁天屋"]),
+        ("忠彦丸",     scrape_fishing_v_text,  [196, "忠彦丸"]),
+        ("小川丸",     scrape_fishing_v_text,  [1158, "小川丸"]),
+        ("荒川屋",     scrape_fishing_v_text,  [1192, "荒川屋"]),
+    ]
+
+    for ship_name, func, args in tasks:
+        print(f"  取得中: {ship_name}...")
+        try:
+            entries = func(*args) if args else func()
+            for e in entries:
+                e["point"] = extract_point(e["text"])
+                e["depth"] = extract_depth(e["text"])
+            all_comments.extend(entries)
+            print(f"    → {len(entries)}件")
+        except Exception as ex:
+            print(f"    [ERROR] {ex}")
+            errors.append({"ship": ship_name, "error": str(ex)})
+
+    # 重複除去
+    seen = set()
+    unique = []
+    for c in all_comments:
+        key = f"{c['ship']}_{c['date']}_{c['fish']}"
+        if key not in seen:
+            seen.add(key)
+            unique.append(c)
+
+    unique.sort(key=lambda x: x["date"], reverse=True)
+
+    output = {
+        "updated_at": TODAY.strftime("%Y-%m-%d %H:%M JST"),
+        "cutoff": CUTOFF,
+        "count": len(unique),
+        "errors": errors,
+        "comments": unique
     }
-  } catch(e) {
-    // fetch失敗時はビルトインのサンプルデータをそのまま使う
-    COMMENTS.forEach(c => {
-      if (!c.point) c.point = extractPoint(c.text);
-      if (!c.depth) c.depth = extractDepth(c.text);
-    });
-    console.warn("data/comments.json の読み込み失敗、内蔵データを使用:", e.message);
-  }
 
-  map = L.map("map", { center:[35.40, 139.80], zoom:10, zoomControl:false });
-  L.control.zoom({ position:"bottomright" }).addTo(map);
+    with open("data/comments.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
-  TILES.osm  = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { maxZoom:19, subdomains:"abc", attribution:"© OpenStreetMap" });
-  TILES.esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
-    { maxZoom:19, attribution:"© Esri" });
-  TILES.gsi  = L.tileLayer("https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
-    { maxZoom:18, attribution:"© 国土地理院" });
-  TILES.osm.addTo(map);
+    print(f"\n完了: {len(unique)}件 → data/comments.json")
+    if errors:
+        print(f"エラー: {len(errors)}件")
 
-  map.on("mousemove", e => {
-    document.getElementById("coord-bar").textContent =
-      `${e.latlng.lat.toFixed(4)}, ${e.latlng.lng.toFixed(4)}`;
-  });
-
-  // 主要地点
-  [
-    { name:"観音崎",   lat:35.2832, lng:139.7156 },
-    { name:"富津岬",   lat:35.2997, lng:139.8196 },
-    { name:"走水港",   lat:35.3172, lng:139.7261 },
-    { name:"第2海堡", lat:35.316,  lng:139.827  },
-    { name:"羽田空港", lat:35.549,  lng:139.780  },
-  ].forEach(lm => {
-    L.marker([lm.lat, lm.lng], {
-      icon: L.divIcon({
-        className:"",
-        html:`<div style="font-size:10px;white-space:nowrap;background:rgba(15,23,42,.85);color:#94a3b8;border:1px solid #334155;border-radius:3px;padding:1px 5px;pointer-events:none;">📍 ${lm.name}</div>`,
-        iconAnchor:[0,8],
-      }),
-      interactive:false
-    }).addTo(map);
-  });
-
-  // ポイント出現頻度 → 青い円
-  const freq = {};
-  COMMENTS.forEach(c => {
-    if (c.point) freq[c.point.name] = (freq[c.point.name]||0) + 1;
-  });
-  const maxF = Math.max(...Object.values(freq), 1);
-  Object.entries(freq).forEach(([name, count]) => {
-    const ll = PT[name]; if (!ll) return;
-    L.circle(ll, {
-      radius: 400 + (count/maxF)*1000,
-      color:"#3b82f6", fillColor:"#3b82f6",
-      fillOpacity:0.07+(count/maxF)*0.15,
-      weight:1, opacity:0.4
-    }).addTo(map);
-    L.marker(ll, {
-      icon: L.divIcon({
-        className:"",
-        html:`<div style="font-size:9px;color:#93c5fd;font-family:'Space Mono',monospace;white-space:nowrap;pointer-events:none;text-shadow:0 1px 3px #000;">🔵 ${name} ×${count}</div>`,
-        iconAnchor:[0,4]
-      }),
-      interactive:false
-    }).addTo(map);
-  });
-
-  // 船マーカー（日付別に管理）
-  buildShipMarkers();
-
-  renderShipList();
-  renderFeed("all");
-  renderNLP("all");
-  buildDateBar();
-});
-
-// ══════════════════════════════════════════════════
-// 日付フィルター
-// ══════════════════════════════════════════════════
-let currentDate = "all";
-// date → { marker, comment }[] のマップ
-const markersByDate = {};  // "2026-04-03" → [marker, ...]
-const allMarkers = [];     // 全マーカーを保持
-
-function buildShipMarkers() {
-  const posCount = {};
-  COMMENTS.forEach(c => {
-    if (!c.point) return;
-    const ship = SHIPS.find(s => s.name === c.ship);
-    if (!ship) return;
-    const key = c.date + "_" + c.point.name;
-    posCount[key] = (posCount[key]||0);
-    const offset = posCount[key];
-    posCount[key]++;
-    const lat = c.point.latlng[0] + offset*0.004*Math.cos(offset*1.2);
-    const lng = c.point.latlng[1] + offset*0.005*Math.sin(offset*1.2);
-    const isRecent = c.date >= "2026-04-01";
-    const ic = L.divIcon({
-      className:"",
-      html:`<div style="display:flex;align-items:center;gap:4px;background:rgba(15,23,42,.92);border:2px solid ${ship.col}${isRecent?"":"88"};border-radius:20px;padding:3px 8px 3px 5px;cursor:pointer;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.5);">
-        <span style="font-size:14px;">${isRecent?"🚢":"⛵"}</span>
-        <div>
-          <div style="font-size:10px;font-weight:700;color:${ship.col};">${ship.name}</div>
-          <div style="font-size:8px;color:#94a3b8;">${c.fish}</div>
-        </div>
-      </div>`,
-      iconAnchor:[0,14],
-    });
-    const marker = L.marker([lat,lng],{icon:ic})
-      .bindPopup(`<div class="lp-name">🚢 ${ship.name}</div>
-        <div class="lp-row"><span class="lp-k">日付</span><span class="lp-v" style="color:#fbbf24;">${c.date}</span></div>
-        <div class="lp-row"><span class="lp-k">推定位置</span><span class="lp-v">${c.point.name}</span></div>
-        <div class="lp-row"><span class="lp-k">水深</span><span class="lp-v">${c.depth||"—"}</span></div>
-        <div class="lp-row"><span class="lp-k">釣り物</span><span class="lp-v" style="color:#fbbf24;">${c.fish}</span></div>
-        <div class="lp-row"><span class="lp-k">釣果</span><span class="lp-v" style="color:#86efac;">${c.catch}</span></div>
-        <div style="margin-top:6px;font-size:9px;color:#64748b;line-height:1.6;">${c.text.slice(0,90)}...</div>
-        ${ship.web?`<a href="${ship.web}" target="_blank" style="font-size:9px;color:#60a5fa;display:block;margin-top:5px;">🔗 公式サイト</a>`:""}`,
-        {maxWidth:260});
-    // 日付別に管理
-    if (!markersByDate[c.date]) markersByDate[c.date] = [];
-    markersByDate[c.date].push(marker);
-    allMarkers.push(marker);
-    if (!shipMarkers[ship.id]) shipMarkers[ship.id] = marker;
-    // デフォルトは全表示
-    marker.addTo(map);
-  });
-}
-
-function buildDateBar() {
-  const dates = [...new Set(COMMENTS.map(c => c.date))].sort().reverse();
-  const bar = document.getElementById("date-bar");
-  // 全表示ボタン
-  bar.innerHTML = `<span class="date-label">日付フィルター:</span>
-    <button class="date-btn all on" id="dbtn-all" onclick="filterByDate('all')">
-      全て <span class="date-count">(${COMMENTS.length})</span>
-    </button>` +
-    dates.map(d => {
-      const count = COMMENTS.filter(c => c.date === d).length;
-      const label = d.replace("2026-","").replace("-","/");
-      return `<button class="date-btn" id="dbtn-${d}" onclick="filterByDate('${d}')">
-        ${label} <span class="date-count">(${count})</span>
-      </button>`;
-    }).join("");
-}
-
-function filterByDate(date) {
-  currentDate = date;
-  // ボタンのON/OFF
-  document.querySelectorAll(".date-btn").forEach(b => b.classList.remove("on"));
-  document.getElementById("dbtn-" + date)?.classList.add("on");
-  // マーカー表示/非表示
-  if (date === "all") {
-    allMarkers.forEach(m => { if (!map.hasLayer(m)) m.addTo(map); });
-  } else {
-    allMarkers.forEach(m => {
-      if (map.hasLayer(m)) m.remove();
-    });
-    (markersByDate[date] || []).forEach(m => m.addTo(map));
-  }
-  // サイドバーも連動
-  renderFeed(date);
-  renderNLP(date);
-}
-
-// ══════════════════════════════════════════════════
-// サイドバー
-// ══════════════════════════════════════════════════
-function renderShipList() {
-  document.getElementById("sb-ships").innerHTML = SHIPS.map(s => {
-    const latest = [...COMMENTS].filter(c => c.ship===s.name)
-      .sort((a,b) => b.date.localeCompare(a.date))[0];
-    return `<div class="ship-card" id="sc-${s.id}" onclick="focusShip('${s.id}')">
-      <div class="sc-top">
-        <div class="sc-dot" style="background:${s.col}"></div>
-        <div class="sc-name">${s.name}</div>
-        <div class="sc-port">${s.port}</div>
-      </div>
-      ${latest ? `<div class="sc-pos">
-        <div class="sc-pos-label">最新釣り物（NLP推定位置）</div>
-        <div class="sc-fish">${latest.fish}</div>
-        ${latest.point ? `<div class="sc-loc">📍 ${latest.point.name}${latest.depth?" / "+latest.depth:""}</div>` : ""}
-        <div class="sc-catch">${latest.catch}</div>
-        <div class="sc-date">${latest.date}</div>
-      </div>` : `<div style="font-size:9px;color:#475569;padding:4px 0;">データなし</div>`}
-      <div class="sc-links">
-        ${s.web?`<a class="sc-lnk" href="${s.web}" target="_blank">WEB</a>`:""}
-      </div>
-    </div>`;
-  }).join("");
-}
-
-function renderFeed(date) {
-  const filtered = date === "all" ? COMMENTS : COMMENTS.filter(c => c.date === date);
-  const sorted = [...filtered].sort((a,b) => b.date.localeCompare(a.date));
-  if (!sorted.length) {
-    document.getElementById("sb-feed").innerHTML =
-      `<div style="font-size:10px;color:#475569;padding:12px 0;text-align:center;">この日のデータなし</div>`;
-    return;
-  }
-  // 日付別にグループ化
-  const byDate = {};
-  sorted.forEach(c => { (byDate[c.date]||(byDate[c.date]=[])).push(c); });
-
-  document.getElementById("sb-feed").innerHTML = Object.entries(byDate)
-    .sort((a,b) => b[0].localeCompare(a[0]))
-    .map(([d, items]) => {
-      const label = d.replace("2026-","").replace(/-(\d+)/,"/$1");
-      const cards = items.map(c => {
-        const ship = SHIPS.find(s => s.name===c.ship);
-        const col = ship?.col||"#888";
-        return `<div class="feed-card">
-          <div class="fc-head">
-            <div class="fc-av" style="background:${col}20;color:${col}">${c.ship.slice(0,2)}</div>
-            <div><div class="fc-name">${c.ship}</div></div>
-            <div class="fc-plat">WEB</div>
-          </div>
-          <div class="fc-text">${c.text.slice(0,100)}${c.text.length>100?"…":""}</div>
-          <div class="fc-tags">
-            ${c.point?`<span class="fc-tag tag-pt">📍 ${c.point.name}</span>`:""}
-            ${c.depth?`<span class="fc-tag tag-dp">🌊 ${c.depth}</span>`:""}
-            <span class="fc-tag tag-fs">🐟 ${c.fish}</span>
-          </div>
-        </div>`;
-      }).join("");
-      return `<div style="font-size:9px;font-family:'Space Mono',monospace;color:#64748b;padding:6px 2px 4px;border-bottom:1px solid #334155;margin-bottom:5px;display:flex;align-items:center;gap:6px;">
-        <span style="color:#e2e8f0;font-size:11px;">${label}</span>
-        <span>(${items.length}件)</span>
-      </div>${cards}`;
-    }).join("");
-}
-
-function renderNLP(date) {
-  const source = date === "all" ? COMMENTS : COMMENTS.filter(c => c.date === date);
-  const freq={}, shipsByPt={}, depthByPt={};
-  source.forEach(c => {
-    if (!c.point) return;
-    const k = c.point.name;
-    freq[k]=(freq[k]||0)+1;
-    if(!shipsByPt[k]) shipsByPt[k]=new Set();
-    shipsByPt[k].add(c.ship);
-    if(c.depth) depthByPt[k]=c.depth;
-  });
-  if (!Object.keys(freq).length) {
-    document.getElementById("sb-nlp").innerHTML =
-      `<div style="font-size:10px;color:#475569;padding:12px 0;text-align:center;">この日のデータなし</div>`;
-    return;
-  }
-  const maxF = Math.max(...Object.values(freq), 1);
-  const COLORS=["#ef4444","#f97316","#eab308","#22c55e","#06b6d4","#3b82f6","#8b5cf6"];
-  document.getElementById("sb-nlp").innerHTML =
-    Object.entries(freq).sort((a,b)=>b[1]-a[1]).map(([name,count],i) => {
-      const col=COLORS[i%COLORS.length];
-      return `<div class="nlp-item" onclick="focusPoint('${name}')">
-        <div class="nlp-name" style="color:${col}">📍 ${name}</div>
-        <div class="nlp-meta">${count}件言及 ${depthByPt[name]?`/ ${depthByPt[name]}`:""}</div>
-        <div class="nlp-bar-wrap"><div class="nlp-bar" style="width:${count/maxF*100}%;background:${col}"></div></div>
-        <div class="nlp-ships">${[...(shipsByPt[name]||[])].join("・")}</div>
-      </div>`;
-    }).join("");
-}
-
-function focusShip(id) {
-  document.querySelectorAll(".ship-card").forEach(c=>c.classList.remove("sel"));
-  document.getElementById("sc-"+id)?.classList.add("sel");
-  const m = shipMarkers[id];
-  if (m) { map.setView(m.getLatLng(),13,{animate:true,duration:.8}); m.openPopup(); }
-}
-function focusPoint(name) {
-  const ll = PT[name];
-  if (ll) map.setView(ll,13,{animate:true,duration:.8});
-}
-function sbTab(name) {
-  document.querySelectorAll(".sb-tab,.sb-pnl").forEach(el=>el.classList.remove("on"));
-  document.querySelectorAll(".sb-tab")[{ships:0,feed:1,nlp:2}[name]].classList.add("on");
-  document.getElementById("sb-"+name).classList.add("on");
-}
-function setTile(name) {
-  TILES[currentTile].remove();
-  TILES[name].addTo(map); TILES[name].bringToBack();
-  currentTile=name;
-  document.querySelectorAll(".tile-btn").forEach(b=>b.classList.remove("on"));
-  document.getElementById("t-"+name).classList.add("on");
-}
-</script>
-</body>
-</html>
+if __name__ == "__main__":
+    main()
