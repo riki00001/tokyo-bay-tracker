@@ -1,0 +1,24 @@
+name: 東京湾釣果データ自動更新
+
+on:
+  schedule:
+    - cron: '0 21 * * *'
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python scraper.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/comments.json
+          git diff --staged --quiet || git commit -m "🐟 釣果データ自動更新 $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
+          git push
