@@ -248,9 +248,9 @@ def main():
         ("深川吉野屋", scrape_yoshinoya,       []),
         ("一之瀬丸",   scrape_fishing_v_text,  [186, "一之瀬丸"]),
         ("弁天屋",     scrape_fishing_v_text,  [190, "弁天屋"]),
-        ("忠彦丸",     scrape_fishing_v_text,  [196, "忠彦丸"]),
-        ("小川丸",     scrape_fishing_v_text,  [1158, "小川丸"]),
-        ("荒川屋",     scrape_fishing_v_text,  [1192, "荒川屋"]),
+        ("忠彦丸",     scrape_fishing_v_text,  [185, "忠彦丸"]),
+        # ("小川丸",     scrape_fishing_v_text,  [1158, "小川丸"])  # ID要確認,
+        # ("荒川屋",     scrape_fishing_v_text,  [1192, "荒川屋"])  # ID要確認,
     ]
 
     for ship_name, func, args in tasks:
@@ -285,6 +285,8 @@ def main():
         "comments": unique
     }
 
+    import os
+    os.makedirs("data", exist_ok=True)
     with open("data/comments.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
