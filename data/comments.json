@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-04 18:24 JST",
-  "cutoff": "2026-03-28",
-  "count": 16,
+  "updated_at": "2026-04-05 06:57 JST",
+  "cutoff": "2026-03-29",
+  "count": 15,
   "errors": [],
   "comments": [
     {
@@ -241,23 +241,6 @@
       "date": "2026-03-29",
       "platform": "web",
       "text": "魚種匹数大きさ重さ特記ポイント 1全日マゴチ0～5 匹37～60 cm富津沖水深10～20m 37～60 cm 富津沖水深10～20m 2タチウオ0～1 匹～70 cm横須賀沖水深110～150m～本牧沖水深20～30m ～70 cm 横須賀沖水深110～150m～本牧沖水深20～30m アジ33～94 匹17～27 cm 33～94 匹 17～27 cm",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
-      "point": {
-        "name": "本牧沖",
-        "latlng": [
-          35.41,
-          139.672
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-03-28",
-      "platform": "web",
-      "text": "魚種匹数大きさ重さ特記ポイント 1全日マゴチ0～6 匹36～62 cm富津沖水深10～20m 36～62 cm 富津沖水深10～20m 2タチウオ0～2 匹60～90 cm横須賀沖水深140～160m～本牧沖水深20～30m 60～90 cm 横須賀沖水深140～160m～本牧沖水深20～30m アジ7～46 匹17～27 cm 7～46 匹 17～27 cm",
       "fish": "マゴチ",
       "catch": "",
       "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
