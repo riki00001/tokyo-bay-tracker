@@ -246,11 +246,16 @@ def main():
     tasks = [
         ("中山丸",     scrape_nakayamamaru,   []),
         ("深川吉野屋", scrape_yoshinoya,       []),
-        ("一之瀬丸",   scrape_fishing_v_text,  [186, "一之瀬丸"]),
-        ("弁天屋",     scrape_fishing_v_text,  [190, "弁天屋"]),
-        ("忠彦丸",     scrape_fishing_v_text,  [185, "忠彦丸"]),
+        ("一之瀬丸",   scrape_ichinosemaru,    []),
+        ("弁天屋",     scrape_chowari,         ["00300", "弁天屋"]),
+        ("忠彦丸",     scrape_tadahikomaru,    []),
         # ("小川丸",     scrape_fishing_v_text,  [1158, "小川丸"])  # ID要確認,
         # ("荒川屋",     scrape_fishing_v_text,  [1192, "荒川屋"])  # ID要確認,
+        # chowariから追加取得
+        ("荒川屋",     scrape_chowari,         ["00007", "荒川屋"]),
+        ("小川丸",     scrape_chowari,         ["00458", "小川丸"]),
+        ("忠彦丸(chowari)", scrape_chowari,    ["00703", "忠彦丸"]),
+        ("一之瀬丸(chowari)", scrape_chowari,  ["00307", "一之瀬丸"]),
     ]
 
     for ship_name, func, args in tasks:
