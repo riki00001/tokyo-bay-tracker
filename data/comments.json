@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-04-05 15:28 JST",
+  "updated_at": "2026-04-05 17:00 JST",
   "cutoff": "2026-03-29",
-  "count": 55,
+  "count": 58,
   "errors": [],
   "comments": [
+    {
+      "ship": "中山丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "16-28 cm　16-66 匹 ★明日はトラフグ船に確定！ショートLTアジ予約受付中です・・・ 18～28cm、9～66匹 満員御礼で近場のち本牧方面にて。大人数につき、ひとり頭にするとやや割り当て悪めな釣れ具合な感じしましたが所により船中でポツポツとアタリ繋がって概ねお土産キープ！ 結果66、65、62、56・・9匹！ 潮色と流れ：澄み ゆるい 風向きと強さ：南西 弱い",
+      "fish": "アジ",
+      "catch": "9〜66",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": {
+        "name": "本牧",
+        "latlng": [
+          35.41,
+          139.672
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "1.2-2.0 kg　0-2 匹 南西ウネリ残り海悪く苦戦・・・ 潮色と流れ：澄み ゆるい 風向きと強さ：南 弱い 波高：2.0-2.5M",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "深川吉野屋",
       "date": "2026-04-05",
@@ -19,6 +47,72 @@
           139.875
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "18-25 cm　3-21 匹",
+      "fish": "メバル",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "0.6-1.2 kg　0-3 枚",
+      "fish": "マダイ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "17-27 cm　7-42 匹",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "38-55 cm　2-6 本",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "1.5-4.2 kg　0-2 匹",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "4月5日日曜日　釣果！ 17～28cm　20～72匹 17～28cm　15～69匹 トラフグ船(3隻高低) 0.9～4.9kg　0～2匹",
+      "fish": "トラフグ",
+      "catch": "20〜72",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
       "depth": null
     },
     {
@@ -407,17 +501,6 @@
       "depth": null
     },
     {
-      "ship": "一之瀬丸",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "38-56 cm　2-6 本 6本2名様と平均にアタリ！！ 3日（金）現在1名様、ご予約受付中です。 4日（土）もご予約受付中です。",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-04-01",
       "platform": "web",
@@ -540,62 +623,6 @@
       "depth": null
     },
     {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "1.4-4.1 kg　0-2 匹 乗合2隻で久里浜～富浦沖70ｍ 明日は荒天の為出船中止します。 4日（土）乗合4隻体制、5日（日）2隻体制です。",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "富浦沖",
-        "latlng": [
-          34.975,
-          139.88
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "17-27 cm　19-64 匹 八景沖30ｍ前後あたり活発！！",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "八景沖",
-        "latlng": [
-          35.335,
-          139.64
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "0.5-1.0 kg　1-4 枚 おでこ無く順調に当たり！！ イナダとクロダイも！！",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "15-32 cm　3-18 匹 メバル7割ほど！！他カサゴとイシモチで 4月24日までの出船となります。 4月25日より午前キス・午後キスにてご予約受付中です。",
-      "fish": "メバル",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-03-30",
       "platform": "web",
@@ -671,21 +698,10 @@
       "ship": "一之瀬丸",
       "date": "2026-03-30",
       "platform": "web",
-      "text": "0～2匹（1.40～4.10kg）、 19～64匹（17～26cm）、 3～18匹（15～32cm）が釣れました！ 一之瀬丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
+      "text": "1.40～4.10kg トラフグ2隻で久里浜～富浦沖で！！ アジ午前船で食い活発！！ メバルはショート便で13時まで！！ 4月25日（土）より午前キス・午後キス出船開始！！ 夜釣り船も同日スタートします。",
+      "fish": "アジ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00307/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-03-29",
-      "platform": "web",
-      "text": "★明日はトラフグ船に確定です。ショートLTアジ予約受付中！ 本日は価値ある一匹を求めて富浦沖一本勝負でいきました。 本日は幸先よく朝イチから型見る事が出来ました！ その後も、反応は点々と感じられ気難しいアタリ方ですが、ここぞという場面でスイッチが入ると2人3人同時ヒットなどもありチャンスをモノに出来た方は無事にGET出来ました！ やはり、バラしや掛け損じ、餌噛じられるだけもありましたが、本日は割当ても良かったですね！ モンスター級も登場でした！",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": {
         "name": "富浦沖",
         "latlng": [
@@ -693,6 +709,17 @@
           139.88
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-03-30",
+      "platform": "web",
+      "text": "0～2匹（1.40～4.10kg）、 19～64匹（17～26cm）、 3～18匹（15～32cm）が釣れました！ 一之瀬丸でよく釣れるのはどんな魚ですか？",
+      "fish": "イカ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00307/catch/",
+      "point": null,
       "depth": null
     },
     {
