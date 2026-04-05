@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-05 17:00 JST",
-  "cutoff": "2026-03-29",
-  "count": 58,
+  "updated_at": "2026-04-06 06:58 JST",
+  "cutoff": "2026-03-30",
+  "count": 57,
   "errors": [],
   "comments": [
     {
@@ -25,11 +25,17 @@
       "ship": "中山丸",
       "date": "2026-04-05",
       "platform": "web",
-      "text": "1.2-2.0 kg　0-2 匹 南西ウネリ残り海悪く苦戦・・・ 潮色と流れ：澄み ゆるい 風向きと強さ：南 弱い 波高：2.0-2.5M",
+      "text": "1.2-2.0 kg　0-2 匹 本日も価値ある一匹を求めて出船出来ました。 出船する頃には風は落ちついて来たものの海は出来上がっている状況で時間を掛けて富浦沖へ。 海はもちろん悪く釣りづらい状況で餌は噛じられたりはしましたが中々ヒットには繋がらずでしたが何とか無事に型見る事が出来ました。 後半は別ポイントに移動して追加出来て、やはり餌噛じられたりはありました！ コンディションの悪い中でチャンスをモノに出来無事に2匹GETで前回のリベンジ成功したみたいですね！ おめでとうございます。白子入りでした。",
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
+      "point": {
+        "name": "富浦沖",
+        "latlng": [
+          34.975,
+          139.88
+        ]
+      },
       "depth": null
     },
     {
@@ -108,10 +114,43 @@
       "ship": "忠彦丸",
       "date": "2026-04-05",
       "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-05",
+      "platform": "web",
       "text": "4月5日日曜日　釣果！ 17～28cm　20～72匹 17～28cm　15～69匹 トラフグ船(3隻高低) 0.9～4.9kg　0～2匹",
       "fish": "トラフグ",
       "catch": "20〜72",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "0.90～4.90kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
+      "fish": "サバ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-05",
+      "platform": "web",
+      "text": "バチコンをされる方は予約時に必ずお伝えください。 仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
+      "fish": "アジ",
+      "catch": "15〜72",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -262,6 +301,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-04-04",
+      "platform": "web",
+      "text": "2～52匹（18～27cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "2〜52",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "小川丸",
       "date": "2026-04-04",
       "platform": "web",
@@ -361,17 +411,6 @@
       "platform": "web",
       "text": "本日も好調に釣れてくれました。 ６０尾２人。本日は臨時で午後船出船致しました。派手さはありませんでしたが、短時間ながらも、おかずはゲットできました。 貸し竿の方がメインでした。釣りの後は、皆さんサンド食堂でシロギス料理に盛り上がっていらっしゃいました。 明日は予報が悪いので出船を中止しました。只今５日はご予約は少人数です。釣行を予定されていらっしゃる方はお早目のご予約を。 午後船、１５～２２cm、⒍～３６尾。 Amazon Pay決済可",
       "fish": "シロギス",
-      "catch": "15〜22",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-04-03",
-      "platform": "web",
-      "text": "15～22匹（17～21cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "15〜22",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
@@ -673,28 +712,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "0.90～5.30kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
-      "fish": "サバ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "バチコンをされる方は予約時に必ずお伝えください。 仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
-      "fish": "アジ",
-      "catch": "7〜57",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "一之瀬丸",
       "date": "2026-03-30",
       "platform": "web",
@@ -720,34 +737,6 @@
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00307/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-03-29",
-      "platform": "web",
-      "text": "3月29日日曜日　釣果！ 午前ライトアジ船(3隻高低) 17～28cm　10～43匹 17～28cm　15～70匹 ｼｮｰﾄﾌｨｯｼﾝｸﾞ天秤タチウオ船 65～90cm　3～32本",
-      "fish": "トラフグ",
-      "catch": "10〜43",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-03-29",
-      "platform": "web",
-      "text": "富津沖水深10～20m 横須賀沖水深110～150m～本牧沖水深20～30m 富岡沖水深15～20m 中ノ瀬水深15～20m 横須賀沖水深85～180m 富岡沖水深15～20m",
-      "fish": "シロギス",
-      "catch": "0〜5",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
-      "point": {
-        "name": "本牧沖",
-        "latlng": [
-          35.41,
-          139.672
-        ]
-      },
       "depth": null
     }
   ]
