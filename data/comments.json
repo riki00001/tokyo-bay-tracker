@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-06 17:58 JST",
-  "cutoff": "2026-03-30",
-  "count": 57,
+  "updated_at": "2026-04-07 07:05 JST",
+  "cutoff": "2026-03-31",
+  "count": 54,
   "errors": [],
   "comments": [
     {
@@ -125,6 +125,17 @@
           139.658
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-04-06",
+      "platform": "web",
+      "text": "22～68匹（23～36cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "22〜68",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -450,17 +461,6 @@
       "depth": null
     },
     {
-      "ship": "小川丸",
-      "date": "2026-04-04",
-      "platform": "web",
-      "text": "30～91匹（23～40cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "30〜91",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-04-03",
       "platform": "web",
@@ -691,45 +691,6 @@
       "fish": "アジ",
       "catch": "10〜55",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "1.40～4.10kg トラフグ2隻で久里浜～富浦沖で！！ アジ午前船で食い活発！！ メバルはショート便で13時まで！！ 4月25日（土）より午前キス・午後キス出船開始！！ 夜釣り船も同日スタートします。",
-      "fish": "アジ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00307/catch/",
-      "point": {
-        "name": "富浦沖",
-        "latlng": [
-          34.975,
-          139.88
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-03-30",
-      "platform": "web",
-      "text": "0～2匹（1.40～4.10kg）、 19～64匹（17～26cm）、 3～18匹（15～32cm）が釣れました！ 一之瀬丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00307/catch/",
       "point": null,
       "depth": null
     }
