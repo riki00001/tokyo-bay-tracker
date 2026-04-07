@@ -11,100 +11,100 @@
 html,body{height:100%;font-family:'Noto Sans JP',sans-serif;background:#0f172a;}
 .app{display:flex;flex-direction:column;height:100vh;}
 
-.hdr{background:#0f172a;padding:8px 16px;display:flex;align-items:center;gap:10px;flex-shrink:0;border-bottom:1px solid #1e293b;}
-.hdr-title{font-family:'Space Mono',monospace;font-size:12px;color:#e2e8f0;letter-spacing:.1em;}
-.hdr-sub{font-size:9px;color:#64748b;margin-top:1px;}
-.live-badge{display:flex;align-items:center;gap:5px;background:#052e16;border:1px solid #16a34a;border-radius:4px;padding:3px 8px;font-size:9px;color:#4ade80;font-family:'Space Mono',monospace;}
-.pulse{width:6px;height:6px;border-radius:50%;background:#4ade80;animation:p 1.5s infinite;}
+.hdr{background:#0f172a;padding:10px 18px;display:flex;align-items:center;gap:12px;flex-shrink:0;border-bottom:1px solid #1e293b;}
+.hdr-title{font-family:'Space Mono',monospace;font-size:13px;color:#e2e8f0;letter-spacing:.1em;}
+.hdr-sub{font-size:11px;color:#64748b;margin-top:2px;}
+.live-badge{display:flex;align-items:center;gap:5px;background:#052e16;border:1px solid #16a34a;border-radius:4px;padding:4px 10px;font-size:11px;color:#4ade80;font-family:'Space Mono',monospace;}
+.pulse{width:7px;height:7px;border-radius:50%;background:#4ade80;animation:p 1.5s infinite;}
 @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
-.data-badge{background:#1e3a5f;border:1px solid #3b82f6;border-radius:4px;padding:3px 8px;font-size:9px;color:#93c5fd;font-family:'Space Mono',monospace;}
-.hdr-time{font-size:9px;color:#475569;font-family:'Space Mono',monospace;margin-left:auto;}
+.data-badge{background:#1e3a5f;border:1px solid #3b82f6;border-radius:4px;padding:4px 10px;font-size:11px;color:#93c5fd;font-family:'Space Mono',monospace;}
+.hdr-time{font-size:11px;color:#475569;font-family:'Space Mono',monospace;margin-left:auto;}
 
 /* 日付フィルターバー */
-.date-bar{background:#1e293b;border-bottom:1px solid #334155;padding:6px 16px;display:flex;align-items:center;gap:6px;flex-shrink:0;overflow-x:auto;}
+.date-bar{background:#1e293b;border-bottom:1px solid #334155;padding:7px 16px;display:flex;align-items:center;gap:7px;flex-shrink:0;overflow-x:auto;}
 .date-bar::-webkit-scrollbar{height:2px;}
-.date-label{font-size:9px;color:#64748b;font-family:'Space Mono',monospace;white-space:nowrap;flex-shrink:0;}
-.date-btn{padding:4px 10px;border-radius:4px;border:1px solid #334155;background:transparent;color:#64748b;font-size:10px;cursor:pointer;font-family:'Space Mono',monospace;white-space:nowrap;transition:all .15s;flex-shrink:0;}
+.date-label{font-size:11px;color:#94a3b8;font-family:'Space Mono',monospace;white-space:nowrap;flex-shrink:0;}
+.date-btn{padding:5px 12px;border-radius:5px;border:1px solid #334155;background:transparent;color:#94a3b8;font-size:11px;cursor:pointer;font-family:'Space Mono',monospace;white-space:nowrap;transition:all .15s;flex-shrink:0;}
 .date-btn:hover{border-color:#60a5fa;color:#93c5fd;}
 .date-btn.on{background:#1e3a5f;border-color:#3b82f6;color:#60a5fa;font-weight:700;}
 .date-btn.all.on{background:#1e293b;border-color:#94a3b8;color:#e2e8f0;}
-.date-count{font-size:8px;color:#64748b;margin-left:2px;}
+.date-count{font-size:10px;color:#64748b;margin-left:2px;}
 
 .body{display:flex;flex:1;overflow:hidden;}
 
-.sidebar{width:320px;background:#0f172a;border-right:1px solid #1e293b;display:flex;flex-direction:column;overflow:hidden;}
+.sidebar{width:340px;background:#0f172a;border-right:1px solid #1e293b;display:flex;flex-direction:column;overflow:hidden;}
 .sb-tabs{display:flex;border-bottom:1px solid #1e293b;flex-shrink:0;}
-.sb-tab{flex:1;padding:8px 4px;font-size:10px;font-family:'Space Mono',monospace;background:none;border:none;color:#475569;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s;}
+.sb-tab{flex:1;padding:10px 4px;font-size:12px;font-family:'Space Mono',monospace;background:none;border:none;color:#475569;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s;}
 .sb-tab.on{color:#60a5fa;border-bottom-color:#60a5fa;}
-.sb-pnl{display:none;flex:1;overflow-y:auto;padding:8px;}
+.sb-pnl{display:none;flex:1;overflow-y:auto;padding:10px;}
 .sb-pnl.on{display:block;}
-::-webkit-scrollbar{width:3px;}::-webkit-scrollbar-thumb{background:#1e293b;border-radius:2px;}
+::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-thumb{background:#334155;border-radius:2px;}
 
-.ship-card{background:#1e293b;border:1px solid #334155;border-radius:7px;padding:9px 10px;margin-bottom:6px;cursor:pointer;transition:all .15s;}
+.ship-card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:11px 13px;margin-bottom:7px;cursor:pointer;transition:all .15s;}
 .ship-card:hover{border-color:#60a5fa;background:#1e3a5f;}
 .ship-card.sel{border-color:#60a5fa;background:#172554;}
-.sc-top{display:flex;align-items:center;gap:7px;margin-bottom:5px;}
-.sc-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
-.sc-name{font-size:11px;font-weight:500;color:#e2e8f0;}
-.sc-port{font-size:9px;color:#64748b;margin-left:auto;}
-.sc-pos{background:#0f172a;border-radius:4px;padding:5px 7px;margin-bottom:4px;}
-.sc-pos-label{font-size:8px;color:#64748b;margin-bottom:2px;font-family:'Space Mono',monospace;}
-.sc-fish{font-size:11px;color:#fbbf24;font-weight:500;}
-.sc-loc{font-size:10px;color:#a78bfa;font-family:'Space Mono',monospace;}
-.sc-catch{font-size:10px;color:#86efac;margin-top:2px;}
-.sc-date{font-size:8px;color:#475569;font-family:'Space Mono',monospace;margin-top:3px;}
-.sc-links{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px;}
-.sc-lnk{font-size:8px;padding:2px 5px;border-radius:3px;border:1px solid #334155;color:#94a3b8;text-decoration:none;}
+.sc-top{display:flex;align-items:center;gap:8px;margin-bottom:7px;}
+.sc-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0;}
+.sc-name{font-size:13px;font-weight:700;color:#e2e8f0;}
+.sc-port{font-size:11px;color:#64748b;margin-left:auto;}
+.sc-pos{background:#0f172a;border-radius:5px;padding:7px 9px;margin-bottom:5px;}
+.sc-pos-label{font-size:10px;color:#64748b;margin-bottom:3px;font-family:'Space Mono',monospace;}
+.sc-fish{font-size:13px;color:#fbbf24;font-weight:700;}
+.sc-loc{font-size:11px;color:#a78bfa;font-family:'Space Mono',monospace;margin-top:2px;}
+.sc-catch{font-size:12px;color:#86efac;margin-top:3px;}
+.sc-date{font-size:10px;color:#475569;font-family:'Space Mono',monospace;margin-top:4px;}
+.sc-links{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px;}
+.sc-lnk{font-size:10px;padding:3px 7px;border-radius:4px;border:1px solid #334155;color:#94a3b8;text-decoration:none;}
 .sc-lnk:hover{background:#334155;color:#e2e8f0;}
 
-.feed-card{background:#1e293b;border:1px solid #334155;border-radius:7px;padding:9px 10px;margin-bottom:6px;}
-.fc-head{display:flex;align-items:center;gap:7px;margin-bottom:6px;}
-.fc-av{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;}
-.fc-name{font-size:11px;color:#e2e8f0;font-weight:500;}
-.fc-date{font-size:9px;color:#64748b;}
-.fc-plat{font-size:8px;padding:1px 5px;border-radius:2px;margin-left:auto;background:#1e40af;color:#bfdbfe;}
-.fc-text{font-size:10px;color:#94a3b8;line-height:1.7;margin-bottom:6px;}
-.fc-tags{display:flex;flex-wrap:wrap;gap:3px;}
-.fc-tag{font-size:8px;padding:1px 5px;border-radius:2px;font-weight:500;}
+.feed-card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:11px 13px;margin-bottom:7px;}
+.fc-head{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+.fc-av{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;}
+.fc-name{font-size:13px;color:#e2e8f0;font-weight:700;}
+.fc-date{font-size:11px;color:#64748b;}
+.fc-plat{font-size:10px;padding:2px 6px;border-radius:3px;margin-left:auto;background:#1e40af;color:#bfdbfe;}
+.fc-text{font-size:12px;color:#cbd5e1;line-height:1.8;margin-bottom:8px;}
+.fc-tags{display:flex;flex-wrap:wrap;gap:4px;}
+.fc-tag{font-size:10px;padding:2px 7px;border-radius:3px;font-weight:500;}
 .tag-pt{background:#451a03;color:#fbbf24;border:1px solid #78350f;}
 .tag-dp{background:#2e1065;color:#c4b5fd;border:1px solid #5b21b6;}
 .tag-fs{background:#052e16;color:#86efac;border:1px solid #166534;}
 .tag-new{background:#7f1d1d;color:#fca5a5;border:1px solid #b91c1c;}
 
-.nlp-item{background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px 10px;margin-bottom:5px;cursor:pointer;transition:border-color .15s;}
+.nlp-item{background:#1e293b;border:1px solid #334155;border-radius:7px;padding:10px 13px;margin-bottom:6px;cursor:pointer;transition:border-color .15s;}
 .nlp-item:hover{border-color:#fbbf24;}
-.nlp-name{font-size:11px;color:#fbbf24;font-weight:500;margin-bottom:2px;}
-.nlp-meta{font-size:9px;color:#64748b;margin-bottom:5px;}
-.nlp-bar-wrap{height:3px;background:#0f172a;border-radius:2px;margin-bottom:4px;}
+.nlp-name{font-size:13px;color:#fbbf24;font-weight:700;margin-bottom:3px;}
+.nlp-meta{font-size:11px;color:#94a3b8;margin-bottom:6px;}
+.nlp-bar-wrap{height:4px;background:#0f172a;border-radius:2px;margin-bottom:5px;}
 .nlp-bar{height:100%;border-radius:2px;}
-.nlp-ships{font-size:9px;color:#94a3b8;}
+.nlp-ships{font-size:11px;color:#94a3b8;}
 
 .map-wrap{flex:1;position:relative;}
 #map{width:100%;height:100%;}
 
-.map-legend{position:absolute;bottom:30px;right:10px;z-index:1000;background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:7px;padding:8px 11px;font-size:9px;color:#94a3b8;}
-.ml-title{font-family:'Space Mono',monospace;color:#64748b;font-size:8px;letter-spacing:.06em;margin-bottom:5px;}
-.ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;}
+.map-legend{position:absolute;bottom:30px;right:10px;z-index:1000;background:rgba(15,23,42,.95);border:1px solid #334155;border-radius:8px;padding:10px 13px;font-size:11px;color:#94a3b8;}
+.ml-title{font-family:'Space Mono',monospace;color:#64748b;font-size:10px;letter-spacing:.06em;margin-bottom:7px;}
+.ml-row{display:flex;align-items:center;gap:7px;margin-bottom:4px;}
 
-.tile-ctrl{position:absolute;top:10px;right:10px;z-index:1000;display:flex;flex-direction:column;gap:4px;}
-.tile-btn{background:rgba(15,23,42,.9);border:1px solid #334155;border-radius:5px;padding:4px 9px;font-size:9px;color:#94a3b8;cursor:pointer;font-family:'Space Mono',monospace;transition:all .15s;}
+.tile-ctrl{position:absolute;top:10px;right:10px;z-index:1000;display:flex;flex-direction:column;gap:5px;}
+.tile-btn{background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:6px;padding:6px 12px;font-size:11px;color:#94a3b8;cursor:pointer;font-family:'Space Mono',monospace;transition:all .15s;}
 .tile-btn.on,.tile-btn:hover{background:#1e40af;border-color:#3b82f6;color:#fff;}
 
-.coord-bar{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);z-index:1000;background:rgba(15,23,42,.85);border:1px solid #334155;border-radius:5px;padding:4px 12px;font-family:'Space Mono',monospace;font-size:10px;color:#64748b;}
+.coord-bar{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);z-index:1000;background:rgba(15,23,42,.88);border:1px solid #334155;border-radius:5px;padding:5px 14px;font-family:'Space Mono',monospace;font-size:11px;color:#64748b;}
 
-.season-badge{position:absolute;top:10px;left:10px;z-index:1000;background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:6px;padding:6px 10px;font-size:9px;color:#94a3b8;}
-.season-title{font-family:'Space Mono',monospace;color:#64748b;font-size:8px;letter-spacing:.05em;margin-bottom:3px;}
-.season-fish{display:flex;gap:4px;flex-wrap:wrap;}
-.sf{padding:2px 6px;border-radius:3px;font-size:9px;font-weight:500;}
+.season-badge{position:absolute;top:10px;left:10px;z-index:1000;background:rgba(15,23,42,.95);border:1px solid #334155;border-radius:7px;padding:8px 12px;font-size:11px;color:#94a3b8;}
+.season-title{font-family:'Space Mono',monospace;color:#64748b;font-size:10px;letter-spacing:.05em;margin-bottom:5px;}
+.season-fish{display:flex;gap:5px;flex-wrap:wrap;}
+.sf{padding:3px 8px;border-radius:4px;font-size:11px;font-weight:500;}
 
-.leaflet-popup-content-wrapper{background:#1e293b!important;border:1px solid #334155!important;border-radius:8px!important;box-shadow:0 4px 20px rgba(0,0,0,.5)!important;}
-.leaflet-popup-content{color:#e2e8f0!important;font-family:'Noto Sans JP',sans-serif!important;font-size:11px!important;line-height:1.7!important;margin:10px 14px!important;}
+.leaflet-popup-content-wrapper{background:#1e293b!important;border:1px solid #334155!important;border-radius:10px!important;box-shadow:0 4px 24px rgba(0,0,0,.6)!important;}
+.leaflet-popup-content{color:#e2e8f0!important;font-family:'Noto Sans JP',sans-serif!important;font-size:13px!important;line-height:1.8!important;margin:12px 16px!important;}
 .leaflet-popup-tip{background:#1e293b!important;}
-.leaflet-popup-close-button{color:#64748b!important;}
-.lp-name{font-weight:700;font-size:13px;color:#60a5fa;margin-bottom:5px;}
-.lp-row{display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px solid #334155;font-size:11px;}
+.leaflet-popup-close-button{color:#64748b!important;font-size:16px!important;}
+.lp-name{font-weight:700;font-size:15px;color:#60a5fa;margin-bottom:8px;}
+.lp-row{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #334155;font-size:12px;}
 .lp-row:last-child{border-bottom:none;}
-.lp-k{color:#64748b;}.lp-v{color:#e2e8f0;font-family:'Space Mono',monospace;font-size:10px;}
+.lp-k{color:#94a3b8;}.lp-v{color:#e2e8f0;font-family:'Space Mono',monospace;font-size:12px;}
 .leaflet-div-icon{background:transparent!important;border:none!important;}
 </style>
 </head>
@@ -153,9 +153,9 @@ html,body{height:100%;font-family:'Noto Sans JP',sans-serif;background:#0f172a;}
   </div>
 
   <div class="tile-ctrl">
-    <button class="tile-btn on" id="t-osm" onclick="setTile('osm')">OSM</button>
+    <button class="tile-btn" id="t-osm" onclick="setTile('osm')">OSM</button>
     <button class="tile-btn" id="t-esri" onclick="setTile('esri')">Esri</button>
-    <button class="tile-btn" id="t-gsi" onclick="setTile('gsi')">地理院</button>
+    <button class="tile-btn on" id="t-gsi" onclick="setTile('gsi')">地理院</button>
   </div>
 
   <div class="map-legend">
@@ -221,19 +221,38 @@ function extractDepth(text) {
 // ══════════════════════════════════════════════════
 const SHIPS = [
   { id:"nakayamamaru", name:"中山丸",       port:"川崎",     col:"#ef4444",
-    web:"https://www.nakayamamaru.com" },
+    web:"https://www.nakayamamaru.com",
+    portLat:35.4423, portLng:139.7432 },
   { id:"tadahikomaru", name:"忠彦丸",       port:"金沢八景", col:"#3b82f6",
-    web:"https://www.tadahikomaru.jp" },
+    web:"https://www.tadahikomaru.jp",
+    portLat:35.3455, portLng:139.6218 },
   { id:"ichinosemaru", name:"一之瀬丸",     port:"金沢八景", col:"#8b5cf6",
-    web:"https://www.ichinosemaru.net" },
+    web:"https://www.ichinosemaru.net",
+    portLat:35.3448, portLng:139.6210 },
   { id:"bentenya",     name:"弁天屋",       port:"金沢八景", col:"#f59e0b",
-    web:"https://bentenya.com" },
+    web:"https://bentenya.com",
+    portLat:35.3440, portLng:139.6225 },
   { id:"ogawamaru",    name:"小川丸",       port:"大津港",   col:"#10b981",
-    web:"https://ogawamaru.net" },
+    web:"https://ogawamaru.net",
+    portLat:35.3580, portLng:139.6180 },
   { id:"yoshinoya_f",  name:"深川吉野屋",   port:"深川",     col:"#f97316",
-    web:"https://www.team-yoshinoya.com/tsuri/" },
+    web:"https://www.team-yoshinoya.com/tsuri/",
+    portLat:35.6682, portLng:139.8082 },
   { id:"arakawaya",    name:"荒川屋",       port:"鶴見",     col:"#ec4899",
-    web:"https://arakawaya.jp" },
+    web:"https://arakawaya.jp",
+    portLat:35.4465, portLng:139.6332 },
+  { id:"yoshinoya_u",  name:"吉野屋（浦安）",port:"浦安",    col:"#06b6d4",
+    web:"https://www.funayado-yoshinoya.com",
+    portLat:35.6512, portLng:139.9083 },
+  { id:"mamemaru",     name:"豆丸",         port:"浦安",     col:"#0ea5e9",
+    web:"https://mamemaru.com",
+    portLat:35.6505, portLng:139.9070 },
+  { id:"yonemoto",     name:"米元釣船店",   port:"金沢八景", col:"#84cc16",
+    web:"https://www.gyo.ne.jp/yonemoto/",
+    portLat:35.3468, portLng:139.6200 },
+  { id:"hashimotomaru",name:"走水高取丸",   port:"走水",     col:"#f43f5e",
+    web:"https://www.hashimoto-maru.com",
+    portLat:35.3172, portLng:139.7261 },
 ];
 
 // ══════════════════════════════════════════════════
@@ -318,7 +337,7 @@ const COMMENTS = [
 // ══════════════════════════════════════════════════
 // 地図・データ初期化
 // ══════════════════════════════════════════════════
-let map, currentTile = "osm";
+let map, currentTile = "gsi";
 const TILES = {};
 const shipMarkers = {};
 
@@ -359,7 +378,7 @@ window.addEventListener("load", async () => {
     { maxZoom:19, attribution:"© Esri" });
   TILES.gsi  = L.tileLayer("https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
     { maxZoom:18, attribution:"© 国土地理院" });
-  TILES.osm.addTo(map);
+  TILES.gsi.addTo(map);
 
   map.on("mousemove", e => {
     document.getElementById("coord-bar").textContent =
@@ -465,6 +484,32 @@ function buildShipMarkers() {
     allMarkers.push(marker);
     if (!shipMarkers[ship.id]) shipMarkers[ship.id] = marker;
     // デフォルトは全表示
+    marker.addTo(map);
+  });
+
+  // コメントデータがない船は港マーカーとして表示
+  SHIPS.forEach(ship => {
+    if (shipMarkers[ship.id]) return; // すでにマーカーがある船はスキップ
+    if (!ship.portLat) return;
+    const ic = L.divIcon({
+      className:"",
+      html:`<div style="display:flex;align-items:center;gap:4px;background:rgba(15,23,42,.85);border:2px dashed ${ship.col}88;border-radius:20px;padding:3px 8px 3px 5px;cursor:pointer;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.4);">
+        <span style="font-size:13px;">⚓</span>
+        <div>
+          <div style="font-size:10px;font-weight:700;color:${ship.col}88;">${ship.name}</div>
+          <div style="font-size:8px;color:#64748b;">データなし（港）</div>
+        </div>
+      </div>`,
+      iconAnchor:[0,14],
+    });
+    const marker = L.marker([ship.portLat, ship.portLng], {icon:ic})
+      .bindPopup(`<div class="lp-name" style="color:${ship.col};">⚓ ${ship.name}</div>
+        <div class="lp-row"><span class="lp-k">港</span><span class="lp-v">${ship.port}</span></div>
+        <div class="lp-row"><span class="lp-k">状態</span><span class="lp-v" style="color:#64748b;">今週のデータなし</span></div>
+        ${ship.web?`<a href="${ship.web}" target="_blank" style="font-size:9px;color:#60a5fa;display:block;margin-top:5px;">🔗 公式サイト</a>`:""}`,
+        {maxWidth:220});
+    shipMarkers[ship.id] = marker;
+    allMarkers.push(marker);
     marker.addTo(map);
   });
 }
