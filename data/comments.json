@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-07 17:45 JST",
-  "cutoff": "2026-03-31",
-  "count": 54,
+  "updated_at": "2026-04-08 08:05 JST",
+  "cutoff": "2026-04-01",
+  "count": 53,
   "errors": [],
   "comments": [
     {
@@ -426,17 +426,6 @@
       "platform": "web",
       "text": "バチコンをされる方は予約時に必ずお伝えください。 仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
       "fish": "アジ",
-      "catch": "15〜72",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "15～72匹（17～28cm）が釣れました！ 忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "15〜72",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
