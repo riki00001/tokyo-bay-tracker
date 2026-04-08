@@ -1,9 +1,137 @@
 {
-  "updated_at": "2026-04-08 08:05 JST",
+  "updated_at": "2026-04-08 17:45 JST",
   "cutoff": "2026-04-01",
-  "count": 53,
+  "count": 55,
   "errors": [],
   "comments": [
+    {
+      "ship": "中山丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "17-28 cm　11-74 匹 ★明日はショートLTアジ船に確定です 平日には珍しく満員御礼、所により長時間の安定した食いにありつけました。大人数でサカナの廻りやや悪め・配当もうひと声な気もしたけど30～40匹獲れたお客さま多く良い感じ！ 74、71、55、53・・10匹！ 潮色と流れ：澄み ゆるい 風向きと強さ：北 強い 波高：0.5-1.0M",
+      "fish": "アジ",
+      "catch": "30〜40",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "1.2-3.5 kg　0-2 匹 潮色と流れ：澄み ゆるい 風向きと強さ：北東 ほどほど 波高：0.5-1.0M",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "深川吉野屋",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "ナギでともにバッチリ！ 天気　雲→晴　水温１５.２℃　うす濁り 数　　　　３～１２匹（船中３３匹） 竿頭　足立区　上野 英夫さん 今日も木更津沖周辺のポイントからスタート。下げ潮も適度に流れており、大流しをして 朝から好調にアタリが出せました！",
+      "fish": "アジ",
+      "catch": "３〜１２",
+      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
+      "point": {
+        "name": "木更津沖",
+        "latlng": [
+          35.39,
+          139.875
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "0.5-1.0 kg　0-1 枚 アタリ渋く苦戦・・・。",
+      "fish": "マダイ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "1.2-4.5 kg　0-2 匹 3隻2匹7名様でした！！ バラシ多く課題有り！！",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "38-55 cm　2-4 本 平均にアタリ出ました！！",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "17-27 cm　18-52 匹 八景沖で当たり活発！！",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": {
+        "name": "八景沖",
+        "latlng": [
+          35.335,
+          139.64
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "4月8日水曜日　釣果！ 17～28cm　15～60匹 0.9～3.3kg　0～5匹",
+      "fish": "トラフグ",
+      "catch": "15〜60",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "本日は2隻で出船出来ました。 ありがとう御座いました。 大津沖～観音崎沖でやり ポツポツ皆さん見れて楽しめました。 竿頭70匹、2番手64匹、3番手62匹の結果で 平均40匹と皆さんクーラー重くなりました。",
+      "fish": "アジ",
+      "catch": "20〜70",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": {
+        "name": "観音崎",
+        "latlng": [
+          35.283,
+          139.716
+        ]
+      },
+      "depth": null
+    },
     {
       "ship": "忠彦丸",
       "date": "2026-04-07",
@@ -23,6 +151,61 @@
       "fish": "トラフグ",
       "catch": "30〜50",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "風雨の中での出船でしたが前半はアタリが多く好調で皆様釣れました。 潮具合よく半日好調にアタリ数が伸びました！。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
+      "fish": "アジ",
+      "catch": "3〜8",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "本日は、ショートアジ船のみのプレ出船でした。生憎の陽気でしたが、スタートから良型がポツポツと釣れ、皆さんおかずゲット出来ました。 平均サイズが良いので、ボリュ－ム満点ですね。 明日は、午前船・午後船のご予約お待ちしております。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
+      "fish": "サバ",
+      "catch": "16〜53",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "16～53匹（26～35cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "16〜53",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "0.90～2.90kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
+      "fish": "サバ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ バチコンをされる方は予約時に必ずお伝えください。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
+      "fish": "アジ",
+      "catch": "30〜50",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -188,17 +371,6 @@
       "depth": null
     },
     {
-      "ship": "荒川屋",
-      "date": "2026-04-06",
-      "platform": "web",
-      "text": "15～72匹（19～28cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "15〜72",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "小川丸",
       "date": "2026-04-06",
       "platform": "web",
@@ -297,17 +469,11 @@
       "ship": "深川吉野屋",
       "date": "2026-04-05",
       "platform": "web",
-      "text": "マアジ船は曇天陽気で絶好調！ 天気　雲→雨　水温１４.８℃　うす濁り 数　　　　０～４匹（船中２４匹） 竿頭　調布市　谷口 久美子さん　他、 今日も木更津沖周辺からスタート。 朝のうちはナギで順調にアタリが出せました！",
+      "text": "土曜日よりタチウオ船再開！ 2026/04/08 15:34 ナギでともにバッチリ！ 2026/04/06 15:00 2026/04/05 15:18 マアジ船は曇天陽気で絶好調！",
       "fish": "アジ",
-      "catch": "０〜４",
+      "catch": "",
       "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
-      "point": {
-        "name": "木更津沖",
-        "latlng": [
-          35.39,
-          139.875
-        ]
-      },
+      "point": null,
       "depth": null
     },
     {
@@ -327,39 +493,6 @@
       "platform": "web",
       "text": "0.6-1.2 kg　0-3 枚",
       "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "17-27 cm　7-42 匹",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "38-55 cm　2-6 本",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "1.5-4.2 kg　0-2 匹",
-      "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
       "point": null,
@@ -410,28 +543,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "0.90～4.90kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
-      "fish": "サバ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-04-05",
-      "platform": "web",
-      "text": "バチコンをされる方は予約時に必ずお伝えください。 仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
-      "fish": "アジ",
-      "catch": "15〜72",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-04-04",
       "platform": "web",
@@ -463,17 +574,6 @@
           139.88
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "深川吉野屋",
-      "date": "2026-04-04",
-      "platform": "web",
-      "text": "ナギでともにバッチリ！ 2026/04/06 15:00 2026/04/05 15:18 マアジ船は曇天陽気で絶好調！ 2026/04/04 15:04 マゴチは順調にアタリ続く！",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
-      "point": null,
       "depth": null
     },
     {
@@ -538,17 +638,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-04-03",
-      "platform": "web",
-      "text": "4月3日金曜日　釣果！ 午前ライトアジ船(2隻高低) 17～28cm　8～61匹 17～28cm　15～45匹 トラフグ船(3隻高低) 0.8～3.5kg　0～3匹",
-      "fish": "トラフグ",
-      "catch": "8〜61",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-04-03",
       "platform": "web",
@@ -602,79 +691,6 @@
       "catch": "6〜41",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "2.0-3.5 kg　0-1 匹 ★明日はトラフグ船に確定です・・・ 本日も価値ある一匹を求めて富浦沖一本勝負でした。 朝のうち反応も賑やかではありましたが、終日単発で型見るばかりでした、やはり餌噛じられたり掛け損じなどもありますが本日は食いも浅いせいか中々テクニカルでしたね！ 明日も出船確定しております、まだご予約受付中ですのでご予約お待ちしております！ 潮色と流れ：澄み ゆるい",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": {
-        "name": "富浦沖",
-        "latlng": [
-          34.975,
-          139.88
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "18-30 cm　64-89 匹 釣り時間は雨セーフ、年中さん少人数での出船でした。 近場と本牧根周りにて中アジ揃いで89、78、70、65、64匹と好調でした！ 潮色と流れ：薄濁 ゆるい 風向きと強さ：北東 弱い",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": {
-        "name": "本牧根",
-        "latlng": [
-          35.41,
-          139.672
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "潮流れ良く、アタリ続きました。ダブルも多く数伸びました。２番手７８尾。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
-      "fish": "シロギス",
-      "catch": "20〜93",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-04-01",
-      "platform": "web",
-      "text": "大津沖でやり良型の中アジ主体！ ポツポツ皆さん見れて楽しめました。 竿頭43匹、2番手40匹、3番手35匹の結果で フルレンタルのお客様も17匹と 型が良かったので助かりました。 また皆さんで遊びに来て下さい。",
-      "fish": "アジ",
-      "catch": "13〜43",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": {
-        "name": "大津沖",
-        "latlng": [
-          35.35,
-          139.658
-        ]
-      },
       "depth": null
     }
   ]
