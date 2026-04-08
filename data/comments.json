@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-08 17:45 JST",
-  "cutoff": "2026-04-01",
-  "count": 55,
+  "updated_at": "2026-04-09 08:09 JST",
+  "cutoff": "2026-04-02",
+  "count": 57,
   "errors": [],
   "comments": [
     {
@@ -19,11 +19,17 @@
       "ship": "中山丸",
       "date": "2026-04-08",
       "platform": "web",
-      "text": "1.2-3.5 kg　0-2 匹 潮色と流れ：澄み ゆるい 風向きと強さ：北東 ほどほど 波高：0.5-1.0M",
+      "text": "1.2-3.5 kg　0-2 匹 本日も価値ある一匹を求めて富浦沖へ直行致しました。 開始早々からポツポツアタリあり、チャンスタイムですぐに数匹GET！ 他にも掛け損じやバラしなども出てしまいチャンスを逃した方もちらほらと… 終日反応ありました。途中で追加も出来ましたが後半にもまたまたチャンス到来でしたが、アタリパターンも様々で合わせどころが難関！ 焦って合わせてしまった方は掛け損じバラしなどでGETならずも、落ちついてチャンスをモノにした方は無事に追加出来ました！ リベンジ成功の方も数名様いらっしゃいました！ 全て白子入りでした、反応もありますので今後に期待していきましょう！",
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
+      "point": {
+        "name": "富浦沖",
+        "latlng": [
+          34.975,
+          139.88
+        ]
+      },
       "depth": null
     },
     {
@@ -133,6 +139,34 @@
       "depth": null
     },
     {
+      "ship": "小川丸",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "20～70匹（23～36cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "20〜70",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "富津沖水深10～20m 本牧沖水深20～35m 富岡沖水深15～20m 観音崎沖水深50～60m スポット船。タイラバ。",
+      "fish": "マダイ",
+      "catch": "2〜6",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
+      "point": {
+        "name": "本牧沖",
+        "latlng": [
+          35.41,
+          139.672
+        ]
+      },
+      "depth": null
+    },
+    {
       "ship": "忠彦丸",
       "date": "2026-04-07",
       "platform": "web",
@@ -160,6 +194,17 @@
       "platform": "web",
       "text": "風雨の中での出船でしたが前半はアタリが多く好調で皆様釣れました。 潮具合よく半日好調にアタリ数が伸びました！。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
       "fish": "アジ",
+      "catch": "3〜8",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "3～8匹（38～55cm）、 17～80匹（17～25cm）が釣れました！ 弁天屋でよく釣れるのはどんな魚ですか？",
+      "fish": "マゴチ",
       "catch": "3〜8",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
@@ -204,6 +249,17 @@
       "platform": "web",
       "text": "仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ バチコンをされる方は予約時に必ずお伝えください。 Amazon Pay決済可 クレジットカード決済可 潮見表・タイドグラフの詳細を見る",
       "fish": "アジ",
+      "catch": "30〜50",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-07",
+      "platform": "web",
+      "text": "30～50匹（17～28cm）が釣れました！ 忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
       "catch": "30〜50",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -327,17 +383,6 @@
       "depth": null
     },
     {
-      "ship": "弁天屋",
-      "date": "2026-04-06",
-      "platform": "web",
-      "text": "0～6匹（38～56cm）、 91～221匹（16～25cm）、 20～84匹（16～23cm）、 3～22匹（18～26cm）、 17～97匹（17～28cm）、 0～1匹（0.40kg）が釣れました！",
-      "fish": "マゴチ",
-      "catch": "0〜6",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "荒川屋",
       "date": "2026-04-06",
       "platform": "web",
@@ -385,17 +430,6 @@
           139.658
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-04-06",
-      "platform": "web",
-      "text": "22～68匹（23～36cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "22〜68",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
       "depth": null
     },
     {
