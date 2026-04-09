@@ -16,7 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -29,10 +30,12 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --soft origin/main
           git add data/comments.json
           if git diff --staged --quiet; then
-            echo "変更なし、スキップ"
+            echo "変更なし"
           else
             git commit -m "🐟 釣果データ自動更新 $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
-            git push --force-with-lease origin main
+            git push origin main
           fi
