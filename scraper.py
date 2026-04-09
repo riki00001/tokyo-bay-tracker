@@ -58,8 +58,9 @@ def safe_get(url):
 FISH_WORDS = ["タチウオ","アジ","マゴチ","トラフグ","マダイ","シロギス",
               "カワハギ","アナゴ","サバ","サワラ","マダコ","イカ","メバル",
               "ハゼ","シーバス","スズキ","カレイ","イシモチ","カサゴ"]
-SKIP_WORDS = ["copyright","Copyright","©","HOME","menu","http","ログイン",
-              "会員登録","クレジット","ポイント","予約","プラン"]
+SKIP_WORDS = ["copyright","Copyright","©","HOME","ログイン","会員登録",
+              "お気に入り","釣り船詳細を見る","戻る（","予約プランを見る",
+              "最安値でネット予約","続きを表示","Amazon Pay","クレジットカード"]
 
 def parse_lines(lines, ship_name, source_url):
     results = []
@@ -189,20 +190,25 @@ def scrape_chowari(ship_id, ship_name):
 
 
 def scrape_esamasa():
-    """えさ政釣船店 (esamasa.jp) 公式サイト"""
-    html = safe_get("https://www.esamasa.jp/")
+    """えさ政釣船店 (esamasa.com) 公式釣果ページ - 中山丸と同じシステム"""
+    html = safe_get("https://www.esamasa.com/category/Choka/")
     if not html: return []
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
-    return parse_lines(lines, "えさ政（羽田）", "https://www.esamasa.jp/")
+    return parse_lines(lines, "えさ政（羽田）", "https://www.esamasa.com/category/Choka/")
 
 def scrape_tsurikou():
-    """つり幸 (tsurikou.com) 公式サイト"""
+    """つり幸 - 公式サイト(釣果) + 釣りビジョン ID:684"""
+    results = []
+    # 公式サイトのトップに釣果あり
     html = safe_get("https://www.tsurikou.com/")
-    if not html: return []
-    soup = BeautifulSoup(html, "lxml")
-    lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
-    return parse_lines(lines, "つり幸（川崎）", "https://www.tsurikou.com/")
+    if html:
+        soup = BeautifulSoup(html, "lxml")
+        lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
+        results.extend(parse_lines(lines, "つり幸（川崎）", "https://www.tsurikou.com/"))
+    # 釣りビジョンからも補完
+    results.extend(scrape_fishing_v(684, "つり幸（川崎）"))
+    return results
 
 def scrape_yoshikyu():
     """吉久（浦安）公式サイト"""
