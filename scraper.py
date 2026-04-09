@@ -187,6 +187,31 @@ def scrape_chowari(ship_id, ship_name):
         })
     return results
 
+
+def scrape_esamasa():
+    """えさ政釣船店 (esamasa.jp) 公式サイト"""
+    html = safe_get("https://www.esamasa.jp/")
+    if not html: return []
+    soup = BeautifulSoup(html, "lxml")
+    lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
+    return parse_lines(lines, "えさ政（羽田）", "https://www.esamasa.jp/")
+
+def scrape_tsurikou():
+    """つり幸 (tsurikou.com) 公式サイト"""
+    html = safe_get("https://www.tsurikou.com/")
+    if not html: return []
+    soup = BeautifulSoup(html, "lxml")
+    lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
+    return parse_lines(lines, "つり幸（川崎）", "https://www.tsurikou.com/")
+
+def scrape_yoshikyu():
+    """吉久（浦安）公式サイト"""
+    html = safe_get("https://www.yoshikyu.com/")
+    if not html: return []
+    soup = BeautifulSoup(html, "lxml")
+    lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
+    return parse_lines(lines, "吉久（浦安）", "https://www.yoshikyu.com/")
+
 def scrape_fishing_v(ship_id, ship_name):
     url = f"https://www.fishing-v.jp/choka/choka_detail.php?s={ship_id}&pageID=1"
     html = safe_get(url)
@@ -207,22 +232,26 @@ def main():
     tasks = [
         # ── 金沢八景エリア ──
         ("一之瀬丸",       scrape_ichinosemaru, []),
+        ("一之瀬丸",       scrape_chowari,      ["00307", "一之瀬丸"]),
         ("忠彦丸",         scrape_tadahikomaru, []),
+        ("忠彦丸",         scrape_chowari,      ["00703", "忠彦丸"]),
         ("弁天屋",         scrape_chowari,      ["00300", "弁天屋"]),
+        ("弁天屋",         scrape_fishing_v,    [190, "弁天屋"]),
         ("小川丸",         scrape_chowari,      ["00458", "小川丸"]),
         ("荒川屋",         scrape_chowari,      ["00007", "荒川屋"]),
-        ("忠彦丸",         scrape_chowari,      ["00703", "忠彦丸"]),
-        ("一之瀬丸",       scrape_chowari,      ["00307", "一之瀬丸"]),
         # ── 川崎エリア ──
         ("中山丸",         scrape_nakayamamaru, []),
+        ("つり幸（川崎）", scrape_tsurikou,     []),
         # ── 深川エリア ──
         ("深川吉野屋",     scrape_yoshinoya,    []),
         # ── 浦安エリア ──
         ("吉野屋（浦安）", scrape_fishing_v,    [146, "吉野屋（浦安）"]),
         ("吉久（浦安）",   scrape_yoshikyu,     []),
         ("岩田屋（浦安）", scrape_chowari,      ["00847", "岩田屋（浦安）"]),
-        # ── 羽田・川崎・品川エリア ──
+        # ── 羽田・品川エリア ──
+        ("えさ政（羽田）", scrape_esamasa,      []),
         ("えさ政（羽田）", scrape_chowari,      ["00322", "えさ政（羽田）"]),
+        ("船宿いわた",     scrape_fishing_v,    [1169, "船宿いわた"]),
         ("船宿いわた",     scrape_chowari,      ["01322", "船宿いわた"]),
         ("釣り船鶴",       scrape_chowari,      ["01678", "釣り船鶴"]),
         # ── 市川・江戸川エリア ──
