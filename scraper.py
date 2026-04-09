@@ -23,7 +23,9 @@ POINT_COORDS = {
     "大津沖": [35.350, 139.658], "大貫沖": [35.302, 139.855],
     "富津沖": [35.290, 139.855], "木更津沖": [35.390, 139.875],
     "富浦沖": [34.975, 139.880], "竹岡沖": [35.268, 139.875],
-    "久里浜沖": [35.218, 139.738],
+    "久里浜沖": [35.218, 139.738], "中ノ瀬": [35.430, 139.780],
+    "扇島": [35.505, 139.758], "羽田沖": [35.540, 139.770],
+    "浦賀水道": [35.218, 139.782], "航路内": [35.420, 139.760],
 }
 
 def extract_point(text):
@@ -33,10 +35,14 @@ def extract_point(text):
     return None
 
 def extract_depth(text):
-    m = re.search(r'水深(\d+)(?:〜(\d+))?m', text)
+    m = re.search(r'水深(\d+)(?:〜(\d+))?m|(\d+)[Mm]前後', text)
     if not m:
         return None
-    return f"{m.group(1)}〜{m.group(2)}m" if m.group(2) else f"{m.group(1)}m"
+    if m.group(1) and m.group(2):
+        return f"{m.group(1)}〜{m.group(2)}m"
+    elif m.group(1):
+        return f"{m.group(1)}m"
+    return None
 
 def safe_get(url):
     try:
@@ -50,8 +56,10 @@ def safe_get(url):
         return None
 
 FISH_WORDS = ["タチウオ","アジ","マゴチ","トラフグ","マダイ","シロギス",
-              "カワハギ","アナゴ","サバ","サワラ","マダコ","イカ","メバル"]
-SKIP_WORDS = ["copyright","Copyright","©","HOME","menu","http","ログイン","会員登録"]
+              "カワハギ","アナゴ","サバ","サワラ","マダコ","イカ","メバル",
+              "ハゼ","シーバス","スズキ","カレイ","イシモチ","カサゴ"]
+SKIP_WORDS = ["copyright","Copyright","©","HOME","menu","http","ログイン",
+              "会員登録","クレジット","ポイント","予約","プラン"]
 
 def parse_lines(lines, ship_name, source_url):
     results = []
@@ -59,7 +67,6 @@ def parse_lines(lines, ship_name, source_url):
     current_fish = None
     current_text = []
     current_catch = ""
-
     for line in lines:
         dm = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', line)
         if dm:
@@ -75,20 +82,15 @@ def parse_lines(lines, ship_name, source_url):
             current_text = []
             current_catch = ""
             continue
-
         if not current_date:
             continue
-
         if len(line) < 40 and any(f in line for f in FISH_WORDS):
             current_fish = next((f for f in FISH_WORDS if f in line), None)
-
         m = re.search(r'(\d+)[〜~～](\d+)\s*(?:本|匹|尾)', line)
         if m and not current_catch:
             current_catch = f"{m.group(1)}〜{m.group(2)}"
-
         if len(line) > 10 and not any(x in line for x in SKIP_WORDS):
             current_text.append(line)
-
     if current_date and current_text and current_date >= CUTOFF:
         results.append({
             "ship": ship_name, "date": current_date, "platform": "web",
@@ -98,66 +100,60 @@ def parse_lines(lines, ship_name, source_url):
         })
     return results
 
-
-# ── 各船宿スクレイパー ──────────────────────────────
+# ── 公式サイト直接スクレイパー ──────────────────────
 
 def scrape_nakayamamaru():
-    """中山丸 公式サイト"""
     html = safe_get("https://www.nakayamamaru.com/category/Choka/")
-    if not html:
-        return []
+    if not html: return []
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
     return parse_lines(lines, "中山丸", "https://www.nakayamamaru.com/category/Choka/")
 
 def scrape_yoshinoya():
-    """深川吉野屋 公式サイト"""
     html = safe_get("https://www.team-yoshinoya.com/tsuri/diary/")
-    if not html:
-        return []
+    if not html: return []
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
     return parse_lines(lines, "深川吉野屋", "https://www.team-yoshinoya.com/tsuri/diary/")
 
 def scrape_ichinosemaru():
-    """一之瀬丸 公式サイト"""
     html = safe_get("https://www.ichinosemaru.net/")
-    if not html:
-        return []
+    if not html: return []
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
     return parse_lines(lines, "一之瀬丸", "https://www.ichinosemaru.net/")
 
 def scrape_tadahikomaru():
-    """忠彦丸 公式サイト"""
     for url in ["https://tadahikomaru.com/", "https://www.tadahikomaru.jp/"]:
         html = safe_get(url)
-        if not html:
-            continue
+        if not html: continue
         soup = BeautifulSoup(html, "lxml")
         lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
         entries = parse_lines(lines, "忠彦丸", url)
-        if entries:
-            return entries
+        if entries: return entries
     return []
 
+def scrape_yoshikyu():
+    html = safe_get("https://www.yoshikyu.com/")
+    if not html: return []
+    soup = BeautifulSoup(html, "lxml")
+    lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
+    return parse_lines(lines, "吉久（浦安）", "https://www.yoshikyu.com/")
+
+# ── chowari 共通スクレイパー ─────────────────────────
+
 def scrape_chowari(ship_id, ship_name):
-    """釣割 共通スクレイパー"""
     results = []
     url = f"https://www.chowari.jp/ship/{ship_id}/catch/"
     html = safe_get(url)
-    if not html:
-        return results
+    if not html: return results
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
-
     current_date = None
     current_fish = None
     current_text = []
     current_catch = ""
-
     for line in lines:
-        # chowariの日付形式: "釣行日：2026年4月3日（金）大潮"
         dm = re.search(r'釣行日[：:]\s*(\d{4})年(\d{1,2})月(\d{1,2})日', line)
         if not dm:
             dm = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', line)
@@ -174,20 +170,14 @@ def scrape_chowari(ship_id, ship_name):
             current_text = []
             current_catch = ""
             continue
-
-        if not current_date:
-            continue
-
+        if not current_date: continue
         if len(line) < 40 and any(f in line for f in FISH_WORDS):
             current_fish = next((f for f in FISH_WORDS if f in line), None)
-
         m = re.search(r'(\d+)[〜~～](\d+)\s*(?:本|匹|尾)', line)
         if m and not current_catch:
             current_catch = f"{m.group(1)}〜{m.group(2)}"
-
         if len(line) > 10 and not any(x in line for x in SKIP_WORDS):
             current_text.append(line)
-
     if current_date and current_text and current_date >= CUTOFF:
         results.append({
             "ship": ship_name, "date": current_date, "platform": "web",
@@ -198,17 +188,14 @@ def scrape_chowari(ship_id, ship_name):
     return results
 
 def scrape_fishing_v(ship_id, ship_name):
-    """釣りビジョン共通スクレイパー"""
     url = f"https://www.fishing-v.jp/choka/choka_detail.php?s={ship_id}&pageID=1"
     html = safe_get(url)
-    if not html:
-        return []
+    if not html: return []
     soup = BeautifulSoup(html, "lxml")
     lines = [l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()]
     return parse_lines(lines, ship_name, url)
 
-
-# ── メイン ──────────────────────────────────────────
+# ── メイン ───────────────────────────────────────────
 
 def main():
     print(f"スクレイピング開始: {TODAY.strftime('%Y-%m-%d %H:%M JST')}")
@@ -218,23 +205,33 @@ def main():
     errors = []
 
     tasks = [
-        # 公式サイト
-        ("中山丸",     scrape_nakayamamaru, []),
-        ("深川吉野屋", scrape_yoshinoya,    []),
-        ("一之瀬丸",   scrape_ichinosemaru, []),
-        ("忠彦丸",     scrape_tadahikomaru, []),
-        # 釣割
-        ("弁天屋",     scrape_chowari,      ["00300", "弁天屋"]),
-        ("荒川屋",     scrape_chowari,      ["00007", "荒川屋"]),
-        ("小川丸",     scrape_chowari,      ["00458", "小川丸"]),
-        ("忠彦丸",     scrape_chowari,      ["00703", "忠彦丸"]),
-        ("一之瀬丸",   scrape_chowari,      ["00307", "一之瀬丸"]),
-        # 釣りビジョン（釣割に載っていない弁天屋の補完）
-        ("弁天屋",     scrape_fishing_v,    [190, "弁天屋"]),
+        # ── 金沢八景エリア ──
+        ("一之瀬丸",       scrape_ichinosemaru, []),
+        ("忠彦丸",         scrape_tadahikomaru, []),
+        ("弁天屋",         scrape_chowari,      ["00300", "弁天屋"]),
+        ("小川丸",         scrape_chowari,      ["00458", "小川丸"]),
+        ("荒川屋",         scrape_chowari,      ["00007", "荒川屋"]),
+        ("忠彦丸",         scrape_chowari,      ["00703", "忠彦丸"]),
+        ("一之瀬丸",       scrape_chowari,      ["00307", "一之瀬丸"]),
+        # ── 川崎エリア ──
+        ("中山丸",         scrape_nakayamamaru, []),
+        # ── 深川エリア ──
+        ("深川吉野屋",     scrape_yoshinoya,    []),
+        # ── 浦安エリア ──
+        ("吉野屋（浦安）", scrape_fishing_v,    [146, "吉野屋（浦安）"]),
+        ("吉久（浦安）",   scrape_yoshikyu,     []),
+        ("岩田屋（浦安）", scrape_chowari,      ["00847", "岩田屋（浦安）"]),
+        # ── 羽田・川崎・品川エリア ──
+        ("えさ政（羽田）", scrape_chowari,      ["00322", "えさ政（羽田）"]),
+        ("船宿いわた",     scrape_chowari,      ["01322", "船宿いわた"]),
+        ("釣り船鶴",       scrape_chowari,      ["01678", "釣り船鶴"]),
+        # ── 市川・江戸川エリア ──
+        ("林遊船",         scrape_chowari,      ["00880", "林遊船"]),
+        ("教至丸",         scrape_chowari,      ["00845", "教至丸"]),
     ]
 
     for ship_name, func, args in tasks:
-        print(f"  取得中: {ship_name} ({func.__name__})...")
+        print(f"  {ship_name}...")
         try:
             entries = func(*args) if args else func()
             for e in entries:
@@ -246,7 +243,7 @@ def main():
             print(f"    [ERROR] {ex}")
             errors.append({"ship": ship_name, "error": str(ex)})
 
-    # 重複除去（同じship+date+fishの組み合わせ）
+    # 重複除去
     seen = set()
     unique = []
     for c in all_comments:
@@ -254,7 +251,6 @@ def main():
         if key not in seen:
             seen.add(key)
             unique.append(c)
-
     unique.sort(key=lambda x: x["date"], reverse=True)
 
     os.makedirs("data", exist_ok=True)
@@ -265,15 +261,12 @@ def main():
         "errors": errors,
         "comments": unique
     }
-
     with open("data/comments.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\n完了: {len(unique)}件 → data/comments.json")
     if errors:
         print(f"エラー: {len(errors)}件")
-        for e in errors:
-            print(f"  {e['ship']}: {e['error']}")
 
 if __name__ == "__main__":
     main()
