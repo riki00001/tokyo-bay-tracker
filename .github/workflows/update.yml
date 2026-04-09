@@ -30,10 +30,19 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "=== 現在のブランチ状態 ==="
+          git log --oneline -5
+          echo "=== リモートの状態 ==="
+          git fetch origin main
+          git log --oneline origin/main -5
+          echo "=== 差分 ==="
+          git status
           git add data/comments.json
           if git diff --staged --quiet; then
             echo "変更なし"
           else
             git commit -m "🐟 釣果データ自動更新 $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
-            git push origin HEAD:main --force
+            echo "=== push前のlog ==="
+            git log --oneline -5
+            git push origin main
           fi
