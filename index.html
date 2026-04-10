@@ -178,29 +178,30 @@ html,body{height:100%;font-family:'Noto Sans JP',sans-serif;background:#0f172a;}
 // ポイント座標辞書（テキスト → [lat, lng]）
 // ══════════════════════════════════════════════════
 const PT = {
-  "川崎沖":       [35.488, 139.762],
-  "本牧沖":       [35.410, 139.672],
-  "本牧":         [35.410, 139.672],
-  "本牧根":       [35.410, 139.672],
-  "八景沖":       [35.335, 139.640],
-  "横浜沖":       [35.440, 139.712],
-  "小柴沖":       [35.348, 139.642],
-  "富岡沖":       [35.338, 139.652],
-  "海堡北側":     [35.328, 139.808],
-  "第2海堡":      [35.316, 139.827],
-  "猿島沖":       [35.316, 139.785],
-  "観音崎":       [35.283, 139.716],
-  "観音沖":       [35.278, 139.740],
-  "観音崎沖":     [35.278, 139.745],
-  "走水沖":       [35.308, 139.748],
-  "大津沖":       [35.350, 139.658],
-  "大貫沖":       [35.302, 139.855],
+  "川崎沖":         [35.462, 139.748],  // 多摩川河口沖
+  "本牧沖":         [35.408, 139.672],  // 本牧埠頭沖
+  "本牧":           [35.408, 139.672],
+  "本牧根":         [35.406, 139.668],  // 本牧人工魚礁
+  "八景沖":         [35.328, 139.638],  // 野島沖
+  "横浜沖":         [35.428, 139.698],  // 横浜港沖
+  "小柴沖":         [35.338, 139.648],  // 小柴・野島崎沖
+  "富岡沖":         [35.334, 139.653],  // 横浜市金沢区富岡
+  "海堡北側":       [35.340, 139.820],  // 第1海堡北
+  "第2海堡":        [35.316, 139.827],  // 第2海堡（実測）
+  "猿島沖":         [35.316, 139.785],  // 猿島沖
+  "観音崎":         [35.283, 139.716],  // 観音崎灯台
+  "観音沖":         [35.275, 139.740],  // 観音崎東沖
+  "観音崎沖":       [35.275, 139.742],
+  "走水沖":         [35.305, 139.745],  // 走水沖
+  "大津沖":         [35.350, 139.658],  // 大津港沖（OK）
+  "大貫沖":         [35.302, 139.855],  // 大貫沖（OK）
   "大貫沖〜八景沖": [35.318, 139.748],
-  "富津沖":       [35.290, 139.855],
-  "竹岡沖":       [35.268, 139.875],
-  "久里浜沖":     [35.218, 139.738],
-  "木更津沖":     [35.390, 139.875],
-  "富浦沖":       [35.010, 139.900],  // 南房総・富浦沖（沖合）
+  "富津沖":         [35.310, 139.868],  // 富津岬沖
+  "竹岡沖":         [35.268, 139.875],  // 竹岡沖（OK）
+  "久里浜沖":       [35.218, 139.738],  // 久里浜沖（OK）
+  "木更津沖":       [35.378, 139.908],  // 木更津沖・東京湾東側
+  "富浦沖":         [35.022, 139.862],  // 富浦沖・館山湾外（トラフグ漁場）
+  "金谷沖":         [35.260, 139.830],  // 金谷沖・内房
 };
 
 function extractPoint(text) {
@@ -398,23 +399,7 @@ window.addEventListener("load", async () => {
       `${e.latlng.lat.toFixed(4)}, ${e.latlng.lng.toFixed(4)}`;
   });
 
-  // 主要地点
-  [
-    { name:"観音崎",   lat:35.2832, lng:139.7156 },
-    { name:"富津岬",   lat:35.2997, lng:139.8196 },
-    { name:"走水港",   lat:35.3172, lng:139.7261 },
-    { name:"第2海堡", lat:35.316,  lng:139.827  },
-    { name:"羽田空港", lat:35.549,  lng:139.780  },
-  ].forEach(lm => {
-    L.marker([lm.lat, lm.lng], {
-      icon: L.divIcon({
-        className:"",
-        html:`<div style="font-size:10px;white-space:nowrap;background:rgba(15,23,42,.85);color:#94a3b8;border:1px solid #334155;border-radius:3px;padding:1px 5px;pointer-events:none;">📍 ${lm.name}</div>`,
-        iconAnchor:[0,8],
-      }),
-      interactive:false
-    }).addTo(map);
-  });
+  // 主要地点ラベルは非表示（地図タイルに記載あり）
 
   // ポイント出現頻度 → 青い円
   const freq = {};
@@ -459,6 +444,8 @@ const allMarkers = [];     // 全マーカーを保持
 
 function buildShipMarkers() {
   const posCount = {};
+
+  // ① 場所あり → 船アイコン
   COMMENTS.forEach(c => {
     if (!c.point) return;
     const ship = SHIPS.find(s => s.name === c.ship);
@@ -469,11 +456,13 @@ function buildShipMarkers() {
     posCount[key]++;
     const lat = c.point.latlng[0] + offset*0.004*Math.cos(offset*1.2);
     const lng = c.point.latlng[1] + offset*0.005*Math.sin(offset*1.2);
-    const isRecent = c.date >= "2026-04-01";
+    const isRecent = c.date >= "2026-04-07";
     const ic = L.divIcon({
       className:"",
-      html:`<div style="display:flex;align-items:center;gap:4px;background:rgba(15,23,42,.92);border:2px solid ${ship.col}${isRecent?"":"88"};border-radius:20px;padding:3px 8px 3px 5px;cursor:pointer;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.5);">
-        <span style="font-size:14px;">${isRecent?"🚢":"⛵"}</span>
+      html:`<div style="display:flex;align-items:center;gap:3px;background:rgba(15,23,42,.92);border:2px solid ${ship.col}${isRecent?"":"88"};border-radius:20px;padding:3px 8px 3px 4px;cursor:pointer;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.5);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="${ship.col}" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 21H4L2 13l8-2V7h4v4l8 2-2 8z"/><rect x="10" y="3" width="4" height="4" rx="0.5"/>
+        </svg>
         <div>
           <div style="font-size:10px;font-weight:700;color:${ship.col};">${ship.name}</div>
           <div style="font-size:8px;color:#94a3b8;">${c.fish}</div>
@@ -482,7 +471,7 @@ function buildShipMarkers() {
       iconAnchor:[0,14],
     });
     const marker = L.marker([lat,lng],{icon:ic})
-      .bindPopup(`<div class="lp-name">🚢 ${ship.name}</div>
+      .bindPopup(`<div class="lp-name">⛵ ${ship.name}</div>
         <div class="lp-row"><span class="lp-k">日付</span><span class="lp-v" style="color:#fbbf24;">${c.date}</span></div>
         <div class="lp-row"><span class="lp-k">推定位置</span><span class="lp-v">${c.point.name}</span></div>
         <div class="lp-row"><span class="lp-k">水深</span><span class="lp-v">${c.depth||"—"}</span></div>
@@ -491,40 +480,48 @@ function buildShipMarkers() {
         <div style="margin-top:6px;font-size:9px;color:#64748b;line-height:1.6;">${c.text.slice(0,90)}...</div>
         ${ship.web?`<a href="${ship.web}" target="_blank" style="font-size:9px;color:#60a5fa;display:block;margin-top:5px;">🔗 公式サイト</a>`:""}`,
         {maxWidth:260});
-    // 日付別に管理
     if (!markersByDate[c.date]) markersByDate[c.date] = [];
     markersByDate[c.date].push(marker);
     allMarkers.push(marker);
     if (!shipMarkers[ship.id]) shipMarkers[ship.id] = marker;
-    // デフォルトは全表示
     marker.addTo(map);
   });
 
-  // コメントデータがない船は港マーカーとして表示
-  SHIPS.forEach(ship => {
-    if (shipMarkers[ship.id]) return; // すでにマーカーがある船はスキップ
-    if (!ship.portLat) return;
+  // ② 場所なし（釣果はあるがポイント不明）→ ピンアイコン・港の位置に表示
+  COMMENTS.forEach(c => {
+    if (c.point) return; // 場所ありは①で処理済み
+    const ship = SHIPS.find(s => s.name === c.ship);
+    if (!ship || !ship.portLat) return;
+    if (shipMarkers[ship.id]) return; // 1船につき1ピンだけ
     const ic = L.divIcon({
       className:"",
-      html:`<div style="display:flex;align-items:center;gap:4px;background:rgba(15,23,42,.85);border:2px dashed ${ship.col}88;border-radius:20px;padding:3px 8px 3px 5px;cursor:pointer;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.4);">
-        <span style="font-size:13px;">⚓</span>
+      html:`<div style="display:flex;align-items:center;gap:3px;background:rgba(15,23,42,.85);border:1px solid ${ship.col}88;border-radius:20px;padding:3px 8px 3px 4px;cursor:pointer;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.4);">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="${ship.col}99" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+        </svg>
         <div>
           <div style="font-size:10px;font-weight:700;color:${ship.col}88;">${ship.name}</div>
-          <div style="font-size:8px;color:#64748b;">データなし（港）</div>
+          <div style="font-size:8px;color:#64748b;">位置不明</div>
         </div>
       </div>`,
       iconAnchor:[0,14],
     });
-    const marker = L.marker([ship.portLat, ship.portLng], {icon:ic})
-      .bindPopup(`<div class="lp-name" style="color:${ship.col};">⚓ ${ship.name}</div>
-        <div class="lp-row"><span class="lp-k">港</span><span class="lp-v">${ship.port}</span></div>
-        <div class="lp-row"><span class="lp-k">状態</span><span class="lp-v" style="color:#64748b;">今週のデータなし</span></div>
+    const latestComment = COMMENTS.filter(x => x.ship===c.ship).sort((a,b)=>b.date.localeCompare(a.date))[0];
+    const marker = L.marker([ship.portLat, ship.portLng],{icon:ic})
+      .bindPopup(`<div class="lp-name" style="color:${ship.col};">${ship.name}</div>
+        <div class="lp-row"><span class="lp-k">最新</span><span class="lp-v" style="color:#fbbf24;">${latestComment?.date||"—"}</span></div>
+        <div class="lp-row"><span class="lp-k">釣り物</span><span class="lp-v">${latestComment?.fish||"—"}</span></div>
+        <div class="lp-row"><span class="lp-k">位置</span><span class="lp-v" style="color:#64748b;">ポイント不明（港表示）</span></div>
         ${ship.web?`<a href="${ship.web}" target="_blank" style="font-size:9px;color:#60a5fa;display:block;margin-top:5px;">🔗 公式サイト</a>`:""}`,
-        {maxWidth:220});
-    shipMarkers[ship.id] = marker;
+        {maxWidth:240});
+    if (!markersByDate[latestComment?.date]) markersByDate[latestComment?.date] = [];
+    if (latestComment) markersByDate[latestComment.date].push(marker);
     allMarkers.push(marker);
+    shipMarkers[ship.id] = marker;
     marker.addTo(map);
   });
+
+  // ③ データなし船 → 地図に出さない（サイドバーにも出ない）
 }
 
 function buildDateBar() {
