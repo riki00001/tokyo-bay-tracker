@@ -200,7 +200,7 @@ const PT = {
   "竹岡沖":       [35.268, 139.875],
   "久里浜沖":     [35.218, 139.738],
   "木更津沖":     [35.390, 139.875],
-  "富浦沖":       [34.975, 139.880],  // 南房総
+  "富浦沖":       [35.010, 139.900],  // 南房総・富浦沖（沖合）
 };
 
 function extractPoint(text) {
@@ -567,22 +567,30 @@ function filterByDate(date) {
 // サイドバー
 // ══════════════════════════════════════════════════
 function renderShipList() {
-  document.getElementById("sb-ships").innerHTML = SHIPS.map(s => {
-    const latest = [...COMMENTS].filter(c => c.ship===s.name)
-      .sort((a,b) => b.date.localeCompare(a.date))[0];
+  // データがある船のみ、件数多い順にソート
+  const shipsWithData = SHIPS
+    .map(s => {
+      const comments = COMMENTS.filter(c => c.ship===s.name);
+      const latest = [...comments].sort((a,b) => b.date.localeCompare(a.date))[0];
+      return { s, comments, latest };
+    })
+    .filter(x => x.comments.length > 0)
+    .sort((a,b) => b.comments.length - a.comments.length);
+
+  document.getElementById("sb-ships").innerHTML = shipsWithData.map(({s, comments, latest}) => {
     return `<div class="ship-card" id="sc-${s.id}" onclick="focusShip('${s.id}')">
       <div class="sc-top">
         <div class="sc-dot" style="background:${s.col}"></div>
         <div class="sc-name">${s.name}</div>
         <div class="sc-port">${s.port}</div>
+        <div style="margin-left:auto;font-size:9px;font-family:'Space Mono',monospace;color:#64748b;">${comments.length}件</div>
       </div>
-      ${latest ? `<div class="sc-pos">
-        <div class="sc-pos-label">最新釣り物（NLP推定位置）</div>
+      <div class="sc-pos">
         <div class="sc-fish">${latest.fish}</div>
         ${latest.point ? `<div class="sc-loc">📍 ${latest.point.name}${latest.depth?" / "+latest.depth:""}</div>` : ""}
         <div class="sc-catch">${latest.catch}</div>
         <div class="sc-date">${latest.date}</div>
-      </div>` : `<div style="font-size:9px;color:#475569;padding:4px 0;">データなし</div>`}
+      </div>
       <div class="sc-links">
         ${s.web?`<a class="sc-lnk" href="${s.web}" target="_blank">WEB</a>`:""}
       </div>
@@ -620,6 +628,10 @@ function renderFeed(date) {
             ${c.point?`<span class="fc-tag tag-pt">📍 ${c.point.name}</span>`:""}
             ${c.depth?`<span class="fc-tag tag-dp">🌊 ${c.depth}</span>`:""}
             <span class="fc-tag tag-fs">🐟 ${c.fish}</span>
+          </div>
+          <div style="margin-top:5px;display:flex;gap:8px;">
+            ${c.source_url?`<a href="${c.source_url}" target="_blank" style="font-size:9px;color:#60a5fa;text-decoration:none;">🔗 釣果ページ</a>`:""}
+            ${ship?.web && ship.web!==c.source_url?`<a href="${ship.web}" target="_blank" style="font-size:9px;color:#94a3b8;text-decoration:none;">🏠 公式サイト</a>`:""}
           </div>
         </div>`;
       }).join("");
