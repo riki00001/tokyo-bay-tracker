@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10 15:57 JST",
+  "updated_at": "2026-04-10 16:25 JST",
   "cutoff": "2026-04-03",
   "count": 101,
   "errors": [],
@@ -255,6 +255,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-04-08",
+      "platform": "web",
+      "text": "15～58匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "15〜58",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-04-08",
       "platform": "web",
@@ -438,17 +449,6 @@
       "platform": "web",
       "text": "本日は、ショートアジ船のみのプレ出船でした。生憎の陽気でしたが、スタートから良型がポツポツと釣れ、皆さんおかずゲット出来ました。 平均サイズが良いので、ボリュ－ム満点ですね。 明日は、午前船・午後船のご予約お待ちしております。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
       "fish": "イシモチ",
-      "catch": "16〜53",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-04-07",
-      "platform": "web",
-      "text": "16～53匹（26～35cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "16〜53",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
