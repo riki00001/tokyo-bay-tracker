@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-04-17 18:57 JST",
-  "cutoff": "2026-04-10",
-  "count": 110,
+  "updated_at": "2026-04-18 08:09 JST",
+  "cutoff": "2026-04-11",
+  "count": 112,
   "errors": [],
   "comments": [
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-17",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "忠彦丸",
       "date": "2026-04-17",
@@ -51,6 +62,17 @@
       "fish": "タチウオ",
       "catch": "16〜62",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-04-17",
+      "platform": "web",
+      "text": "25-45 cm　4-48 本 8号船　2番手31本、3番手30本　船中312本 25-45 cm　2-37 本 6号船　37本2名様　船中268本 今日は2隻満員御礼での出船でした。 水色澄み、上空も少し明るかったせいか？スタートは地味な感じでちょっと不安でしたが日没と共に今夜もアタリ活発！",
+      "fish": "アナゴ",
+      "catch": "5〜10",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -143,6 +165,34 @@
       "depth": null
     },
     {
+      "ship": "林遊船",
+      "date": "2026-04-17",
+      "platform": "web",
+      "text": "合計2匹（38～46cm）、 73～117匹（15～25cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "カレイ",
+      "catch": "73〜117",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-04-17",
+      "platform": "web",
+      "text": "ショートアジ船、今日も朝イチからポツリポツリと！ １日盛り上がる時間も無かったですがお土産ぐらいにはなってくれましたね！ やはり潮が早いのでマメな棚取りが大事です！赤クラゲも増えてきましたね！ちゃんと取らないとアジが嫌がります！また明日も宜しくお願いします！今日も１日ありがとうございました！ ・ショートアジ船、アジ、22-42cm、8-44匹。今日も走水で！ 朝イチはいつも通りの場所から！ すぐ顔見れますが、激流で苦戦…",
+      "fish": "アジ",
+      "catch": "17〜59",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-04-16",
       "platform": "web",
@@ -183,6 +233,17 @@
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-04-16",
+      "platform": "web",
+      "text": "0～3匹（1.20～5.40kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -435,17 +496,6 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
-      "date": "2026-04-15",
-      "platform": "web",
-      "text": "2～6匹（35～47cm）、 33～65匹（15～25cm）、 合計1匹（1.50kg）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "カレイ",
-      "catch": "2〜6",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "教至丸",
       "date": "2026-04-15",
       "platform": "web",
@@ -630,17 +680,6 @@
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-04-14",
-      "platform": "web",
-      "text": "0～5匹（1.50～4.60kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜5",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -903,10 +942,10 @@
       "ship": "忠彦丸",
       "date": "2026-04-12",
       "platform": "web",
-      "text": "4月12日日曜日　釣果！ 17～28cm　20～74匹 17～28cm　22～78匹 14～24cm　7～13匹 ｼｮｰﾄﾌｨｯｼﾝｸﾞ天秤タチウオ船 50～70cm　2～18本",
+      "text": "1.10～3.80kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
       "fish": "サバ",
-      "catch": "20〜74",
-      "source_url": "https://www.tadahikomaru.jp/",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -1173,23 +1212,6 @@
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-04-11",
-      "platform": "web",
-      "text": "1.2-3.5 kg　0-3 匹 ★明日はトラフグ船2隻、ショートLTアジ船に確定です・・・まだまだ空席ございます！ 本日も価値ある一匹を求めて行ってきました。 本日は僚船先輩が剣崎沖で模様出たとの事で富浦沖〜剣崎沖を狙っていきました。 富浦沖でも剣崎沖でも型見させて頂き終日ポツポツとコンスタントにアタリも出て掛け損じ多発するものの、チャンスをモノ出来た方は無事にGET出来ました！ 3匹は3名様で全て白子入りでしたね！",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": {
-        "name": "富浦沖",
-        "latlng": [
-          35.022,
-          139.862
-        ]
-      },
       "depth": null
     },
     {
