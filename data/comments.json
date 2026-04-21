@@ -1,9 +1,125 @@
 {
-  "updated_at": "2026-04-21 08:28 JST",
+  "updated_at": "2026-04-21 19:05 JST",
   "cutoff": "2026-04-14",
-  "count": 97,
+  "count": 101,
   "errors": [],
   "comments": [
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "13-35 cm　12-52 杯 マルムギイカの釣果です！！ マルイカは良型多く！！ムギイカは食べ頃！！ 22日出船確定しました！！ご予約受付中です。",
+      "fish": "イカ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "0.5-4.3 kg　0-6 枚 乗っ込み体制ですね！！ 連日良型ヒット！！2．5ｋｇ、2．3ｋｇもゲットです！！",
+      "fish": "マダイ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "20-26 cm　4-23 匹 メバル中心に釣れました！！良型主体！！ 暖かくなりエビ餌が入荷できなくなりますので24日にて終了です。 夜釣り船ではアオイソメ餌でお楽しみ頂けます。",
+      "fish": "メバル",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "4月21日火曜日　釣果！ 17～28cm　1～73匹 2.8kg 　船中1匹",
+      "fish": "トラフグ",
+      "catch": "1〜73",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "富津沖水深10～20m 小柴沖水深20～30m 中ノ瀬水深15～20m 観音崎沖水深40～70m",
+      "fish": "マダイ",
+      "catch": "3〜3",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "トラフグ 第18さくら丸 朝から波高く釣りづらい状況が続きました。 その上反応も少なく大苦戦でした。 帰る間際にポンポンと釣れてくれて一安心でした。",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-04-21",
+      "platform": "web",
+      "text": "午前アジ 第21さくら丸 午前アジ 第三さくら丸 風波強く風裏で良型を狙いました。",
+      "fish": "イシモチ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "1.0-2.8 kg　0-2 匹 シーズン終盤戦です！！ 22日（水）・25日（土）・27日（月）出船確定しました！！ 26日（日）現在2名様、28日、29日ご予約受付中です。",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "17-28 cm　21-54 匹 朝から好調で良型も！！",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "忠彦丸",
       "date": "2026-04-20",
@@ -23,6 +139,28 @@
       "fish": "トラフグ",
       "catch": "18〜36",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "0.80～3.00kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
+      "fish": "サバ",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "仕掛けはハリス1，5～2，0号で1，8～2，0ｍのムツ針9～10号2～3本針がオススメ！ 詳細と釣果写真は『ぎょさんブログ（土屋船長の釣り日記ブログ）』に随時アップしております♪ バチコンをされる方は予約時に必ずお伝えください。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "アジ",
+      "catch": "18〜36",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -93,6 +231,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "0～3匹（23～42cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-04-20",
       "platform": "web",
@@ -148,6 +297,39 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "0～1匹（1.20～3.10kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜1",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "船宿いわた",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "15-25cm6-36尾。今日は上手ポイントへ、前回は型見れなかったポイントでしたが暖かさと共にカサゴも出てきてくれたようで中〜良型主体にぽつりぽつりと釣れてくれました。その後は南下し転々と拾い釣りでした。メバルは混じった程度でした。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
+      "fish": "メバル",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "船宿いわた",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "船宿いわたでよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-04-20",
       "platform": "web",
@@ -175,6 +357,17 @@
       "platform": "web",
       "text": "ショートアジ船、今日は朝イチ深場からスタート！ 一投目よりポツリポツリと釣れたりで皆さんアジとご対面は出来ましたね！途中からサイズ感が気に入らない感じになってしまい？少し浅い方に移動してからは中型メインにポツリポツリと！ 終わってみれば平均的に皆さん釣れてお土産バッチリでしたね！明日はお休みです！次は水曜日！段々と潮も小さくなるので期待ですね！今日も１日ありがとうございました！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
       "fish": "アジ",
+      "catch": "26〜46",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-04-20",
+      "platform": "web",
+      "text": "26～46匹（22～37cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "イカ",
       "catch": "26〜46",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
@@ -275,28 +468,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "５０匹以上釣れた方には素敵なプレゼントをお渡しします♪ぜひチャレンジお待ちしてます！！ ※ロックフィッシュ船が先に予約確定した場合には休船となります。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "シロギス",
-      "catch": "10〜21",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "10～21匹（14～24cm）が釣れました！ 忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "トラフグ",
-      "catch": "10〜21",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-04-19",
       "platform": "web",
@@ -335,17 +506,6 @@
       "platform": "web",
       "text": "今日もお天気に恵まれての出船となりました。前半は、昨日のような出方はなく、転々と拾い釣りでしたが、後半はポイントを移動しポツポツと釣れました。２番手３４尾２人。 午後は貸竿の方が多かったですが、投げるより船下でのアタリ方が比較的良かったので、それなりに拾えました。明日はショート船出船致します。のんびり終日お楽しみください。 午後船、１５～２２cm、１～２０尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
       "fish": "シロギス",
-      "catch": "8〜39",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "8～39匹（15～22cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "8〜39",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
@@ -424,6 +584,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-04-19",
+      "platform": "web",
+      "text": "本日は貸切でLTアジでした！ 昨日の、あの絶不調の記憶が 気持ちを切り替えての出船。今日はポイントを ガラリと変えてみたようです。 昨日より少々型は落ちましたが ビギナーさんでも60尾GETお天気も穏やかで",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-04-19",
       "platform": "web",
@@ -446,33 +617,11 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "0～2匹（1.50～3.00kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "船宿いわた",
       "date": "2026-04-19",
       "platform": "web",
       "text": "手前のポイントからスタートするもクラゲ酷く早々に離脱... 前回好調だった周辺へと向けすぐに型は出てくれましたが物足りない感じ、、あたりも出なくなったとこで転々としましたがそこから暴走気味になりました。何とか型出るポイントでぽつりぽつりと釣れ気が付けばお昼に、上げ潮で沖目ポイントへと向け数人同時ヒットのスタート！その後は転々と流し変えながらポツポツ追加できました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
       "fish": "マゴチ",
-      "catch": "1〜7",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "1～7匹（45～58cm）、 船宿いわたでよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "1〜7",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
@@ -523,17 +672,6 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-04-19",
-      "platform": "web",
-      "text": "7～21匹（22～39cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
-      "catch": "7〜21",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "一之瀬丸",
       "date": "2026-04-18",
       "platform": "web",
@@ -541,61 +679,6 @@
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-18",
-      "platform": "web",
-      "text": "28-42 cm　7-16 匹 沖の瀬でアタリ良く！！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-18",
-      "platform": "web",
-      "text": "0.5-2.2 kg　0-3 枚 久里浜～剣崎でアタリ出ました！！",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-18",
-      "platform": "web",
-      "text": "38-60 cm　1-6 本",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-04-18",
-      "platform": "web",
-      "text": "1.0-5.3 kg　0-3 匹",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-04-18",
-      "platform": "web",
-      "text": "1.00～3.80kg ※※ご希望の方には船長がレクチャーいたしますので、お声がけください♪♪※※ 特餌冷凍イワシ６匹５００円で販売中！ 詳細と釣果写真は『ぎょさんブログ（さとし船長の釣り日記ブログ）』に随時アップしております♪ トラフグの処理について⇒身・ヒレ・白子のみのお渡しとなります。(小トラは身・白子のみ) サバフグとクサフグについて⇒さばき処理はしないため海に逃がしてください。",
-      "fish": "サバ",
-      "catch": "0〜3",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -821,21 +904,10 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-04-17",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-04-17",
       "platform": "web",
-      "text": "富津沖水深10～20m 小柴沖水深20～35m 中ノ瀬水深15～20m 小柴沖水深15～35m 小柴沖水深15～35m",
+      "text": "富津沖水深10～20m 小柴沖水深20～35m 中ノ瀬水深15～20m 小柴沖水深15～35m 小柴沖水深15～35m ・全日スポットマダイ船(一つテンヤ・ラバー)…17日(金)～22日(水)、5月1日(金)～6日(水)(最終出船)。",
       "fish": "アジ",
       "catch": "0〜5",
       "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
@@ -878,17 +950,6 @@
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-04-17",
-      "platform": "web",
-      "text": "午前アジ 第三さくら丸 今日もサイズは混じりでしたがアタリは多くお土産十分でした。 土曜日は午前、午後ご予約締め切りです 日曜日はまだご予約に空きあります GWのご予約お待ちしてます GWの夜釣りのご予約もお待ちしています",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -1089,23 +1150,6 @@
       "catch": "1〜3",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-04-14",
-      "platform": "web",
-      "text": "富津沖水深10～20m 小柴沖水深15～45m 中ノ瀬水深15～20m 小柴沖水深20～25m ・全日スポットマダイ船(一つテンヤ・ラバー)…17日(金)～22日(水)、5月1日(金)～6日(水)(最終出船)。 ・全日シロギス船…平日のみ出船。",
-      "fish": "アジ",
-      "catch": "1〜3",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
-      "point": {
-        "name": "小柴沖",
-        "latlng": [
-          35.338,
-          139.648
-        ]
-      },
       "depth": null
     },
     {
