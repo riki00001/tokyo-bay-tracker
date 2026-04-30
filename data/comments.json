@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30 20:16 JST",
-  "cutoff": "2026-04-23",
-  "count": 99,
+  "updated_at": "2026-05-01 08:38 JST",
+  "cutoff": "2026-04-24",
+  "count": 98,
   "errors": [],
   "comments": [
     {
@@ -19,6 +19,28 @@
           139.742
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-04-30",
+      "platform": "web",
+      "text": "30～96匹（22～38cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "30〜96",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-04-30",
+      "platform": "web",
+      "text": "25-48 cm　2-44 本 8号船　2番手38本　船中213本 25-48 cm　1-47 本 ★明日は悪天候の為、全船中止です・・・2日（土）のリレー船、夜アナゴ船は受付終了です 昨日はスロースタートでしたが今日はイカリ投下直後の明るいうちから2隻揃ってバタバタとアタリ活発！ 潮先、潮ケツ関係無くアタリは出ている感じでここで打率を上げたい所でした。",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
       "depth": null
     },
     {
@@ -127,6 +149,17 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-04-30",
+      "platform": "web",
+      "text": "0～1匹（2.00～2.80kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜1",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-04-30",
       "platform": "web",
@@ -145,6 +178,17 @@
       "fish": "カレイ",
       "catch": "1〜8",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-04-30",
+      "platform": "web",
+      "text": "ショートアジ船、今日は朝から昨日好調だった場所から！ 開始からポツリポツリとダブル混じりで釣れてくれて移動する事も無く１日やりきりました！ 今日はサバの邪魔もあまり無く？中型メインで皆さんお土産バッチリでした！ 明日は予報が悪い為お休みします！また出る時宜しくお願いします！今日も１日ありがとうございました！ ・LTショートアジ船、アジ、20-47cm、23-65匹、 朝イチから違うルートで探索もなかなか反応に巡り会えず…",
+      "fish": "アジ",
+      "catch": "38〜87",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -270,6 +314,17 @@
       "depth": null
     },
     {
+      "ship": "弁天屋",
+      "date": "2026-04-29",
+      "platform": "web",
+      "text": "0～7匹（33～64cm）、 50～176匹（17～27cm）、 0～4匹（4.10～6.10kg）、 2～58匹（18～25cm）、 10～43匹（17～30cm）、 3～49匹（16～24cm）、",
+      "fish": "マダイ",
+      "catch": "0〜7",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "小川丸",
       "date": "2026-04-29",
       "platform": "web",
@@ -284,17 +339,6 @@
           139.742
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-04-29",
-      "platform": "web",
-      "text": "15～90匹（23～38cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "15〜90",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -585,17 +629,6 @@
       "platform": "web",
       "text": "2.20～2.50kg 上げ潮の流れ良くアタリは多めでした。交じりにヒラメが３尾。ルアー０～１尾、エサ釣り０～８尾。 １日を通しアタリ良く２０～２５ｃｍ前後の型が主体で釣れて皆様お土産になりました。 今日も現場に到着するとトリヤマが立ちベイト反応も多く気分は爆上がり！ワラサ、イナダの群れに遭遇しトリプルHITなども有り皆様楽しめました！サワラも交じる。 序盤今ひとつも後半に上向き数伸びました。 朝のうちは型が良く後半の移動後は２０ｃｍ前後のアジがダブル、ト",
       "fish": "アジ",
-      "catch": "0〜8",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-04-28",
-      "platform": "web",
-      "text": "0～8匹（35～54cm）、 30～168匹（17～27cm）、 0～1匹（最大4.40kg）、 0～1匹（2.20～2.50kg）、 0～1匹（最大2.60kg）、 10～65匹（16～23cm）、",
-      "fish": "マダイ",
       "catch": "0〜8",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
@@ -894,33 +927,11 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-04-26",
-      "platform": "web",
-      "text": "ショウサイフグ船、今日も大勢のお客様にお集まりいただき出船出来ました。ありがとうございました。 開始早々に何匹か型を見れ順調と思いきや今のショウサイフグはそんなに甘くはないですよねぇ。その後は地味〜な釣れ方で厳しかったです。それでも嬉しいゲスト達も遊んでくれてゲットした方はニコニコでした。 また次回も張り切って出船しますのでご予約お待ちしてます！ 釣果はショウサイフグのみです。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
-      "fish": "トラフグ",
-      "catch": "0〜5",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "船宿いわた",
       "date": "2026-04-26",
       "platform": "web",
       "text": "本日多忙なため釣果のみ更新です 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
       "fish": "アジ",
-      "catch": "21〜74",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-04-26",
-      "platform": "web",
-      "text": "21～74匹（16～25cm）、 船宿いわたでよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "21〜74",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
@@ -989,17 +1000,6 @@
       "fish": "アジ",
       "catch": "18〜65",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-04-25",
-      "platform": "web",
-      "text": "25-45 cm　2-25 本 ★明日の夜アナゴ船は2隻体制です 今夜は手慣れさん少なめで代用竿の1本竿チャレンジのお客様が多めでした。 スタートから地味にポツン・ポツンと勢いは無いながらも船内何処かでは上がってくる状況でした。 ツ抜けクリアのお客様が多く慣れないお客様にも比較的平均には廻りOKですが手慣さんにはもう少し頑張って欲しかったかな！？ 毎度のことですが凝った仕掛けや無理な2本竿は逆効果ですので、ご自身の技術と相談の上道具の選択をお願い致します・・・",
-      "fish": "アナゴ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -1133,17 +1133,6 @@
       "fish": "アジ",
       "catch": "3〜8",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-04-24",
-      "platform": "web",
-      "text": "ショートアジ船、今日は朝イチはハズしましたが。2ヵ所目は開始から好調に釣れてくれて帰りまで移動も無くてお土産バッチリでしたね！少し小ぶりも混じってしまいますが中型メインにダブル～トリプルって楽しめましたね！朝のうちは少し肌寒かったですが途中から風も落ち着いてきましたね！明日も宜しくお願いします！今日も１日ありがとうございました！ ・ショートアジ船、アジ、30-45cm、15-68匹。今日も朝からデカ狙い！ 朝イチは見ても後が無くでしたが、やりかえるうちにだんだんと！ 常に動きはありますが、追っかけて！！ 平均35センチ以上で！ たまにダブルあったり！",
-      "fish": "アジ",
-      "catch": "36〜71",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
