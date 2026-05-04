@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04 08:29 JST",
+  "updated_at": "2026-05-04 20:26 JST",
   "cutoff": "2026-04-27",
   "count": 94,
   "errors": [],
@@ -209,6 +209,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-05-03",
+      "platform": "web",
+      "text": "1～40匹（15～22cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "1〜40",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-05-03",
       "platform": "web",
@@ -358,6 +369,28 @@
       "depth": null
     },
     {
+      "ship": "船宿いわた",
+      "date": "2026-05-03",
+      "platform": "web",
+      "text": "15-30cm7-16尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
+      "fish": "メバル",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "船宿いわた",
+      "date": "2026-05-03",
+      "platform": "web",
+      "text": "本日多忙なため釣果のみの更新です。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
+      "fish": "アジ",
+      "catch": "12〜50",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-05-03",
       "platform": "web",
@@ -479,17 +512,6 @@
       "platform": "web",
       "text": "今日は天候も回復しての出船でした。満員御礼の出船。ビギナ－さんや、ファミリ－で釣行された皆さんで賑わっておりました。オマツリが少し目立ちましたが、良型の交じりが良く、ポツポツと釣れてくれました。午後は潮が速く、オマツリが多く釣り難かったですが、引き続き良型交じりでした。 明日は午後船１名空きがございます。お早目のご予約を。 午後船、１５～２４cm、１～3０尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
       "fish": "シロギス",
-      "catch": "4〜48",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-05-02",
-      "platform": "web",
-      "text": "4～48匹（15～22cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "4〜48",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
@@ -675,17 +697,6 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-05-02",
-      "platform": "web",
-      "text": "0～1匹（25～37cm）、 えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜1",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -1000,17 +1011,6 @@
       "text": "手前のポイントからスタートするも今日は単発 早めに南下しましたが何処も型だけでなかなか流し込める当たり方になってくれず怪しい展開に、、潮も前回より澄んでいて雨水が底にいってしまったのか、濁りがとれたからなのか不明でしたがしばらく探るも何処も似たような感じなので再び北上！最近かけていなかったポイントや超上手まで浅場は5m〜 深場は40mラインまで探りましたがもう少し当たりが欲しい感じでした... カサゴ、アジ、メバル、ススメダイ、イシモチ、ドンコ、シロギスなどが混ざりました。後半は濁りもしっかり入ってきてはいたので また次回色々探ってみます。 潮見表・タイドグラフの詳細を見る",
       "fish": "メバル",
       "catch": "3〜30",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-04-29",
-      "platform": "web",
-      "text": "LTアジ＆シロギスリレー船。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
-      "fish": "アジ",
-      "catch": "6〜43",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
       "depth": null
