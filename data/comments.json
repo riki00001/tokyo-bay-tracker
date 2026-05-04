@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-05-04 20:26 JST",
-  "cutoff": "2026-04-27",
-  "count": 94,
+  "updated_at": "2026-05-05 06:55 JST",
+  "cutoff": "2026-04-28",
+  "count": 93,
   "errors": [],
   "comments": [
+    {
+      "ship": "吉久（浦安）",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "今夜の夜アナゴ船は予約締め切らせて頂きましたのでご了承ください。 ６日（水）は、まだまだ予約余裕ございます、、お越しになれる方はこれからのご予約お待ちしております！”",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "一之瀬丸",
       "date": "2026-05-03",
@@ -778,17 +789,6 @@
       "depth": null
     },
     {
-      "ship": "吉久（浦安）",
-      "date": "2026-05-01",
-      "platform": "web",
-      "text": "今日は予報悪く出船中止しました。 トラフグ船・・まだ予約少なく募集中です！ ショウサイフグ船・・まだ予約余裕ございますのでお越しになれる方はこれからのご予約お待ちしております！ タチウオ船・・まだ予約余裕ございますのでお越しになれる方はこれからのご予約お待ちしております！ ＬＴアジ船・・まだ予約少なく募集中です！ 夜アナゴ船・・まだ予約少なく募集中です！",
-      "fish": "アナゴ",
-      "catch": "",
-      "source_url": "https://www.yoshikyu.com/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "小川丸",
       "date": "2026-04-30",
       "platform": "web",
@@ -1084,17 +1084,6 @@
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-04-27",
-      "platform": "web",
-      "text": "ショートアジ船、スソは船酔い。今日も元気に出船でした！ 朝はたいした事無かったですが、次第にシケの海に…。 それでもデカアジ狙いで！ たまにダブルもあったりと！ ほぼ30センチオーバーで！ クーラーボリューミー！",
-      "fish": "アジ",
-      "catch": "2〜60",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
