@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-05-05 06:55 JST",
+  "updated_at": "2026-05-05 16:18 JST",
   "cutoff": "2026-04-28",
-  "count": 93,
+  "count": 99,
   "errors": [],
   "comments": [
+    {
+      "ship": "小川丸",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "沖でやり本日は2隻で出船出来ました。 ありがとう御座いました。 良型の中アジ～デカアジ主体で ポツポツ皆さん見れて楽しめました。 竿頭48匹、2番手43匹、3番手35匹が２名様の結果で フルレンタルのお客様も11～35匹と",
+      "fish": "アジ",
+      "catch": "11〜48",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "17-28 cm　10-71 匹 ★明日はショートLTアジ船、リレー船、夜アナゴ船に確定！リレー船、夜アナゴ船は予約締切です・・・ 今日は1隻満員御礼で・・・ 要所、要所でポツポツと皆様お土産は確保成功でした！ 脂の乗りもトロトロで最高潮となっております。 是非ご賞味下さい・・・",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "深川吉野屋",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "観音崎沖でジグに反応良く！ 天気　くもり　水温１７.５℃　うす濁り 数　　　　０～５匹（船中２４匹） 竿頭　江東区　金持 浩司さん 今日も木更津から海堡周辺を大流し。朝イチの流しでいきなり 今季最大の６７ｃｍのランカー級が浮上！",
+      "fish": "タチウオ",
+      "catch": "０〜５",
+      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "吉野屋（浦安）",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "観音崎沖水深40～50m",
+      "fish": "シロギス",
+      "catch": "2〜71",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
     {
       "ship": "吉久（浦安）",
       "date": "2026-05-05",
@@ -12,6 +68,17 @@
       "fish": "アナゴ",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-05-05",
+      "platform": "web",
+      "text": "【午前シーバス】乗合船 他イシモチ・アジ・イトヒキハゼ・イワシ・サメ 【午後チニング】乗合船 【午後シーバス】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング）",
+      "fish": "アジ",
+      "catch": "0〜11",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
       "depth": null
     },
@@ -336,6 +403,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-05-03",
+      "platform": "web",
+      "text": "5/1にも出船予定だったのですが お天気に恵まれず中止になり 今日は待ちに待った出船でした。しかし、状況はちょっと辛口。 当たりを出すのが難しく 突然来る当たりに焦ったりして すっぽ抜けやバラシもあり",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-05-03",
       "platform": "web",
@@ -587,18 +665,7 @@
       "ship": "深川吉野屋",
       "date": "2026-05-02",
       "platform": "web",
-      "text": "マゴチは時化後も順調に！ 天気　晴れ　水温１７.８℃　うす濁り 数　　　　０～５匹（船中４９匹） 竿頭　江戸川区　山下 直樹さん　他、 今日も木更津から海堡周辺を狙いました。各ポイントで派手な感じは無いものの、 順調にポツポツとアタリが出せました",
-      "fish": "タチウオ",
-      "catch": "０〜５",
-      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "深川吉野屋",
-      "date": "2026-05-02",
-      "platform": "web",
-      "text": "観音崎沖でジグに反応良く！ 2026/05/03 15:00 2026/05/02 20:50 マゴチは時化後も順調に！ 2026/05/02 15:13 2026/04/30 15:17",
+      "text": "2026/05/05 15:20 観音崎沖でジグに反応良く！ 2026/05/03 15:00 2026/05/02 20:50 マゴチは時化後も順調に！ 2026/05/02 15:13",
       "fish": "カサゴ",
       "catch": "",
       "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
@@ -979,6 +1046,17 @@
       "fish": "アナゴ",
       "catch": "",
       "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "吉野屋（浦安）",
+      "date": "2026-04-29",
+      "platform": "web",
+      "text": "・リレー船(シロギス・アナゴ)…午後1時出船。 ・夜釣りアナゴ船…夕方5時出船。 ・トラフグ船…6時30分出船。 ・アオリイカ船…毎日出船(7時)。 ・タチウオ船、カサゴ船…7時出船です。 ・シロギス船…毎日7時30分出船。",
+      "fish": "シーバス",
+      "catch": "32〜100",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
       "point": null,
       "depth": null
     },
