@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07 06:52 JST",
+  "updated_at": "2026-05-07 16:42 JST",
   "cutoff": "2026-04-30",
-  "count": 103,
+  "count": 102,
   "errors": [],
   "comments": [
     {
@@ -380,11 +380,44 @@
       "depth": null
     },
     {
+      "ship": "船宿いわた",
+      "date": "2026-05-06",
+      "platform": "web",
+      "text": "潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
+      "fish": "マゴチ",
+      "catch": "8〜30",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "船宿いわた",
+      "date": "2026-05-06",
+      "platform": "web",
+      "text": "7～58匹（15～35cm）、 3～20匹（13～24cm）、 船宿いわたでよく釣れるのはどんな魚ですか？",
+      "fish": "メバル",
+      "catch": "7〜58",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "釣り船鶴",
       "date": "2026-05-06",
       "platform": "web",
       "text": "マゴチ船、今日はマゴチ10人で船中21本。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 大田区 海老取川",
       "fish": "マゴチ",
+      "catch": "0〜7",
+      "source_url": "https://www.chowari.jp/ship/01678/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "釣り船鶴",
+      "date": "2026-05-06",
+      "platform": "web",
+      "text": "0～7匹（48～56cm）、 合計6匹が釣れました！ 釣り船鶴でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
       "catch": "0〜7",
       "source_url": "https://www.chowari.jp/ship/01678/catch/",
       "point": null,
@@ -690,17 +723,6 @@
       "depth": null
     },
     {
-      "ship": "船宿いわた",
-      "date": "2026-05-05",
-      "platform": "web",
-      "text": "7～28匹（15～25cm）、 6～25匹（15～23cm）が釣れました！ 船宿いわたでよく釣れるのはどんな魚ですか？",
-      "fish": "メバル",
-      "catch": "7〜28",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-05-05",
       "platform": "web",
@@ -925,20 +947,9 @@
       "ship": "船宿いわた",
       "date": "2026-05-03",
       "platform": "web",
-      "text": "15-30cm7-16尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
+      "text": "15-30cm7-16尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
       "fish": "メバル",
       "catch": "",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-05-03",
-      "platform": "web",
-      "text": "本日多忙なため釣果のみの更新です。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
-      "fish": "アジ",
-      "catch": "12〜50",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
       "depth": null
@@ -1077,33 +1088,11 @@
       "depth": null
     },
     {
-      "ship": "船宿いわた",
-      "date": "2026-05-02",
-      "platform": "web",
-      "text": "15-25cm5-24尾。GW初日！多くのお客様にご乗船頂き張り切って出船手前のポイントからスタートし今日は開始にバタバタと釣れてくれました。転々と練り返し型を見るのがやっとになったタイミングでメバルも求め南下しましたが水が悪いのかポイント選択が間違ってるのか相変わらず厳しい雰囲気…今日はメバルはぽつりぽつりとゲットできました。転々と探りましたがなかなか貯まらず再び上手へと北上しましたが、タイミング悪く南風が強くなってしまい風影を転々と拾い釣りでした。ラストはアジも入れ食い状態に近い形で混じってくれ今夜のおかず分はゲット出来たかと思います…。キジハタも数本まじりました。 ※明日3日、5日は両船",
-      "fish": "メバル",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "釣り船鶴",
       "date": "2026-05-02",
       "platform": "web",
       "text": "マゴチ船、今日も出船出来ました 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 大田区 海老取川",
       "fish": "マゴチ",
-      "catch": "2〜5",
-      "source_url": "https://www.chowari.jp/ship/01678/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "釣り船鶴",
-      "date": "2026-05-02",
-      "platform": "web",
-      "text": "2～5匹（48～56cm）、 合計2匹が釣れました！ 釣り船鶴でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "2〜5",
       "source_url": "https://www.chowari.jp/ship/01678/catch/",
       "point": null,
