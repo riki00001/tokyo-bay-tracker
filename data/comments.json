@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-05-08 06:51 JST",
+  "updated_at": "2026-05-08 15:52 JST",
   "cutoff": "2026-05-01",
-  "count": 97,
+  "count": 102,
   "errors": [],
   "comments": [
+    {
+      "ship": "小川丸",
+      "date": "2026-05-08",
+      "platform": "web",
+      "text": "朝からアジのご機嫌良く！！ 初挑戦のお客様多めでしたが 皆様お土産以上となりました。 二番手レンタルのお客様76匹 三番手もレンタルのお客様が71匹 外道にマダイ、ホウボウ、サバ",
+      "fish": "マダイ",
+      "catch": "38〜104",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "吉野屋（浦安）",
+      "date": "2026-05-08",
+      "platform": "web",
+      "text": "観音崎沖水深60～70m",
+      "fish": "アジ",
+      "catch": "35〜50",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
     {
       "ship": "中山丸",
       "date": "2026-05-07",
@@ -60,6 +88,28 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-05-07",
+      "platform": "web",
+      "text": "今日はタチウオの予定でしたが 釣果が見込めそうもない とのことで、鬼カサゴに変更。 ご協力いただいた皆さま 誠に有難うございましたm(__)m この時期に鬼カサをやるのは",
+      "fish": "カサゴ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-05-07",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "イシモチ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-05-07",
       "platform": "web",
@@ -67,6 +117,45 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-05-07",
+      "platform": "web",
+      "text": "ショウサイフグ船、1ヵ所目からポチポチ釣れてくれ、またシーンとなっても、またポチポチ～そんな繰り返しで、空振りなく。トラフグまで登場！ 前半は不調だった方が後半連発したり平均に、まんまるな良い型ショウサイフグ多く釣れました^_^ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "トラフグ",
+      "catch": "1〜8",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-05-07",
+      "platform": "web",
+      "text": "LTショートアジ船、今日は走水沖で！ 朝から顔見れるも、派手はなく。。 あちこち回りましたが、どこでも顔は見ましたがいいとこはまれず…。 後半激流でしたが、良型主体にポツポツっと見れましてなんとかなりました！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
+      "fish": "アジ",
+      "catch": "5〜55",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-05-07",
+      "platform": "web",
+      "text": "5～55匹（20～43cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "イカ",
+      "catch": "5〜55",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -413,6 +502,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-05-06",
+      "platform": "web",
+      "text": "潮のタイミングが悪かったのか 数が伸びませんでした。 良く混じり中型中心でした。 後半のカサゴは好調!! リリースサイズ少な目。 みなさん楽しめたようで",
+      "fish": "カサゴ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-05-06",
       "platform": "web",
@@ -515,17 +615,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-05-06",
-      "platform": "web",
-      "text": "20～54匹（22～38cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
-      "catch": "20〜54",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -712,17 +801,6 @@
       "depth": null
     },
     {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-05-05",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "イシモチ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "えさ政（羽田）",
       "date": "2026-05-05",
       "platform": "web",
@@ -730,17 +808,6 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-05-05",
-      "platform": "web",
-      "text": "カサゴ＆キスリレー船、 今日はファミリーでの参加多く2隻で行って来ました。 カサゴよりスタート！水色いい濁り！ 派手な食いないもの順調にポツリポツリたまにパタパタと釣れました。 後半シロギス！ダブル掛けありいい食いでしたが赤クラゲの猛攻にあいポイント移動こちらはほとんどクラゲなし、 ポツリポツリたまにダブル掛けあり順調でした。",
-      "fish": "カサゴ",
-      "catch": "4〜31",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -1063,8 +1130,8 @@
       "ship": "吉野屋（浦安）",
       "date": "2026-05-02",
       "platform": "web",
-      "text": "観音崎沖水深50～60m",
-      "fish": "アジ",
+      "text": "観音崎沖水深50～60m ・リレー船(シロギス・アナゴ)…午後1時出船。 ・夜釣りアナゴ船…夕方5時出船。 ・トラフグ船…6時30分出船。 ・アオリイカ船…毎日出船(7時)。 ・タチウオ船、カサゴ船…7時出船です。",
+      "fish": "シーバス",
       "catch": "12〜100",
       "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
       "point": {
