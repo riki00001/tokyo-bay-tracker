@@ -1,9 +1,31 @@
 {
-  "updated_at": "2026-05-11 17:24 JST",
-  "cutoff": "2026-05-04",
-  "count": 100,
+  "updated_at": "2026-05-12 07:01 JST",
+  "cutoff": "2026-05-05",
+  "count": 101,
   "errors": [],
   "comments": [
+    {
+      "ship": "忠彦丸",
+      "date": "2026-05-12",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-05-12",
+      "platform": "web",
+      "text": "５月１１日月曜日　釣果！ 17～28cm　25～72匹 17～28cm　10～77匹 17～28cm　6～29匹 ｼｮｰﾄﾌｨｯｼﾝｸﾞタチウオ船 65～85cm　1～18本",
+      "fish": "タチウオ",
+      "catch": "25〜72",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "一之瀬丸",
       "date": "2026-05-11",
@@ -52,10 +74,43 @@
       "ship": "中山丸",
       "date": "2026-05-11",
       "platform": "web",
+      "text": "25-48 cm　1-43 本 8号船　2番手31本　船中183本 25-48 cm　1-35 本 5号船　2番手25本　船中135本 GWも終わり今夜は久々にゆったり2隻での出船でした。 相変わらずの澄み潮で開始1時間程は居るんだか居ないんだか心配になっちゃう位、生命反応がありません・・・",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-05-11",
+      "platform": "web",
       "text": "18-28 cm　32-98 匹 ★明日は定休日です　水曜日はショートLTアジ、リレー船、夜アナゴ船に確定！ 今日は少人数様で近場からスタート！ 次回、水曜日出船確定です！ 潮色と流れ：濁り ゆるい 波高：0-0.5M→0.5-1.0M",
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-05-11",
+      "platform": "web",
+      "text": "午前シロギス さくら丸 朝一からポツリポツリと釣れ型もよく皆さん平均してお土産になりました。",
+      "fish": "シロギス",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-05-11",
+      "platform": "web",
+      "text": "午前アジ 第18さくら丸",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -247,6 +302,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-05-10",
+      "platform": "web",
+      "text": "4～46匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "4〜46",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-05-10",
       "platform": "web",
@@ -407,6 +473,17 @@
       "depth": null
     },
     {
+      "ship": "船宿いわた",
+      "date": "2026-05-10",
+      "platform": "web",
+      "text": "船宿いわたでよく釣れるのはどんな魚ですか？",
+      "fish": "メバル",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-05-10",
       "platform": "web",
@@ -490,17 +567,6 @@
       "text": "久々に出船しました。スタートから、良型が好調に釣れました。皆さんク－ラ－はいっぱいです。深場で大型狙いです。興味のある方はご来店ください。１０日は出船致します。空いていますので、狙い目ですよ～。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
       "fish": "アジ",
       "catch": "20〜68",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-05-09",
-      "platform": "web",
-      "text": "7～52匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "7〜52",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
       "depth": null
@@ -632,17 +698,6 @@
       "platform": "web",
       "text": "カサゴ、アジ、シロギス、メバルが混ざりました。 別船で出ていたLTアジ仕立船は40cmのジャンボサイズも混じりポツポツゲット出来ました！ 写真は仕立船と乗合船のお客様です。カサゴ他 12-28cm4-27匹。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
       "fish": "カサゴ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-05-09",
-      "platform": "web",
-      "text": "船宿いわたでよく釣れるのはどんな魚ですか？",
-      "fish": "メバル",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
@@ -826,28 +881,6 @@
       "depth": null
     },
     {
-      "ship": "中山丸",
-      "date": "2026-05-07",
-      "platform": "web",
-      "text": "25-50 cm　2-45 本 8号船　2番手41本、3番手40本　船中380本 25-50 cm　5-38 本 6号船　2番手35本　船中265本 ★明日のリレー船、夜アナゴ船は強風予報で出船中止です・・・ご予約頂いていたお客様申し訳ございません 水色少し澄んで出足悪くちょっと心配になってしまいましたが日没後から段々と・・・",
-      "fish": "アナゴ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-05-07",
-      "platform": "web",
-      "text": "ポツポツ釣れてくれて満遍なく皆様に行き渡りました。 食い込みが悪かったのか、当たり多数バラシ多数でした。 今後も期待できそうです。",
-      "fish": "アナゴ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "岩田屋（浦安）",
       "date": "2026-05-07",
       "platform": "web",
@@ -915,17 +948,6 @@
       "text": "ご乗船ありがとうございました！",
       "fish": "不明",
       "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-05-06",
-      "platform": "web",
-      "text": "5月6日水曜日　釣果！ 午前ライトアジ船(3隻高低) 17～28cm　10～37匹 17～28cm　2～54匹 14～24cm　2～30匹 14～24cm　13～30匹",
-      "fish": "メバル",
-      "catch": "10〜37",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
@@ -1032,17 +1054,6 @@
       "fish": "アジ",
       "catch": "20〜54",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-05-05",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
     },
