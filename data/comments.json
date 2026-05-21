@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21 17:31 JST",
-  "cutoff": "2026-05-14",
-  "count": 88,
+  "updated_at": "2026-05-22 07:16 JST",
+  "cutoff": "2026-05-15",
+  "count": 89,
   "errors": [],
   "comments": [
     {
@@ -12,6 +12,28 @@
       "fish": "アジ",
       "catch": "7〜57",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-05-21",
+      "platform": "web",
+      "text": "7～57匹（20～36cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "7〜57",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-05-21",
+      "platform": "web",
+      "text": "25-55 cm　3-27 本 27本2名様、3番手25本、4番手23本、船中272本 ★明日は強風予報の為、全船中止です・・・ 23日（土）のリレー船、夜アナゴ船は予約締切、ショートLTアジ船は空席ございます 肌寒い雨予報にも関わらず今夜も多くのお客様のご来店ありがとうございます。 北東風と上げ潮がぶつかって海はポチャポチャと少し難しい条件でしたが上空暗くスタートからポツポツとマズマズ！",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -32,6 +54,17 @@
       "platform": "web",
       "text": "【午前シーバス】チャーター船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
       "fish": "アジ",
+      "catch": "1〜4",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-05-21",
+      "platform": "web",
+      "text": "1～4匹（50～60cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "カレイ",
       "catch": "1〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -148,17 +181,6 @@
       "platform": "web",
       "text": "今日も2隻でアジ釣り船に！！ 顔見る程度で良い食い無く。 あらら？、あらららら？ 海の神様ありがとうございました。 皆様お土産バッチリでした。 三番手56匹の結果でした。",
       "fish": "アジ",
-      "catch": "12〜80",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-05-20",
-      "platform": "web",
-      "text": "12～80匹（20～42cm）が釣れました！ 小川丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "12〜80",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
@@ -303,17 +325,6 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
-      "date": "2026-05-20",
-      "platform": "web",
-      "text": "1～2匹（50～62cm）、 6～8匹（35～47cm）、 17～37匹（18～27cm）、 1～5匹（45～58cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "カレイ",
-      "catch": "1〜2",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "教至丸",
       "date": "2026-05-20",
       "platform": "web",
@@ -339,6 +350,17 @@
           139.726
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-05-20",
+      "platform": "web",
+      "text": "12～61匹（23～42cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "イカ",
+      "catch": "12〜61",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -654,17 +676,6 @@
           139.742
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-05-18",
-      "platform": "web",
-      "text": "37～99匹（24～38cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
-      "catch": "37〜99",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
