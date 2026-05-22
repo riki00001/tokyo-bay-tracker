@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22 07:16 JST",
+  "updated_at": "2026-05-22 17:21 JST",
   "cutoff": "2026-05-15",
   "count": 89,
   "errors": [],
@@ -67,6 +67,34 @@
       "fish": "カレイ",
       "catch": "1〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-05-21",
+      "platform": "web",
+      "text": "LTショートアジ船、今日は走水沖で！ 朝イチから顔見れまして！ サイズは中型メインに良型にデカも混じって！ たまにダブルトリプルもあって！ 雨に風に速潮でやりにくかったですが、頑張って頂きばっちりお土産ゲットでした！ 潮見表・タイドグラフの詳細を見る",
+      "fish": "アジ",
+      "catch": "20〜92",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-05-21",
+      "platform": "web",
+      "text": "20～92匹（20～40cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "イカ",
+      "catch": "20〜92",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -350,17 +378,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-05-20",
-      "platform": "web",
-      "text": "12～61匹（23～42cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "イカ",
-      "catch": "12〜61",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -1024,23 +1041,6 @@
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-05-15",
-      "platform": "web",
-      "text": "ショートアジ船、今日は朝イチから2ヶ所ぐらい空振りしましたが、見れてからは３０cm前後のアジ主体にダブル混じりで釣れた時間がありお土産は出来ました！性格の悪いアジなのか？潮が淀むと当たりが悪くなってしまい。深い場所とかもやり小ぶり優勢だったり？最後の場所はサイズが良くなったり？でなんだかんだお土産にはなりました！走水らしい激流なので皆さん気合い入れて下さい！(笑)今日も１日ありがとうございました！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "アジ",
-      "catch": "18〜51",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": {
-        "name": "走水",
-        "latlng": [
-          35.317,
-          139.726
-        ]
-      },
       "depth": null
     }
   ]
