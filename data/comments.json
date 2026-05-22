@@ -1,9 +1,42 @@
 {
-  "updated_at": "2026-05-22 17:21 JST",
-  "cutoff": "2026-05-15",
-  "count": 89,
+  "updated_at": "2026-05-23 07:02 JST",
+  "cutoff": "2026-05-16",
+  "count": 85,
   "errors": [],
   "comments": [
+    {
+      "ship": "忠彦丸",
+      "date": "2026-05-22",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-05-22",
+      "platform": "web",
+      "text": "５月２２日金曜日　釣果！ 17～28CM　3～61匹 午後ライトアジ船(仕立船) 17～28CM　15～43匹",
+      "fish": "アジ",
+      "catch": "3〜61",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-05-22",
+      "platform": "web",
+      "text": "3～61匹（17～28cm）が釣れました！ 忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "3〜61",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "小川丸",
       "date": "2026-05-21",
@@ -414,28 +447,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-05-19",
-      "platform": "web",
-      "text": "潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "シロギス",
-      "catch": "0〜14",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-05-19",
-      "platform": "web",
-      "text": "午後ライトアジ乗合船。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "アジ",
-      "catch": "10〜42",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-05-19",
       "platform": "web",
@@ -707,17 +718,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-05-17",
-      "platform": "web",
-      "text": "５月１７日日曜日　釣果！ 午前ライトアジ船(2隻高低) 17～28cm　3～40匹 17～28cm　13～49匹 14～24cm　2～29匹 ｼｮｰﾄﾌｨｯｼﾝｸﾞタチウオ船",
-      "fish": "アジ",
-      "catch": "3〜40",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-05-17",
       "platform": "web",
@@ -900,17 +900,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-05-16",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-05-16",
       "platform": "web",
@@ -1002,45 +991,6 @@
           139.716
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-05-15",
-      "platform": "web",
-      "text": "本日は2隻で出船出来ました。 ありがとう御座いました。 観音崎沖でやり、良型の中アジ主体！ 皆さんポツポツと最後まで見れて楽しめました。 竿頭73匹、2番手65匹、3番手55匹の結果で フルレンタルのお客様も29～50匹と",
-      "fish": "アジ",
-      "catch": "29〜73",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": {
-        "name": "観音崎沖",
-        "latlng": [
-          35.275,
-          139.742
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-05-15",
-      "platform": "web",
-      "text": "・夜釣りアナゴ船…夕方5時出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・シロギス船…毎日7時30分出船。 ・フグ船…毎日出船(7時)。 ・LTアジ船、タチウオ船、カサゴ船…7時出船です。 ・アジ船、トラフグ船…6時30分出船。",
-      "fish": "シーバス",
-      "catch": "10〜50",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-05-15",
-      "platform": "web",
-      "text": "22-35 cm　0-5 匹 ショウサイフグ、出船しました。 朝からポッポッ‥当たりましたが‥ 上潮が入ってきたら当たりが渋くなり苦戦しました。 上潮が速く、オモリ15号の準備もお願いします。",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
       "depth": null
     }
   ]
