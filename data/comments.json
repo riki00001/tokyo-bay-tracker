@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03 18:25 JST",
-  "cutoff": "2026-05-27",
+  "updated_at": "2026-06-04 08:01 JST",
+  "cutoff": "2026-05-28",
   "count": 95,
   "errors": [],
   "comments": [
@@ -41,7 +41,7 @@
       "ship": "吉久（浦安）",
       "date": "2026-06-03",
       "platform": "web",
-      "text": "今日は多風通過でお休みです。。 明日も影響残り、全船出船中止します。 また金曜日から再開しますので宜しくお願い致します。",
+      "text": "今日は台風通過でお休みです。。 明日も影響残り、全船出船中止します。 また金曜日から再開しますので宜しくお願い致します。",
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
@@ -78,6 +78,28 @@
       "fish": "マゴチ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-06-02",
+      "platform": "web",
+      "text": "マダコ船。マダコが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-06-02",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -234,7 +256,7 @@
       "ship": "忠彦丸",
       "date": "2026-06-01",
       "platform": "web",
-      "text": "0.30～3.00kg 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "text": "0.30～3.00kg 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
       "fish": "マダコ",
       "catch": "0〜11",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
@@ -525,17 +547,6 @@
       "fish": "アジ",
       "catch": "4〜20",
       "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-05-31",
-      "platform": "web",
-      "text": "潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください 忠彦丸の最新釣果情報を教えて下さい。",
-      "fish": "シロギス",
-      "catch": "5〜23",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -1095,17 +1106,6 @@
       "fish": "アジ",
       "catch": "1〜1",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-05-27",
-      "platform": "web",
-      "text": "本日は2隻で出船出来ました。 ありがとう御座いました。 中盤から喰い良くダブル～トリプルと 皆さん最後まで見れて楽しめました。 竿頭76匹、2番手66匹、3番手65匹が２名様の結果で フルレンタルのお客様も20～44匹と",
-      "fish": "アジ",
-      "catch": "20〜76",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
       "depth": null
     }
