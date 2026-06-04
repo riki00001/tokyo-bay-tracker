@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04 17:48 JST",
-  "cutoff": "2026-05-28",
-  "count": 96,
+  "updated_at": "2026-06-05 07:17 JST",
+  "cutoff": "2026-05-29",
+  "count": 94,
   "errors": [],
   "comments": [
     {
@@ -1082,34 +1082,6 @@
       "text": "【午前シーバス】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
       "fish": "アジ",
       "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-05-28",
-      "platform": "web",
-      "text": "木更津沖水深5～15m ・1日よりマダコ船を開始します。 ・夜釣りアナゴ船…夕方5時出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・シロギス船…毎日7時30分出船。 ・フグ船…毎日出船(7時)。",
-      "fish": "シーバス",
-      "catch": "30〜50",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": {
-        "name": "木更津沖",
-        "latlng": [
-          35.378,
-          139.908
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-05-28",
-      "platform": "web",
-      "text": "【午前チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
-      "fish": "アジ",
-      "catch": "1〜1",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
       "depth": null
