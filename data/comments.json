@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15 19:54 JST",
-  "cutoff": "2026-06-08",
-  "count": 97,
+  "updated_at": "2026-06-16 07:58 JST",
+  "cutoff": "2026-06-09",
+  "count": 98,
   "errors": [],
   "comments": [
     {
@@ -56,6 +56,17 @@
       "fish": "カワハギ",
       "catch": "8〜51",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-06-15",
+      "platform": "web",
+      "text": "28-50 cm　1-30 本 2番手26本2名様、船中187本 予報通り北東風が少し強めで海も悪く条件はあまり良くありませんでした。 水色もピンピンに澄んで日没手前からのスロースタート・・・ 専用竿使用の経験者様達はポツポツと順調なペースで伸びていきましたが中盤までは海も悪く下げ潮も速めで人によってちょっと差が出てしまいました。 20本台は5名様で胴の間で20本クリアの強者もいましたので決して潮先だけの釣りではありませんでした。",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -165,6 +176,17 @@
       "platform": "web",
       "text": "【午前シーバス】乗合船 他カサゴ・イシモチ・シロギス 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
+      "catch": "1〜4",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-06-15",
+      "platform": "web",
+      "text": "1～4匹（40～60cm）、 27～38匹（18～24cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マゴチ",
       "catch": "1〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -508,17 +530,6 @@
       "platform": "web",
       "text": "0.30～0.60kg 【午前チニング】乗合船 本日も大勢のお客様にお集まり頂き出船出来ました 今日は中々厳しかったですがポツポツ拾えました！ 0のお客様2名様すみませんでした またリベンジお待ちしてます",
       "fish": "アジ",
-      "catch": "4〜20",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-06-14",
-      "platform": "web",
-      "text": "4～20匹（30～47cm）、 0～1匹（40～52cm）、 4～13匹（18～28cm）、 0～10匹（0.30～0.60kg）、 7～24匹（30～48cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マゴチ",
       "catch": "4〜20",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
