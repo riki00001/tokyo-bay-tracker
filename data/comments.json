@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17 18:50 JST",
-  "cutoff": "2026-06-10",
+  "updated_at": "2026-06-18 07:42 JST",
+  "cutoff": "2026-06-11",
   "count": 100,
   "errors": [],
   "comments": [
@@ -130,10 +130,38 @@
       "ship": "中山丸",
       "date": "2026-06-17",
       "platform": "web",
+      "text": "28-55 cm　7-27 本 28-55 cm　3-20 本 8号船　20本2名様、3番手19本2名様、船中179本 ★明日は夜アナゴ船に確定です！ 今日はゆったり2隻です。 木更津沖にて水色澄み気味でスロースタートとも日没後からはポツン・ポツンと！",
+      "fish": "アナゴ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": {
+        "name": "木更津沖",
+        "latlng": [
+          35.378,
+          139.908
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-06-17",
+      "platform": "web",
       "text": "18-35 cm　12-92 匹 変な濁り潮も取れて今日はアジのご機嫌良好〜！ ダブル・トリプルも多発で40尾台、50尾台のお客様も多く復調です！ この調子で続いてもらいたいものですね・・・ 潮色と流れ：澄み 速い 風向きと強さ：南 弱い",
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-06-17",
+      "platform": "web",
+      "text": "夜アナゴ　第八さくら丸 2〜23匹 2番手20匹 今夜は開始早々から顔出しましてポチポチ 誘いが合う方と合わない方であたり数に差が出て今夜は難易度やや高めな感じでした 次回は金曜日出船確定　現在5名様 土曜日出船確定　空席12",
+      "fish": "アナゴ",
+      "catch": "2〜23",
+      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -232,6 +260,17 @@
       "platform": "web",
       "text": "【午前マゴチ・シーバス】チャーター船 他イシモチ・シロギス・イワシ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
+      "catch": "16〜27",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-06-17",
+      "platform": "web",
+      "text": "合計2匹（40～54cm）、 合計10匹（40～63cm）、 16～27匹（16～25cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マゴチ",
       "catch": "16〜27",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -476,17 +515,6 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
-      "date": "2026-06-16",
-      "platform": "web",
-      "text": "7～25匹（15～25cm）、 1～10匹（0.30～0.50kg）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マゴチ",
-      "catch": "7〜25",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-06-15",
       "platform": "web",
@@ -537,17 +565,6 @@
       "text": "午前アジ第21さくら丸",
       "fish": "アジ",
       "catch": "1〜7",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-06-15",
-      "platform": "web",
-      "text": "午前シロギス さくら丸 潮も速く釣りづらかったですが 良型多くお土産になりました",
-      "fish": "シロギス",
-      "catch": "24〜45",
       "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
@@ -1107,17 +1124,6 @@
       "platform": "web",
       "text": "28-50 cm　1-38 本 8号船　2番手31本、3番手28本　船中160本 28-50 cm　1-30 本 午後からゲリラ雷雨に見舞われキャンセルのお客様もいて、軽く2隻での出船となりました。 幸い雷雨も過ぎ去りベタ凪の良い陽気！ 昨日までのポイントからスタートも一向に型を出さず釣れるのシロギスのみ！",
       "fish": "アナゴ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-06-12",
-      "platform": "web",
-      "text": "18-28 cm　8-37 匹 ★明日はショートLTアジ、リレー船、夜アナゴに確定！全船予約締め切りです・・・ ここ何日かは少し上向き調子で少し素直に口を使ってくれましたが今日はまたまたチョイムズ・・・ 後半戦は潮速めもキッチリタナ取りができればチャンスでしたが個人差が出てしまいました。 サイズは丸々中アジが主体で良かったです。 潮色と流れ：薄濁 ゆるい",
-      "fish": "アジ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
