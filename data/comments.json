@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25 17:22 JST",
-  "cutoff": "2026-06-18",
+  "updated_at": "2026-06-26 07:17 JST",
+  "cutoff": "2026-06-19",
   "count": 103,
   "errors": [],
   "comments": [
@@ -23,6 +23,17 @@
       "fish": "サバ",
       "catch": "47〜120",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-06-25",
+      "platform": "web",
+      "text": "27日（土）の台風通過まで全船お休みとなります・・・ サイトによって風予報もバラバラですが一応、台風は台風なので次回、日曜日からの再開となります！ まだ土曜日からのスライドも可能な状況です",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -80,7 +91,7 @@
       "ship": "えさ政（羽田）",
       "date": "2026-06-25",
       "platform": "web",
-      "text": "18-36 cm　1-8 匹 コメントは後ほど、、、",
+      "text": "18-36 cm　1-8 匹 フグ釣り行って来ました^_^ 上潮の動き始めから仕掛けを入れました。 当たりも移動する度にあり、誰かしらがヒットしてました。 午後は良いポイントにハマれました！",
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
@@ -95,6 +106,28 @@
       "fish": "アジ",
       "catch": "0〜18",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-06-25",
+      "platform": "web",
+      "text": "0～18匹（0.30～0.80kg）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マゴチ",
+      "catch": "0〜18",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-06-25",
+      "platform": "web",
+      "text": "ショートタチウオ船、今日は雨風予報の中たくさんの勇者がお集まりいただき2隻で出撃しました！ 本船は8名様6名様グループで！ 貸し竿や釣り初めての方多数でしたが、朝イチからアタリ活発に！！ 開始早々にボウズなし！ 型もメーター級多く！ばっちりで！ やりかえ繰り返してポツポツと拾えました！",
+      "fish": "タチウオ",
+      "catch": "7〜21",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -432,13 +465,13 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
+      "ship": "岩田屋（浦安）",
       "date": "2026-06-24",
       "platform": "web",
-      "text": "0.30～0.80kg 本日は人数少なくボートで出船でした 細かい所も狙って行きポツポツ拾ってくれて皆様複数GET！ 本日も小ダコのリリースにご協力ありがとう御座いました🙇 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング）",
-      "fish": "アジ",
-      "catch": "4〜8",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
       "depth": null
     },
@@ -446,8 +479,8 @@
       "ship": "林遊船",
       "date": "2026-06-24",
       "platform": "web",
-      "text": "4～8匹（0.30～0.80kg）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マゴチ",
+      "text": "0.30～0.80kg 本日は人数少なくボートで出船でした 細かい所も狙って行きポツポツ拾ってくれて皆様複数GET！ 本日も小ダコのリリースにご協力ありがとう御座いました🙇 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング）",
+      "fish": "アジ",
       "catch": "4〜8",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -485,6 +518,17 @@
           139.726
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-06-24",
+      "platform": "web",
+      "text": "1～31匹（60～125cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "1〜31",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -969,23 +1013,6 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-06-21",
-      "platform": "web",
-      "text": "タチ＆アジリレー船、【タチウオ】浅場〜走水沖。先ずはタチウオからと浅場ポイントで型は出るが難しい感じだったので走水方面に向かい僚船と合流させていただきポツポツと連発する方もいればエサやり係の方もいらっしゃいました。 時間となりアジに切り替え皆様朝のレクチャーを聞いてくれて細ハリスで終始順調に釣れました。 また次回も頑張りますのでご予約お待ちしてます。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
-      "fish": "アジ",
-      "catch": "0〜8",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
-        ]
-      },
-      "depth": null
-    },
-    {
       "ship": "船宿いわた",
       "date": "2026-06-21",
       "platform": "web",
@@ -1064,17 +1091,6 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-06-21",
-      "platform": "web",
-      "text": "3～23匹（60～110cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "3〜23",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-06-20",
       "platform": "web",
@@ -1094,23 +1110,6 @@
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-06-20",
-      "platform": "web",
-      "text": "18-28 cm　30-86 匹 ベタ凪、曇天で絶好のアジ釣り日和！ 朝方何箇所か探索の後、富岡沖にてダブル・トリプル多く活発！ 持続力もあり、お客様の頑張り次第では「お好きなだけどうぞ！」といった内容でした。 貸し竿グループさんの乗船もありましたが皆30尾クリアと久々にスッキリする活性となりました！ 潮色と流れ：薄濁 ゆるい",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": {
-        "name": "富岡沖",
-        "latlng": [
-          35.334,
-          139.653
-        ]
-      },
       "depth": null
     },
     {
@@ -1204,17 +1203,6 @@
       "fish": "マダコ",
       "catch": "0〜8",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-06-20",
-      "platform": "web",
-      "text": "ショートアジ船・アジ、23-40cm、15-59匹。前半は中型メインに！最後の場所は多きめ多数！お土産バッチリでした！また明日宜しいお願いします！お休みなさい(笑) 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "アジ",
-      "catch": "15〜50",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
