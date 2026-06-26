@@ -1,9 +1,59 @@
 {
-  "updated_at": "2026-06-26 07:17 JST",
+  "updated_at": "2026-06-26 17:29 JST",
   "cutoff": "2026-06-19",
   "count": 103,
   "errors": [],
   "comments": [
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-06-26",
+      "platform": "web",
+      "text": "65-95 cm　2-20 本 17-27 cm　8-40 匹 タチウオ海堡周りで活発！！ アジは八景沖で好調！！ 明日はお休みで明後日出船致します。",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": {
+        "name": "八景沖",
+        "latlng": [
+          35.328,
+          139.638
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-06-26",
+      "platform": "web",
+      "text": "22-37 cm　10-23 匹 朝から順調にアタリ出ましたが風吹き込み早く11時早上がり。",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-06-26",
+      "platform": "web",
+      "text": "38-61 cm　3-10 本",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-06-26",
+      "platform": "web",
+      "text": "17-28 cm　21-85 匹 クロダイ、イシモチも！！ 明日はお休みで日曜日出船します。",
+      "fish": "イシモチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
     {
       "ship": "小川丸",
       "date": "2026-06-25",
@@ -99,6 +149,17 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-06-25",
+      "platform": "web",
+      "text": "1～8匹（18～36cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "1〜8",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-06-25",
       "platform": "web",
@@ -126,6 +187,17 @@
       "platform": "web",
       "text": "ショートタチウオ船、今日は雨風予報の中たくさんの勇者がお集まりいただき2隻で出撃しました！ 本船は8名様6名様グループで！ 貸し竿や釣り初めての方多数でしたが、朝イチからアタリ活発に！！ 開始早々にボウズなし！ 型もメーター級多く！ばっちりで！ やりかえ繰り返してポツポツと拾えました！",
       "fish": "タチウオ",
+      "catch": "7〜21",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-06-25",
+      "platform": "web",
+      "text": "7～21匹（60～112cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
       "catch": "7〜21",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
@@ -521,66 +593,11 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-06-24",
-      "platform": "web",
-      "text": "1～31匹（60～125cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "1〜31",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "一之瀬丸",
       "date": "2026-06-23",
       "platform": "web",
       "text": "65-95 cm　0-18 本 18-27 cm　8-50 匹",
       "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-06-23",
-      "platform": "web",
-      "text": "65-110 cm　0-14 本",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-06-23",
-      "platform": "web",
-      "text": "0.3-1.7 kg　1-9 杯",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-06-23",
-      "platform": "web",
-      "text": "20-39 cm　16-43 匹",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-06-23",
-      "platform": "web",
-      "text": "25-35 cm　7-34 杯",
-      "fish": "イカ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
       "point": null,
@@ -704,17 +721,6 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-06-23",
-      "platform": "web",
-      "text": "0～14匹（18～36cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜14",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
