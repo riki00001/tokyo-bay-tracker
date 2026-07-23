@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23 16:32 JST",
-  "cutoff": "2026-07-16",
-  "count": 113,
+  "updated_at": "2026-07-24 07:00 JST",
+  "cutoff": "2026-07-17",
+  "count": 112,
   "errors": [],
   "comments": [
     {
@@ -47,7 +47,7 @@
       "ship": "中山丸",
       "date": "2026-07-23",
       "platform": "web",
-      "text": "22-34 cm　2-12 匹 ★明日はタチウオ船に確定！25日（土）はタチウオ船のみの受付です！ ★ショウサイフグ26日（日）受付中！ 潮色と流れ：澄み ゆるい 風向きと強さ：東 弱い",
+      "text": "22-34 cm　2-12 匹 ★明日はタチウオ船に確定！25日（土）はタチウオ船のみの受付です！ ★ショウサイフグ26日（日）受付中！ 本日ショウサイフグ船出番有りました。 浅からポツーン、ポツポツだったりと終日サバフグ混じりでショウサイフグの型見れました。 ショウサイフグはツ抜け2名様3番手9匹とまずまず、サバフグ大漁でお土産的にはボリューム有りましたね！",
       "fish": "タチウオ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
@@ -135,6 +135,39 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-07-23",
+      "platform": "web",
+      "text": "1㌔前後〜1.5㌔の玉網サイズ多いので地味なノリでしたが 空振り流しは少なく何度かパタパタと！ デカイやつはフーワンフーワン 泳いで抵抗します 早巻きすると身切れの悔しバラシ何度かありました 2番手9 9 8 8 8〜と上位接戦 船中80杯 このサイズなら最高だよとお言葉頂きました^_^ 明日も出船しますのでご予約お待ちしてます。 飛び入りも大丈夫です。 ※ショウサイフグも出船します！ こちらも飛び入り大丈夫です。",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-07-23",
+      "platform": "web",
+      "text": "【午前チニング】乗合船 【午後チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
+      "fish": "アジ",
+      "catch": "0〜5",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-07-23",
+      "platform": "web",
+      "text": "0～5匹（25～48cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "0〜5",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
       "depth": null
     },
@@ -697,17 +730,6 @@
       "platform": "web",
       "text": "0.30～0.50kg 【午前チニング】乗合船 【マダコ・シロギス】乗合船 マダコ人数少なく全員マダコGET！ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング）",
       "fish": "アジ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-07-21",
-      "platform": "web",
-      "text": "0～2匹（43～55cm）、 合計13匹（25～47cm）、 1～2匹（0.30～0.50kg）、 3～32匹（12～24cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -1290,39 +1312,6 @@
           139.855
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-07-17",
-      "platform": "web",
-      "text": "【午前チニング】乗合船 【午後チニング】チャーター船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
-      "fish": "アジ",
-      "catch": "2〜6",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-07-16",
-      "platform": "web",
-      "text": "朝からムシムシでした。 根掛かりの少ないポイント中心。 ビギナーさんが多く参加されました！ 型は0.5～0.6kgの間が多く 最大サイズ1.15kgでした。 さすが1kgクラスになると",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-07-16",
-      "platform": "web",
-      "text": "今日も大勢のお客様にお越しいただきありがとうございました。 釣れれば500〜1キロサイズ多く 抜き上げきれず ボッチょんバラシ目立ちました。。。 釣れるポイント狭く 全体的に釣れるようくるりんぱ？作戦！！時も 上潮ねらいで大きく移動！こちらは小ぶり主体ながら ポチポチと釣れました 11 8 8 8 7 6 、、、　オデコなし平均に釣れました(船中109杯) 暑い中頑張っていただきありがとうございました。",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
       "depth": null
     }
   ]
