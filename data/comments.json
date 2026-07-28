@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28 16:38 JST",
-  "cutoff": "2026-07-21",
-  "count": 107,
+  "updated_at": "2026-07-29 06:57 JST",
+  "cutoff": "2026-07-22",
+  "count": 105,
   "errors": [],
   "comments": [
     {
@@ -52,6 +52,28 @@
           139.726
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-28",
+      "platform": "web",
+      "text": "ショート天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-28",
+      "platform": "web",
+      "text": "ウィリー船。マトウダイ、イサキ、マダイなどが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "マダイ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -110,11 +132,33 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-07-28",
+      "platform": "web",
+      "text": "今日も大勢のお客様にお越しいただきありがとうございました^_^ キロ前後の良い型 ポツリーポツリーのスタートでしたが続かず。。。 ウロウロ〜たまにポツポツ 後半は大きく移動しこちらも拾い釣り 全体的には釣れないものコツ掴んだ名人さんは11時半まで顔見ずでしたが コンスタントに釣ってくださり竿頭でした^_^ 皆様頑張っていただきありがとうございました。 木曜日出船しますのでご予約お待ちしてます。 フグの予約もお待ちしてます^_^",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-07-28",
       "platform": "web",
       "text": "0.30～0.80kg 【午前シーバス】乗合船 【マダコ・シロギス】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング）",
       "fish": "アジ",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-07-28",
+      "platform": "web",
+      "text": "合計5匹（30～45cm）、 0～3匹（0.30～0.80kg）、 5～23匹（12～23cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
       "catch": "0〜3",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -215,17 +259,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-07-27",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-07-27",
       "platform": "web",
@@ -240,6 +273,17 @@
           139.726
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-07-27",
+      "platform": "web",
+      "text": "1～11匹（70～105cm）、 0～3匹（20～25cm）、 2～41匹（65～115cm）、 0～6匹（40～54cm）、 10～23匹（65～108cm）、 0～45匹（18～30cm）、",
+      "fish": "マダイ",
+      "catch": "1〜11",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -276,6 +320,17 @@
       "platform": "web",
       "text": "今日は北よりの風で、久々に涼しい釣行でしたね。 シロギスは、中小サイズ交じりでポツポツと釣れ、皆さん平均的に釣れました。 平均５０尾前後。明日も出船確定しております。当日釣行もOKです。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
       "fish": "シロギス",
+      "catch": "35〜102",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-07-27",
+      "platform": "web",
+      "text": "35～102匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
       "catch": "35〜102",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
@@ -399,13 +454,13 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
+      "ship": "えさ政（羽田）",
       "date": "2026-07-27",
       "platform": "web",
-      "text": "【マダコ・シロギス】乗合船 前半マダコ開始しましたが乗り無くシロギスに切り替えて、ポツポツ釣れました！ 他メゴチ・ギマ・ホウボウ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング）",
-      "fish": "アジ",
-      "catch": "14〜55",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "text": "0～6匹（0.30～1.60kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜6",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -413,8 +468,8 @@
       "ship": "林遊船",
       "date": "2026-07-27",
       "platform": "web",
-      "text": "合計1匹（45cm）、 14～55匹（12～23cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
+      "text": "【マダコ・シロギス】乗合船 前半マダコ開始しましたが乗り無くシロギスに切り替えて、ポツポツ釣れました！ 他メゴチ・ギマ・ホウボウ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング）",
+      "fish": "アジ",
       "catch": "14〜55",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -452,6 +507,17 @@
           139.726
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-07-27",
+      "platform": "web",
+      "text": "16～87匹（22～38cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "16〜87",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -525,19 +591,8 @@
       "ship": "忠彦丸",
       "date": "2026-07-26",
       "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
       "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "ショート天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "タチウオ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -558,17 +613,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "2～18匹（70～110cm）、 1～43匹（20～26cm）、 2～41匹（65～115cm）、 8～37匹（65～110cm）、 1～28匹（18～40cm）、 30～67匹（18～28cm）、",
-      "fish": "マダイ",
-      "catch": "2〜18",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -744,6 +788,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-07-26",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-07-26",
       "platform": "web",
@@ -772,17 +827,6 @@
       "text": "ショウサイフグ船、今日も出船出来ました。ありがとうございました。 今日もフグちゃん達に遊んでもらいました。サバフグほどほどの中ショウサイフグ、トラフグも顔を出して盛り上がりそうで盛り上がらず。 そんな中本日トップの冷川様はコンスタントに上げていただきました。 雷雲接近の為13時納竿とさせていただきました。 また明日も張り切って出船しますのでこれからのご予約お待ちしてます。 釣果はショウサイフグのみです。",
       "fish": "トラフグ",
       "catch": "0〜10",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "0～5匹（0.30～2.00kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜5",
       "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
@@ -846,17 +890,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "0～31匹（70～130cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "0〜31",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -1144,17 +1177,6 @@
       "depth": null
     },
     {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-07-24",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "えさ政（羽田）",
       "date": "2026-07-24",
       "platform": "web",
@@ -1291,50 +1313,6 @@
           139.908
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-07-21",
-      "platform": "web",
-      "text": "タチウオは半日を通し活発な食いで連発する時もありました。後半のアジは各ポイント型を見るのみで今一つでした。 横須賀沖を狙い魚影濃く本日も好調でした。テンヤ０～４尾、テンビン４～２５尾。 潮が流れず今一つの食いでした。 今日は薄めの反応が出てまずまずの釣果となりました。型は中・小型中心に良型交じり。暑い日が続きます・・・熱中症対策を万全にし飲み物は十分にお持ちください！。 潮は効きませんでしたが良型中心に釣れました。 潮見表・タイドグラフの詳細を見る",
-      "fish": "シロギス",
-      "catch": "3〜27",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-07-21",
-      "platform": "web",
-      "text": "18-36 cm　2- 今日も出船できました^_^ サバフグの目に入らなければショウサイフグが釣れる率は多い気がしました。 小まめに誘ってる人は数が伸びました。 久しぶりに2.８キロのトラフグも釣れましたよ^_^ 木曜日のご予約お待ちしてます^_^",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "釣り船鶴",
-      "date": "2026-07-21",
-      "platform": "web",
-      "text": "マゴチ船、船中36本。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 大田区 海老取川",
-      "fish": "マゴチ",
-      "catch": "2〜12",
-      "source_url": "https://www.chowari.jp/ship/01678/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "釣り船鶴",
-      "date": "2026-07-21",
-      "platform": "web",
-      "text": "2～12匹（32～55cm）、 釣り船鶴でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
-      "catch": "2〜12",
-      "source_url": "https://www.chowari.jp/ship/01678/catch/",
-      "point": null,
       "depth": null
     }
   ]
