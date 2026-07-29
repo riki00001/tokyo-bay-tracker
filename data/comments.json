@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29 16:42 JST",
-  "cutoff": "2026-07-22",
-  "count": 103,
+  "updated_at": "2026-07-30 06:54 JST",
+  "cutoff": "2026-07-23",
+  "count": 99,
   "errors": [],
   "comments": [
     {
@@ -45,6 +45,56 @@
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-29",
+      "platform": "web",
+      "text": "【平日の午後仕立限定！】 ご家族やお友達、会社の仲間と貸切で釣りを楽しみませんか？ 平日の午後仕立船限定！ お一人様 6,000円 すべて含まれています！ 初心者の方からベテランの方まで大歓迎！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-29",
+      "platform": "web",
+      "text": "７月２９日水曜日　釣果！ 7/29(水)釣果報告　謎肉の日♪ 17～28CM　3～36匹 今日は富岡沖からスタート 2～3投で反応盛り上がりダブルありつつでポツポツと しばらくアタリ続き拾い釣りで出来ましたが潮が止まり出すと喰いも止まり…",
+      "fish": "アジ",
+      "catch": "3〜36",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": {
+        "name": "富岡沖",
+        "latlng": [
+          35.334,
+          139.653
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-29",
+      "platform": "web",
+      "text": "捌きサービスをご利用いただいているお客様へ **8月10日（月）～8月14日（金）**までの期間は、 サバキサービスをお休みさせていただきます。 ご利用を予定されていたお客様にはご不便をおかけいたしますが、 何卒ご理解・ご了承くださいますようお願いいたします。 皆さまのご来店・ご乗船を心よりお待ちしております‍♂️",
+      "fish": "サバ",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-07-29",
+      "platform": "web",
+      "text": "午前タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -141,19 +191,8 @@
       "ship": "忠彦丸",
       "date": "2026-07-28",
       "platform": "web",
-      "text": "【平日の午後仕立限定！】 ご家族やお友達、会社の仲間と貸切で釣りを楽しみませんか？ 平日の午後仕立船限定！ お一人様 6,000円 すべて含まれています！ 初心者の方からベテランの方まで大歓迎！",
+      "text": "ご乗船ありがとうございました！",
       "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-28",
-      "platform": "web",
-      "text": "捌きサービスをご利用いただいているお客様へ **8月10日（月）～8月14日（金）**までの期間は、 サバキサービスをお休みさせていただきます。 ご利用を予定されていたお客様にはご不便をおかけいたしますが、 何卒ご理解・ご了承くださいますようお願いいたします。 皆さまのご来店・ご乗船を心よりお待ちしております‍♂️",
-      "fish": "サバ",
       "catch": "",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
@@ -174,28 +213,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-28",
-      "platform": "web",
-      "text": "ショート天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-28",
-      "platform": "web",
-      "text": "ウィリー船。マトウダイ、イサキ、マダイなどが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -309,6 +326,17 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-07-28",
+      "platform": "web",
+      "text": "0～8匹（0.30～1.60kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜8",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-07-28",
       "platform": "web",
@@ -411,17 +439,6 @@
           139.653
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-27",
-      "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -598,17 +615,6 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-07-27",
-      "platform": "web",
-      "text": "0～6匹（0.30～1.60kg）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜6",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-07-27",
       "platform": "web",
@@ -661,28 +667,6 @@
       "fish": "サバ",
       "catch": "16〜87",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-07-26",
-      "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -1251,34 +1235,6 @@
       "catch": "0〜5",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-07-22",
-      "platform": "web",
-      "text": "60-105 cm　7-24 本 ★明日はタチウオ船、ショートLTアジ船、ショウサイフグ船に確定！ 今日も猿島〜台船周り1本勝負です。 相変わらずの広大な魚影でしたが朝から少しご機嫌ナナメ！？ タナの上下や微妙〜な動きもあり、いつもの様にバシバシ掛かって来る様な活性とはいきませんでした。 そんな状況で一日を通してダラダラとした釣れ具合で打率の個人差も結構出てしまいました。",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-07-22",
-      "platform": "web",
-      "text": "走水沖水深40～50m 木更津沖水深5～10m ・26日(日)はスルメイカが6時30分出船です。ご予約をお願いいたします。 ・夜釣りアナゴ船…夕方5時出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・シロギス船…毎日7時30分出船。",
-      "fish": "シーバス",
-      "catch": "11〜50",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": {
-        "name": "木更津沖",
-        "latlng": [
-          35.378,
-          139.908
-        ]
-      },
       "depth": null
     }
   ]
