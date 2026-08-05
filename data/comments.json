@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05 16:38 JST",
-  "cutoff": "2026-07-29",
-  "count": 106,
+  "updated_at": "2026-08-06 07:07 JST",
+  "cutoff": "2026-07-30",
+  "count": 108,
   "errors": [],
   "comments": [
     {
@@ -34,6 +34,39 @@
       "fish": "サバ",
       "catch": "",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-08-06",
+      "platform": "web",
+      "text": "午前アジ 第21さくら丸",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-08-06",
+      "platform": "web",
+      "text": "午前シロギス さくら丸 シロギス 第三さくら丸",
+      "fish": "シロギス",
+      "catch": "15〜67",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-08-06",
+      "platform": "web",
+      "text": "タチウオ 第十八さくら丸",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -88,6 +121,50 @@
       "depth": null
     },
     {
+      "ship": "忠彦丸",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "マダコ船。マダコが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "トラフグ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "小川丸",
       "date": "2026-08-05",
       "platform": "web",
@@ -106,6 +183,39 @@
       "fish": "タチウオ",
       "catch": "1〜30",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "午前船は派手な食いは無く、数か所拾い釣りでほとんどの人は、ツマミはとれました。今日もぼちぼち高波でした。 今日は午後出船がありました。午後もポツリポツリのアタリ。バラシが目立ちましたが、皆さんおかずはとれました。明日は定休日です。ご予約、お問い合わせは１８時以降にお願いします。 午後船、２０～２７cm、５～２６尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "アジ",
+      "catch": "1〜17",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "0.30～2.10kg 久々の出船でした。小ぶりがメインでしたが、スタートからポツリポツリと釣れました。中盤からは失速しポイントを転々としましたが空振りでした。とはいえ早い段階でオデコが消えてくれました。会心の一撃でキロオーバ－が２杯出ました^^v１１人で３５杯。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
+      "fish": "マダコ",
+      "catch": "2〜7",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-08-05",
+      "platform": "web",
+      "text": "本日も北東の風で朝イチは曇り陽気で釣り日和でした。本日もスタートからコンスタントに良型が釣れてくれました。 ２番手１１９尾。７日ショート船出船確定しています。当日釣行もOKです。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
+      "fish": "シロギス",
+      "catch": "10〜146",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
       "depth": null
     },
@@ -288,17 +398,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-08-04",
-      "platform": "web",
-      "text": "フグ船。フグが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-08-04",
       "platform": "web",
@@ -327,6 +426,17 @@
       "text": "今日も北東の風が強く高波の為、波の影のポイントからスタート。今日はポツリポツリ当たり始め、終日いい感じでした。今日釣行された皆さんラッキ－でしたね。午後は人数纏まらず出船がございません。明日も午前船は出船確定しています。午後は只今ご予約がございません。５名様以上から出船いたします。お誘いあわせの上ご来店ください。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
       "fish": "アジ",
       "catch": "6〜82",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-08-04",
+      "platform": "web",
+      "text": "38～100匹（17～23cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "38〜100",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
       "depth": null
@@ -455,39 +565,6 @@
       "fish": "シロギス",
       "catch": "2〜15",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-08-03",
-      "platform": "web",
-      "text": "今日は朝から涼しく釣り日和でしたが、当たり続かず潮も早く良い場所にハマれませんでした。久々の撃沈でした～このタイミングに当ってしまった皆さん、是非次回リベンジお待ち致しております。 午後船は相変わらず波高く、波よけポイントでの釣行。慣れた方はアタリを出せましたが、貸し道具の方には難しい釣りになってしまいました。明日は只今午前船のみのご予約です。最少人数での釣行です。当日釣行もOKです。平日涼しそうですね。波で船酔いの心配がある方は酔い止めの服用をおススメ致します。釣りのベストな陽気は曇り傘マ－クの日がおススメで～す。 午後船、２０～２６cm、2～４５尾。 潮見表・タイドグラフの詳細を見る 釣行",
-      "fish": "アジ",
-      "catch": "2〜6",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-08-03",
-      "platform": "web",
-      "text": "今日は久しぶりに暑さから解放されましたね～釣り日和と思いきや、海上は風向きが北東風の為波が高かったようです。船酔いされた方もいらっしゃいました。シロギスは朝からコンスタントに釣れてくれました。明日も出船確定しています。空いているので、当日釣行もOKです。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
-      "fish": "シロギス",
-      "catch": "28〜69",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-08-03",
-      "platform": "web",
-      "text": "28～69匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "28〜69",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
       "depth": null
     },
@@ -691,17 +768,6 @@
       "depth": null
     },
     {
-      "ship": "荒川屋",
-      "date": "2026-08-02",
-      "platform": "web",
-      "text": "スタ－トからポツポツ当たり、平均皆さんお土産はゲットできました。数名ダウン。ゲストにヒラメ。午後も出足からポツリポツリ当たり、バラシも多かったですが、食材はバッチリ釣れました。 午後船、２０～２８cm、４～５５尾。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした",
-      "fish": "アジ",
-      "catch": "6〜30",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-08-02",
       "platform": "web",
@@ -720,39 +786,6 @@
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-08-02",
-      "platform": "web",
-      "text": "連日反応は良くあたりも途切れず有りました 今日は群の移動が多少あり昨日の様な3時間流しっぱなしとかは無いですが良型の混じりが良かったですね 連日の暑さ極まり13時早上がりでした 最後まであたりはありましたね 明日、明後日は最高気温29°で暑さ一息つきそうですね 月曜日出船確定　空席多数です",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-08-02",
-      "platform": "web",
-      "text": "午前シロギス釣果 第6さくら丸 午前シロギス さくら丸 暑さ対策宜しくお願いします 猛暑日の期間はお子様、高齢のお客様、暑さに弱い方には過酷ですので準備は万端にお願いします",
-      "fish": "シロギス",
-      "catch": "2〜94",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-08-02",
-      "platform": "web",
-      "text": "午前アジ 第二十一さくら丸 午前アジ 第20さくら丸 月曜日出船確定　空席多数です",
-      "fish": "アジ",
-      "catch": "10〜30",
-      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -812,6 +845,17 @@
       "platform": "web",
       "text": "今日は朝イチにぽんぽん上がり 良いスタートを切ったのですが 眠気も襲ってきましたが ミラクルポイントに遭遇。 入れ食いになりました。ミラクルポイントで 5杯連続GETされた方も",
       "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-08-02",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
@@ -989,17 +1033,6 @@
       "platform": "web",
       "text": "疲労がたまって来ている 途中ダウンされてしまった方も 災害級の暑さと言われている夏。 頑張って参りましょう！ポイントポイントで コツコツGETして行きました。 今シーズンから始めたマダコ釣り。",
       "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-08-01",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
@@ -1241,23 +1274,6 @@
       "catch": "5〜37",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-07-29",
-      "platform": "web",
-      "text": "65-115 cm　8-30 本 ★明日はタチウオ船に確定！ショートLTアジ、ショウサイフグ受付中！ 今日も観音崎〜走水沖がメインポイント！ 朝から魚影は見えていましたが前半は下げ潮速くアタリ渋々・・・ 中盤、潮の緩んできたタイミングからは反応も落ち着きアタリ数も上昇！ 一時は良型連発の時間帯もあり本日の時合となりました。",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": {
-        "name": "観音崎",
-        "latlng": [
-          35.283,
-          139.716
-        ]
-      },
       "depth": null
     }
   ]
