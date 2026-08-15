@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15 06:18 JST",
+  "updated_at": "2026-08-15 14:23 JST",
   "cutoff": "2026-08-08",
-  "count": 107,
+  "count": 109,
   "errors": [],
   "comments": [
     {
@@ -35,6 +35,23 @@
       "catch": "",
       "source_url": "https://www.tsurikou.com/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-15",
+      "platform": "web",
+      "text": "四隻に別れての出撃でした！ 今日も大津沖には終日広範囲に反応は有りました！ サイズは多彩で小型〜ドラゴンまで！ 慣れてるお客様は連チャンモードも！ 竿頭44本二番手35本三番手25本でした！ タチウオ船は常時二隻〜三隻体制でお待ちしてます！",
+      "fish": "タチウオ",
+      "catch": "1〜44",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": {
+        "name": "大津沖",
+        "latlng": [
+          35.35,
+          139.658
+        ]
+      },
       "depth": null
     },
     {
@@ -87,6 +104,17 @@
       "platform": "web",
       "text": "テンヤタチウオ船。サワラ、太刀魚などが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
       "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-14",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -243,6 +271,50 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-08-14",
+      "platform": "web",
+      "text": "タチウオ＆アジリレー船、(タチウオ) 反応はバラツキ、当たりも渋く苦戦！ 顔は見る事が出来ましたが。。(アジ) ポイントに着いて直ぐに当たりがでて、帰りまで当たり良好でした^_^ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
+      "fish": "アジ",
+      "catch": "1〜4",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-08-14",
+      "platform": "web",
+      "text": "1～4匹（60～105cm）、 12～25匹（20～30cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "1〜4",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-14",
+      "platform": "web",
+      "text": "ショートタチウオ船、今日は雷が心配でしたが、雨ぐらいでなんとか！ 昨日の続きなのかな？ミニ助の当たりが多く！！ 潮もかなりぶっ飛んでる感じで難しく。それでも128.123.122.122cmと良いサイズも退治！！デカイのばっかりって訳じゃないので当たりを掛けまくって良いのが釣れればって感じですかね？また明日も宜しくお願いします！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、60-114cm、7-39本。今日も台船西で！朝からアタリ多く！チビメインでしたが、メーター級も混じって！特大クラスは出ませんでしたが、帰りまでアタリ多くやれましたね！ 潮見表・タイドグラフの詳細を見る",
+      "fish": "タチウオ",
+      "catch": "5〜25",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-14",
+      "platform": "web",
+      "text": "5～25匹（60～128cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "5〜25",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "一之瀬丸",
       "date": "2026-08-13",
       "platform": "web",
@@ -333,17 +405,6 @@
       "fish": "アジ",
       "catch": "3〜30",
       "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -548,6 +609,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-08-13",
+      "platform": "web",
+      "text": "良く頑張って下さいました。 帰りにはびしょ濡れに。 波がなかったのは幸いです。帰港してからも 雨足の強さは変わらず。 少し止んだ瞬間を狙って みなさま帰宅の途につきました。",
+      "fish": "シロギス",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-08-13",
       "platform": "web",
@@ -578,23 +650,6 @@
       "catch": "7〜24",
       "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "タチウオ＆アジリレー船、(タチウオ) 走水沖で反応バッチリ有りポツポツとアタリました。後半は台船西に合流させていただきポツポツみれたが・・・。 最近よく行く所へ行き安定したアタリが有りました。釣れていましたがまたまたスケベ心で型狙いに行きましたがチョロと追加で終わりました。 また次回も頑張りますのでご予約お待ちしております。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
-      "fish": "アジ",
-      "catch": "0〜15",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
-        ]
-      },
       "depth": null
     },
     {
@@ -653,17 +708,6 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "3～25匹（60～124cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "3〜25",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-08-12",
       "platform": "web",
@@ -693,17 +737,6 @@
       "fish": "シロギス",
       "catch": "2〜12",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-12",
-      "platform": "web",
-      "text": "デカアジは数匹混じっただけで ポツポツ皆さん見れてお土産になりました。 竿頭43匹.2番手38匹.3番手35匹が２名様の結果でした。 皆さん最後まで頑張って頂き ありがとう御座いました。 また皆さんで遊びに来て下さい。",
-      "fish": "アジ",
-      "catch": "7〜43",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
       "depth": null
     },
@@ -1220,17 +1253,6 @@
       "fish": "アジ",
       "catch": "0〜5",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-08-09",
-      "platform": "web",
-      "text": "ショートタチウオ船、タチウオ、60-126cm、2-15本。今日も台船西で！ サイズは小さい、アタリも少ないでいいとこ無しで… たまにメーター級混じったりでやってましたが、やはり派手はなく… ラストは探索でさらに北上！！ 気配だけは感じて終了でした…。 潮見表・タイドグラフの詳細を見る",
-      "fish": "タチウオ",
-      "catch": "1〜26",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
