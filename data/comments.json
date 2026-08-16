@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16 06:14 JST",
+  "updated_at": "2026-08-16 14:27 JST",
   "cutoff": "2026-08-09",
-  "count": 108,
+  "count": 107,
   "errors": [],
   "comments": [
     {
@@ -32,6 +32,61 @@
       "platform": "web",
       "text": "CLUE OFFSHORE GAMES#62 東京湾タチウオ大会参加者募集！ 2026/7/21（火）19:00より受付スタート！！",
       "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "８月１５日土曜日　釣果！ 8/15(土)釣果報告　終戦記念日の日♪ 午前ライトアジ船(3隻高低) 17～28CM　1～35匹 17～28CM　3～50匹 14～24CM　6～49匹",
+      "fish": "カサゴ",
+      "catch": "1〜35",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "浅場で皆さんポツンポツンと見れましたが 喰い悪く、今日は早めに沖目に移動し バリバリ食わず苦戦でしたが 後半は良型の中アジ～デカアジ主体で喰い良くなり 皆さんの頑張りもあって楽しめました。 竿頭51匹、2番手50匹が2名様",
+      "fish": "アジ",
+      "catch": "4〜51",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "今日もタチウオ釣りへ！！ 二番手はテンヤが24匹 三番手は天秤で20匹が3名様！ レンタルタックルのお客様も お土産にはなりました！ 123センチげっと！！",
+      "fish": "タチウオ",
+      "catch": "5〜30",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "午前アジ 第21さくら丸 午前アジ 第三さくら丸　水野船長",
+      "fish": "アジ",
       "catch": "",
       "source_url": "https://www.tsurikou.com/",
       "point": null,
@@ -164,6 +219,17 @@
       "platform": "web",
       "text": "タチウオは広範囲に魚影は有り中・小型主体に良型も釣れました。アジは２か所で型を見れましたが間が空く食いで盛り上がりませんでした。 中・小型中心でしたがアタリ多く好調でした。ルアー０～７尾で他にヒラメ、エサ釣り２～６尾で他にヒラメ、マダイ。 前半んは今一つでしたが潮変わりよりアタリが増え中型から特大サイズまで釣れました。サワラも交じり１日楽しめました。 中型主体で型が良かったです。飽きない程度に半日釣れました。 ほど入れ食いになるタイミングが有りおかずは確保できました。 派手さのある釣れ方ではありませんでしたが中・小型中心に良型が少し交じる感じで釣れました。反応は広くあり明日も楽しめそうです。",
       "fish": "シロギス",
+      "catch": "2〜14",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-08-15",
+      "platform": "web",
+      "text": "2～14匹（65～110cm）、 3～24匹（18～26cm）、 0～7匹（34～58cm）、 5～20匹（65～128cm）、 5～28匹（20～30cm）、 4～25匹（18～30cm）、",
+      "fish": "マダイ",
       "catch": "2〜14",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
@@ -448,6 +514,17 @@
       "depth": null
     },
     {
+      "ship": "教至丸",
+      "date": "2026-08-15",
+      "platform": "web",
+      "text": "2～35匹（60～125cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "2〜35",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "忠彦丸",
       "date": "2026-08-14",
       "platform": "web",
@@ -686,17 +763,6 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-08-14",
-      "platform": "web",
-      "text": "5～25匹（60～128cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "5〜25",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "一之瀬丸",
       "date": "2026-08-13",
       "platform": "web",
@@ -730,17 +796,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "８月１３日木曜日　釣果！ 8/13(木)釣果報告 17～28CM　3～30匹 17～28CM　20～61匹 ⚔️ｼｮｰﾄﾌｨｯｼﾝｸﾞ天秤タチウオ船（2隻高低） 65～105CM　4～30本",
-      "fish": "アジ",
-      "catch": "3〜30",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "弁天屋",
       "date": "2026-08-13",
       "platform": "web",
@@ -748,39 +803,6 @@
       "fish": "シロギス",
       "catch": "3〜13",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "3～13匹（70～110cm）、 10～58匹（19～26cm）、 9～26匹（70～124cm）、 2～14匹（20～30cm）、 13～23匹（20～30cm）、 1～19匹（65～110cm）、",
-      "fish": "マダイ",
-      "catch": "3〜13",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "三隻に別れての出撃でした！ 終日広範囲に反応有りまして食い活発でした！ サイズ感も良くてメーターオーバーも多数混じりました！ テンヤも天秤も同等にアタリました！ 竿頭30本二番手24本三番手22本が3名様でした！ タチウオ船は常時二隻〜三隻体制でお待ちしてます！",
-      "fish": "タチウオ",
-      "catch": "4〜30",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "前半は潮が速いので浅場で 中～小主体でポツン～ポツンと 中盤から潮も緩くなったので 良型のころっとした中アジ主体！ ポツポツ皆さん最後まで見れて楽しめました。 竿頭71匹、2番手70匹、3番手65匹の結果で",
-      "fish": "アジ",
-      "catch": "20〜71",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
       "depth": null
     },
@@ -799,17 +821,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "天秤釣り　第八さくら丸 8〜35匹　20匹以上が7名様 横須賀沖50mオモリ80号使用 潮流れ速いもののあたりは多く好調 小振り主体ながらも良型も混じって良かったです 金曜日出船確定　空席多数です",
-      "fish": "タチウオ",
-      "catch": "8〜35",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
       "depth": null
     },
     {
@@ -953,28 +964,6 @@
       "fish": "タチウオ",
       "catch": "3〜25",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-08-12",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-08-12",
-      "platform": "web",
-      "text": "８月１２日水曜日　釣果！ 8/11(火)釣果報告　山の日♪ 午前ライトアジ船（2隻高低） 17～28cm　3～53匹 17～28cm　13～53匹 午前は根岸湾奥にてスタート",
-      "fish": "マダコ",
-      "catch": "3〜53",
-      "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
     },
