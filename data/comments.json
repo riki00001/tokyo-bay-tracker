@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17 06:13 JST",
+  "updated_at": "2026-08-17 14:34 JST",
   "cutoff": "2026-08-10",
-  "count": 105,
+  "count": 106,
   "errors": [],
   "comments": [
     {
@@ -67,6 +67,39 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-17",
+      "platform": "web",
+      "text": "中～小主体で、皆さん見れて 中盤から後半は沖目でやり 良型のころっとした中アジ～デカアジ混じりで 皆さんの頑張りもあり土産十分キープ出来ました。 竿頭80匹、2番手72匹、3番手60匹が２名様の結果で フルレンタルのお客様も15～43匹と",
+      "fish": "アジ",
+      "catch": "15〜80",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-17",
+      "platform": "web",
+      "text": "今日もタチウオ釣りへ！！ 今日は良い一日となりました。 キッズアングラーがタチウオゲット！！ テンヤは最年長のお客様が エサ10匹しか持ってないのに。 130センチに120センチオーバーも！",
+      "fish": "タチウオ",
+      "catch": "7〜28",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-08-17",
+      "platform": "web",
+      "text": "【午前シーバス】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
+      "fish": "アジ",
+      "catch": "2〜6",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
       "depth": null
     },
@@ -420,6 +453,34 @@
       "depth": null
     },
     {
+      "ship": "教至丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "ショートタチウオ船、タチウオ、60-118cm、7-32本。今日も台船西で！ チビ優勢でしたが、アタリは良く！たまにメーター級も混じって！良型多めって時間もあったり、ドラ連したり！帰りまでダメな時間も無くやれましたね！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横須賀市 走水港",
+      "fish": "タチウオ",
+      "catch": "5〜30",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-16",
+      "platform": "web",
+      "text": "5～30匹（60～125cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "5〜30",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "一之瀬丸",
       "date": "2026-08-15",
       "platform": "web",
@@ -733,7 +794,7 @@
       "ship": "えさ政（羽田）",
       "date": "2026-08-15",
       "platform": "web",
-      "text": "カサゴ＆キスリレー船、(カサゴ) 今日も当たりが活発でした。 潮の濁りも関係なく、お土産確保できました。(キス) 潮の流れが早い時は当たりが渋く、苦戦しましたが午後からは上潮になり当たりが良くなりました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示",
+      "text": "11～29匹（15～26cm）、 8～60匹（18～23cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
       "fish": "カサゴ",
       "catch": "11〜29",
       "source_url": "https://www.chowari.jp/ship/00322/catch/",
@@ -774,17 +835,6 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-08-15",
-      "platform": "web",
-      "text": "2～35匹（60～125cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "2〜35",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-08-14",
       "platform": "web",
@@ -804,34 +854,6 @@
       "catch": "4〜17",
       "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-14",
-      "platform": "web",
-      "text": "ポツン～ポツンと皆さん見れて 中盤から沖目に移動して 良型のころっとした中アジ～デカアジ主体で ポツポツ皆さん見れて楽しめました。 竿頭41匹、2番手39匹、3番手36匹の結果でした。 皆さん最後まで頑張って頂き",
-      "fish": "アジ",
-      "catch": "13〜41",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-14",
-      "platform": "web",
-      "text": "三隻に別れての出撃でした！ 今日も潮は速かったのですが 大津沖には終日広範囲に反応は有りました！ 天秤もテンヤもアタリは同等に有りました！ 最大は128センチ！！ 竿頭30本二番手26本三番手24本でした！",
-      "fish": "タチウオ",
-      "catch": "1〜30",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": {
-        "name": "大津沖",
-        "latlng": [
-          35.35,
-          139.658
-        ]
-      },
       "depth": null
     },
     {
@@ -1208,17 +1230,6 @@
       "fish": "アジ",
       "catch": "1〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-08-11",
-      "platform": "web",
-      "text": "ショートタチウオ船、別船0〜11本。朝イチ少し？ 良かったですが、やはりチビ優勢でアタリも少なく、後半はまた北上したりと走り回りましたが、成果は上がらず…。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした",
-      "fish": "タチウオ",
-      "catch": "1〜30",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
