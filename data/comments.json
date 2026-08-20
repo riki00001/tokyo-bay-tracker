@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20 06:19 JST",
+  "updated_at": "2026-08-20 14:29 JST",
   "cutoff": "2026-08-13",
-  "count": 103,
+  "count": 104,
   "errors": [],
   "comments": [
     {
@@ -67,6 +67,17 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-08-20",
+      "platform": "web",
+      "text": "他アジ・ギマ・イイダコ 良型多くお土産バッチリでした サイズも良くバチコンでもポツポツ当たりありました 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング）",
+      "fish": "アジ",
+      "catch": "15〜67",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
       "depth": null
     },
@@ -249,6 +260,17 @@
       "depth": null
     },
     {
+      "ship": "釣り船鶴",
+      "date": "2026-08-19",
+      "platform": "web",
+      "text": "マゴチ船、今日は家族連れも来てくれて楽しめました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 大田区 海老取川",
+      "fish": "マゴチ",
+      "catch": "1〜7",
+      "source_url": "https://www.chowari.jp/ship/01678/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-08-19",
       "platform": "web",
@@ -256,6 +278,39 @@
       "fish": "アジ",
       "catch": "2〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-08-19",
+      "platform": "web",
+      "text": "合計2匹（40～46cm）、 2～4匹（35～61cm）、 11～40匹（15～23cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "2〜4",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-19",
+      "platform": "web",
+      "text": "ショートタチウオ船、タチウオ、。60-130cm、1-15本。朝イチはメーター級多めに！アタリ良く！ だんだんとチビ優勢にアタリも悪く… 入れっぱなだけはバラバラっとみるけど後がなく。 帰りまで盛り上がりなく。それでも前半の貯金でなんとかなりました！ ちびっ子アングラーが130.123.121とドラを３討伐しました！ 潮見表・タイドグラフの詳細を見る",
+      "fish": "タチウオ",
+      "catch": "6〜34",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-19",
+      "platform": "web",
+      "text": "6～34匹（60～121cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "6〜34",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -364,17 +419,6 @@
       "platform": "web",
       "text": "【午前チニング】乗合船 アジは終日厳しかったですがサイズ良くお土産になりました 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
-      "catch": "10〜56",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-08-18",
-      "platform": "web",
-      "text": "合計1匹（48cm）、 10～56匹（13～23cm）、 5～30匹（18～27cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "10〜56",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -540,17 +584,6 @@
       "platform": "web",
       "text": "ショートタチウオ船、タチウオ、60-131cm、4-24本。今日は朝イチから当たりは少し良く！！ ミニ助も多めでしたが？メーター級ぐらいも少し混じったりって感じでしたね！後半に掛けての方が良い流しがあり？121.121.120cmと出る流しもあったりで！１日通して当たりが無いって感じも無かったので少し機嫌が良くなってきたんですかね？親父船は131.129.126.120cmと負けちゃいました(笑)やっと明日はお休みです！こうた船長は楽しくお酒飲んで来ます(笑)また水曜日に会いましょう！今日も１日ありがとうございました！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象",
       "fish": "タチウオ",
-      "catch": "5〜33",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-08-17",
-      "platform": "web",
-      "text": "5～33匹（60～121cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
       "catch": "5〜33",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
@@ -1040,17 +1073,6 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
-      "date": "2026-08-15",
-      "platform": "web",
-      "text": "【午前シーバス】乗合船 【午前ルアー五目】チャーター船 他ギマ・ヒイラギ・マゴチ 【午後チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング）",
-      "fish": "アジ",
-      "catch": "0〜6",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "教至丸",
       "date": "2026-08-15",
       "platform": "web",
@@ -1219,17 +1241,6 @@
       "fish": "アジ",
       "catch": "7〜37",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-08-13",
-      "platform": "web",
-      "text": "ショートタチウオ船、今日は期待しましたが？ 反応に色もかなり付いて高さもあるせいか？ミニ助が優勢に当たってしまい。たま～に良いサイズも混じったりしましたが。昨日程では無かったですね。タチウオも気分屋さんですね。デカイのも居るので可能性は無限大です(笑)良い日もあれば悪い日もあるのが釣りですね！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、60-130cm、4-26本、ルアー9〜25本。タチウオ 、60-122cm、8-35本。 昨日と変わってチビ優勢で… やってるとメーター級が混じってきたり？",
-      "fish": "タチウオ",
-      "catch": "3〜25",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
