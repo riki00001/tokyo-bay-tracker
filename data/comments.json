@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28 01:08 JST",
+  "updated_at": "2026-08-28 14:02 JST",
   "cutoff": "2026-08-21",
-  "count": 101,
+  "count": 100,
   "errors": [],
   "comments": [
     {
@@ -34,6 +34,34 @@
       "fish": "サワラ",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-28",
+      "platform": "web",
+      "text": "大津沖～観音崎沖でやり ポツン～ポツンの出方でした。 竿頭29匹、2番手22匹、3番手21匹の結果でした。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "アジ",
+      "catch": "3〜29",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-08-28",
+      "platform": "web",
+      "text": "本日は、2隻にて出船できました。 開始一投目より良型混じりで テンヤ・天秤・ルアーでも釣れ ドラゴンサイズ良く混ざり 時間まで楽しめました。 120アップもチラホラ浮上し",
+      "fish": "タチウオ",
+      "catch": "4〜33",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
       "point": null,
       "depth": null
     },
@@ -174,6 +202,23 @@
       "catch": "3〜3",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-08-27",
+      "platform": "web",
+      "text": "ショートタチウオ船、今日も港前から！当たりは貰えましたが昨日と違いミニ助が。なので台船西に！こちらはメーター級も混じりながら当たりも１日通して適当にありましたね！今日は勿体ないバラシも多く。神龍クラスの水面リーダー切れだったりと。デカイのも居るみたいなので気を抜けないですね(笑)また明日も宜しくお願いします！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、60-125cm、7-54本。今日も走水〜台船西で！チビ〜中型メインに！ たまにメーター級も混じって！ドラも居たりと！ チビ乱舞も人も居れば、良型〜メーター複数持ちの方も！ 一日中アタリは多かったですね！ 潮見表・タイドグ",
+      "fish": "タチウオ",
+      "catch": "7〜28",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
       "depth": null
     },
     {
@@ -644,34 +689,6 @@
       "depth": null
     },
     {
-      "ship": "小川丸",
-      "date": "2026-08-24",
-      "platform": "web",
-      "text": "本日は2隻で出船出来ました。 ありがとう御座いました。 観音崎沖でやり、良型の中アジ主体！ 中盤からポツポツ皆さん見れて楽しめました。 竿頭50匹、2番手48匹、3番手43匹の結果で フルレンタルのお客様も15～35匹と",
-      "fish": "アジ",
-      "catch": "15〜50",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": {
-        "name": "観音崎沖",
-        "latlng": [
-          35.275,
-          139.742
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-08-24",
-      "platform": "web",
-      "text": "薄く二隻に別れての出撃でした！ 今日も反応は広範囲に有りましたが 小型優勢で良型は混じる程度でボリューム感には欠けました。 竿頭30本二番手25本三番手22本でした！ 良型復活に期待したいトコです。 タチウオ船は常時二隻〜三隻体制でお待ちしてます！",
-      "fish": "タチウオ",
-      "catch": "1〜30",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-08-24",
       "platform": "web",
@@ -1005,17 +1022,6 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-08-23",
-      "platform": "web",
-      "text": "タチウオ＆アジリレー船、今日も大勢のお客様にお越しいただき2隻で行って来ました！ (タチウオ)船団に合流させて頂きました^_^ 悔しいバラしも多く。。。 喰わせのタイミングが大切です！！！ (アジ)気になる場所に向かいましたがなかなか当たりが出る反応に当たらず‥涙 終了時間30分前に良い反応に当たり釣れました〜^_^",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "船宿いわた",
       "date": "2026-08-23",
       "platform": "web",
@@ -1245,17 +1251,6 @@
       "fish": "タチウオ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-08-21",
-      "platform": "web",
-      "text": "ショートタチウオ船、今日も台船西で！ 無いわけじゃないけど派手にはなく？ 後半はドラ狙ってうろうろしましたが、不発でした… 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
-      "fish": "タチウオ",
-      "catch": "7〜20",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
