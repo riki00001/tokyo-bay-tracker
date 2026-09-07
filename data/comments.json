@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07 07:37 JST",
+  "updated_at": "2026-09-07 18:58 JST",
   "cutoff": "2026-08-31",
-  "count": 92,
+  "count": 93,
   "errors": [],
   "comments": [
     {
@@ -45,6 +45,17 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-09-07",
+      "platform": "web",
+      "text": "午前アジ 第21さくら丸 シロギス 第三さくら丸 風波強く写真はありませんが 皆さん苦戦しながらも お土産にはなりました。 月曜日は悪天候の為、お休み 火曜日はご予約お待ちしています 水曜日もご予約お待ちしています",
+      "fish": "シロギス",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -526,6 +537,28 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-09-05",
+      "platform": "web",
+      "text": "朝から終始当たりが続き 『こちらが合わせると言うより 向こうから掛かって来る』 そんな勢いだったそうです。ポイント移動は一度だけ。 またポツポツと当たり始めてーー 調子良く釣れた一日でした。型は小～中主体。",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-09-05",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-09-05",
       "platform": "web",
@@ -970,17 +1003,6 @@
       "depth": null
     },
     {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-09-02",
-      "platform": "web",
-      "text": "合計2匹が釣れました！ 船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-09-02",
       "platform": "web",
@@ -1008,17 +1030,6 @@
       "platform": "web",
       "text": "タチウオ 第十八さくら丸 平均20匹前後で当たりよく皆様お土産になりました。 水曜日出船確定　空席多数です",
       "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-09-01",
-      "platform": "web",
-      "text": "午前アジ 第21さくら丸",
-      "fish": "アジ",
       "catch": "",
       "source_url": "https://www.tsurikou.com/",
       "point": null,
