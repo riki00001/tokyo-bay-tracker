@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08 18:23 JST",
-  "cutoff": "2026-09-01",
-  "count": 86,
+  "updated_at": "2026-09-09 08:06 JST",
+  "cutoff": "2026-09-02",
+  "count": 92,
   "errors": [],
   "comments": [
     {
@@ -38,6 +38,51 @@
       "depth": null
     },
     {
+      "ship": "一之瀬丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "0.4-4.0 kg　0-3 枚 八景沖狙いで良型ゲット！！ 特大アジ最大47ｃｍも！！",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": {
+        "name": "八景沖",
+        "latlng": [
+          35.328,
+          139.638
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "65-128 cm　8-34 本 食い活発！！猿島沖～走水沖で！！",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": {
+        "name": "猿島沖",
+        "latlng": [
+          35.316,
+          139.785
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "35-59 cm　1-10 本",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "忠彦丸",
       "date": "2026-09-08",
       "platform": "web",
@@ -57,6 +102,56 @@
       "catch": "13〜30",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "シロギス船。シロギスが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "シロギス",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "テンヤタチウオ船。太刀魚、サワラが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-09-08",
+      "platform": "web",
+      "text": "1.50～2.20kg タチウオは走水沖を狙い中・小型交じりで釣れました。後半のアジは各ポイント型は見れましたが盛り上がりませんでした。 港前でナブラ発見で早々に型を見れました。ポイントを大きく変えると反応が多くアタリ連発で全員型を見れ1日楽しめました。 大雨の影響もなく終日コンスタントに釣れました。５０尾以上釣ったお客様が多かったです。 半日好調に釣れてビギナーのお客様も楽しめお土産になりました。 走水周辺で中・良型中心に釣れました。テンヤ",
+      "fish": "タチウオ",
+      "catch": "3〜15",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
       "depth": null
     },
     {
@@ -224,7 +319,7 @@
       "ship": "忠彦丸",
       "date": "2026-09-06",
       "platform": "web",
-      "text": "マダコ船。マダコが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "text": "マダコ船。マダコが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
       "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
@@ -239,6 +334,28 @@
       "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-09-06",
+      "platform": "web",
+      "text": "タチウオは控えめなアタリとなりましたが中・小型中心に良型も釣れました。後半のアジは派手さがないものの丸々と太ったアジが釣れました。 悪天候の中の出船でした。船酔いに見舞われたお客様もいらっしゃいましたが何とか皆様釣れました。テンヤ５～７尾、テンビン２～３４尾。 近場からスタートしました。ベイト反応は有りましたがアタリ無く移動、後半はなかなかアタリが出ませんでしたが次第にアタリが出ましたが波が高くバラシで数が伸びませんでした。 反応がなかなか見つからず苦戦し 荒天模様の影響か反応がばらけてしまい食いが悪かったです。時化明けに期待です。 近場のポイントで拾い釣りでした。中型が多かったです。",
+      "fish": "シロギス",
+      "catch": "1〜11",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-09-06",
+      "platform": "web",
+      "text": "1～11匹（70～110cm）、 20～31匹（20～30cm）、 2～34匹（70～110cm）、 0～1匹（最大1.50kg）、 6～8匹（18～26cm）、 2～11匹（65～100cm）、",
+      "fish": "マダイ",
+      "catch": "1〜11",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
       "point": null,
       "depth": null
     },
@@ -354,50 +471,6 @@
       "depth": null
     },
     {
-      "ship": "一之瀬丸",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "65-105 cm　2-12 本 18-26 cm　1-20 匹",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "0.4-0.8 kg　0-4 枚",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "65-121 cm　1-22 本 かけ損じやらバラシやらでちょいむず！！ 中盤からは攻略次第で当たりあり！！連チャン♫なんて流しもありました！！ 型はメーターもちらほらで大型は尾切れのみでした！！",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "35-59 cm　2-10 本 トップ10本が３名様！",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-09-05",
       "platform": "web",
@@ -417,6 +490,23 @@
       "catch": "17〜37",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-09-05",
+      "platform": "web",
+      "text": "1.80～3.00kg タチウオは半日を通し魚影濃く中・小型交じりで釣れました。後半のアジは中・良型交じりで釣れ順調な食いとなりました。 走水沖を狙い帰り際まで釣れ続きました。テンヤ３～１４尾、テンビン１１～５４尾。 昨日の好調ポイントから開始。ベイト少なくポイントを変え反応がまとまると連発し１日楽しめました。４人同時HITなども有りトップは２名様でした。船中１５尾。 本日も朝から好調に釣れて数が伸びました。２番手６８尾。 アタリ多く皆様数釣りがで",
+      "fish": "タチウオ",
+      "catch": "3〜13",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
       "depth": null
     },
     {
@@ -724,6 +814,17 @@
       "depth": null
     },
     {
+      "ship": "弁天屋",
+      "date": "2026-09-04",
+      "platform": "web",
+      "text": "1.80～3.00kg タチウオは半日を通して魚影濃く中・小型交じりで釣れました。後半のアジは良型アジが釣れお土産になりました。 横須賀沖４０～５０ｍで魚影濃く帰りまで釣れ続きました。テンヤ１名２４尾、テンビン１５～４６尾。 ベイト反応は広範囲に確認できました！アタリが有っても針掛りが悪かったですが連発するタイミングも有り最大４ｋｇも釣れました！２番手６尾と好調です！。 潮具合よく朝から好調に釣れました。久々の束釣りでした！。 食いとなりました。ビギナーのお客様もお土産になりました。",
+      "fish": "タチウオ",
+      "catch": "3〜9",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "荒川屋",
       "date": "2026-09-04",
       "platform": "web",
@@ -1026,17 +1127,6 @@
       "fish": "タチウオ",
       "catch": "2〜42",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-09-01",
-      "platform": "web",
-      "text": "今日も大勢のお客様にお越しいただきありがとうございます^_^ 単発では型だすもの 連絡モードなれず1日通し単発の拾い釣りでした 残念オデコはお一人さまごめんなさい。。。 終盤戦！　美味しい価値ある「マダコ」ぜひ釣りに来てください^_^",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.esamasa.com/category/Choka/",
       "point": null,
       "depth": null
     }
