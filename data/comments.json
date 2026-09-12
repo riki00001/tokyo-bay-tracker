@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-12 07:55 JST",
+  "updated_at": "2026-09-12 18:02 JST",
   "cutoff": "2026-09-05",
-  "count": 81,
+  "count": 83,
   "errors": [],
   "comments": [
     {
@@ -38,6 +38,295 @@
       "depth": null
     },
     {
+      "ship": "一之瀬丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "65-110 cm　5-14 本",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "0.3-0.8 kg　0-3 杯",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "65-105 cm　1-9 本 18-25 cm　0-10 匹",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "35-55 cm　0-8 本 ２番手は７本が2名！！",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "30-45 cm　0-24 杯 大型主体でぽちぽちと！",
+      "fish": "イカ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "9月12日土曜日　釣果！ 9/12(土)釣果報告 今日は「マラソンの日」♪ 17～28cm　0～14匹 17～28cm　12～40匹 ⚔️【ショートフィッシング天秤タチウオ船】",
+      "fish": "マダコ",
+      "catch": "0〜14",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "大津沖～観音崎沖でやり 前半は浅場で小中型主体で ポツン～ポツンと見れて楽しめ 竿頭75匹、2番手47匹、3番手45匹の結果で フルレンタルのお客様も19～45匹と 皆さん最後まで頑張って頂きました。",
+      "fish": "アジ",
+      "catch": "15〜75",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": {
+        "name": "観音崎沖",
+        "latlng": [
+          35.275,
+          139.742
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "小川丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "ジャンボ船二隻に別れての出撃でした！ 本船は終日走水沖でした！ 反応は広範囲に有りまして 潮が速いので流し変えての操業でした！ ドラゴンサイズも多数混じりまして 128センチ124センチ122センチが2本",
+      "fish": "タチウオ",
+      "catch": "1〜19",
+      "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "65-112 cm　8-26 本 2番手23本　1桁1名様 ★明日はタチウオ船、ショートLTアジ船に確定です！ 今日も走水沖からのスタート！ 下げ潮速めでアタリも昨日に比べると少し控え目でしたが大きく流れてポツリ・ポツリと！ 一頃の様な投入後、即アタリなんてことは無くしつこく誘って出たアタリを如何に打率良く掛けるか？本来のタチウオ釣りらしい展開です！",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": {
+        "name": "走水沖",
+        "latlng": [
+          35.305,
+          139.745
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "18-28 cm　2-60 匹 カラブリ流しや姿拝見だけで続かない流しをまじえながら、落ち着ける流し(コマセ撒いてる内に誰かしらにヒットする状態になる事)が3回あって良かったです。結果60、59、53、51・・2匹！ 明日は久々に雨無く出船確定です 潮色と流れ：薄濁 速い 風向きと強さ：北東 弱い",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "午後アジ 第3さくら丸",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "2.1kg〜2.9kg 日曜日出船確定　空席多数です",
+      "fish": "タチウオ",
+      "catch": "0〜3",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "午前シロギス釣果 第6さくら丸 日曜日出船確定　空席あります",
+      "fish": "シロギス",
+      "catch": "4〜43",
+      "source_url": "https://www.tsurikou.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "深川吉野屋",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "後半ようやくバタバタっと！ 天気　雲→雨　水温２４.２℃　うす濁り 数　　　　０～７匹（船中２５匹） 竿頭　富士見市　國井 雄太さん 本日はサワラ船のみの出船でした。先日模様のあった海域からスタート。反応も広く出ているもののアタリは一向に出せず・・。横浜沖に移動し、ようやく できましたが、後がなかなか続かず・・。西に東に大捜索をしていると木更津沖で",
+      "fish": "タチウオ",
+      "catch": "０〜７",
+      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
+      "point": {
+        "name": "木更津沖",
+        "latlng": [
+          35.378,
+          139.908
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "吉野屋（浦安）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "木更津沖水深20～30m",
+      "fish": "アジ",
+      "catch": "15〜86",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
+      "point": {
+        "name": "木更津沖",
+        "latlng": [
+          35.378,
+          139.908
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "吉久（浦安）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "良型混じりで好調～””” 今日は出船できました！ 走水～台船西沖で反応よく食い活発～”” 良型も多く混じって楽しめました～ バラシや掛け損じも多かったですが皆さんゲットでお土産バッチリ”” ２番手２６本！　続いて２４、２０，２０，、、",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.yoshikyu.com/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "吉久（浦安）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "サワラ３８本、サゴシ２３本、２隻で６１本！ 本日は２隻でゆったり出船でした。 反応あちこちにあって１日通してポチポチ当たりました。 ２３号船インバーター故障の為、レンジ・ポットが使えなくなります。 ご迷惑をおかけします。 サワラ３８本、サゴシ２３本",
+      "fish": "サワラ",
+      "catch": "",
+      "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "吉久（浦安）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "雨の影響？　ノリ渋く。。。 今日も出船できました。ありがとうございます！ 朝から渋すぎて滅！でした～ 午後からの上げ潮に期待するも状況悪化でゴメンナサイでした。 オデコの方も複数人出てしまいました。。 明日も出船しますのでご予約お待ちしております！　　まだ予約余裕ございますのでお越しになれる方はこれからのご予約お待ちしております！",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "今日も大勢のお客様にお越しいただきありがとうございました^_^ 単発空振りの繰り返しで厳しい展開でした。 時よりパラパラと続き、粘りにねばり、終わってみたら船中60杯でした^_^ 竿頭は名人稲川さん 9杯 2番手6.5.5.4.4.4.... 明日はありがたい事に満席です。",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "22-37 cm　0-7 匹 コメントは後ほど、、、",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "16-27 cm　1-6 枚 大勢のお客様にお越し頂きありがとうございます^_^ 朝から二枚潮で下げ止まりまで続きました。 上潮になったら当たりがポッポッ出始めました^_^ 上潮も早く、厳しい１日でした。 オマツリが多くて、ゴメンナサイ！",
+      "fish": "カワハギ",
+      "catch": "",
+      "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-09-12",
+      "platform": "web",
+      "text": "【午前ルアー五目】チャーター船 【午後チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
+      "fish": "アジ",
+      "catch": "12〜43",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "忠彦丸",
       "date": "2026-09-11",
       "platform": "web",
@@ -65,6 +354,17 @@
       "platform": "web",
       "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
       "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-09-11",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "トラフグ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -216,6 +516,17 @@
       "depth": null
     },
     {
+      "ship": "教至丸",
+      "date": "2026-09-11",
+      "platform": "web",
+      "text": "5～26匹（60～129cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "5〜26",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "小川丸",
       "date": "2026-09-10",
       "platform": "web",
@@ -233,17 +544,6 @@
       "depth": null
     },
     {
-      "ship": "小川丸",
-      "date": "2026-09-10",
-      "platform": "web",
-      "text": "本日も、出船できました。 スタートから良型混じりで 派手な食いはないですが テンヤ優勢にポツポツと見れ 天秤の方はスロースタートでしたが 良いタイミングでは、4人同時ヒットなどもあり",
-      "fish": "タチウオ",
-      "catch": "3〜22",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-09-10",
       "platform": "web",
@@ -258,17 +558,11 @@
       "ship": "深川吉野屋",
       "date": "2026-09-10",
       "platform": "web",
-      "text": "雨＆風強まりちょっと早めに帰航・・ 天気　雨　水温２５.２℃　うす濁り 大きさ　６５～１１８㎝ 竿頭　文京区　小泉 祐子さん 今日は雨も風も強まってくる予報でしたので、走水沖に直行しました。朝のうちは小ぶり主体ながらポツポツとＨＩＴ。ただ、それほどの活性は無いようでたまに上がってくる程度。後半になるとアタリっぷりは同じような感じでしたが、 メーター前後の良型もポツポツと混じるようになり盛り上がりました！",
-      "fish": "タチウオ",
-      "catch": "４〜１９",
+      "text": "潮が緩むと活性もＵＰ！ 2026/09/12 15:00 後半ようやくバタバタっと！ 2026/09/11 15:34 サワラは曇天陽気で高活性！！ 2026/09/10 16:23",
+      "fish": "アジ",
+      "catch": "",
       "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
-        ]
-      },
+      "point": null,
       "depth": null
     },
     {
@@ -308,17 +602,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-09-10",
-      "platform": "web",
-      "text": "4～32匹（60～124cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "4〜32",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -383,56 +666,6 @@
       "depth": null
     },
     {
-      "ship": "忠彦丸",
-      "date": "2026-09-09",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "トラフグ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-09-09",
-      "platform": "web",
-      "text": "前半はアタリ少なく難しい展開でした。潮変わりよりアタリが増え数が伸びました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景瀬戸橋",
-      "fish": "タチウオ",
-      "catch": "0〜10",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-09-09",
-      "platform": "web",
-      "text": "0～10匹（70～100cm）が釣れました！ 弁天屋でよく釣れるのはどんな魚ですか？",
-      "fish": "マダイ",
-      "catch": "0〜10",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "小川丸",
-      "date": "2026-09-09",
-      "platform": "web",
-      "text": "大津沖～観音崎沖でやり ころっとした中アジ主体で ポツン～ポツンと皆さん見れて楽しめました。 竿頭63匹、2番手35匹、3番手34匹の結果で フルレンタルのお客様も7～19匹と 潮の速い中、皆さん最後まで頑張って頂きました。",
-      "fish": "アジ",
-      "catch": "7〜63",
-      "source_url": "https://www.chowari.jp/ship/00458/catch/",
-      "point": {
-        "name": "観音崎沖",
-        "latlng": [
-          35.275,
-          139.742
-        ]
-      },
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-09-09",
       "platform": "web",
@@ -475,23 +708,6 @@
       "ship": "一之瀬丸",
       "date": "2026-09-08",
       "platform": "web",
-      "text": "0.4-4.0 kg　0-3 枚 八景沖狙いで良型ゲット！！ 特大アジ最大47ｃｍも！！",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "八景沖",
-        "latlng": [
-          35.328,
-          139.638
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-08",
-      "platform": "web",
       "text": "65-128 cm　8-34 本 食い活発！！猿島沖～走水沖で！！",
       "fish": "タチウオ",
       "catch": "",
@@ -501,56 +717,6 @@
         "latlng": [
           35.316,
           139.785
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-08",
-      "platform": "web",
-      "text": "35-59 cm　1-10 本",
-      "fish": "マゴチ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-09-08",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-09-08",
-      "platform": "web",
-      "text": "9月8日火曜日　釣果！ 今日は「ハヤシの日」♪ 14～24cm　13～30匹 14～24cm　28～65匹✨ ⚔️【ショートフィッシング天秤タチウオ船】 65～105cm　10～55本‼️",
-      "fish": "サワラ",
-      "catch": "13〜30",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-09-08",
-      "platform": "web",
-      "text": "1.50～2.20kg タチウオは走水沖を狙い中・小型交じりで釣れました。後半のアジは各ポイント型は見れましたが盛り上がりませんでした。 港前でナブラ発見で早々に型を見れました。ポイントを大きく変えると反応が多くアタリ連発で全員型を見れ1日楽しめました。 大雨の影響もなく終日コンスタントに釣れました。５０尾以上釣ったお客様が多かったです。 半日好調に釣れてビギナーのお客様も楽しめお土産になりました。 走水周辺で中・良型中心に釣れました。テンヤ",
-      "fish": "タチウオ",
-      "catch": "3〜15",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
         ]
       },
       "depth": null
@@ -639,50 +805,6 @@
       "depth": null
     },
     {
-      "ship": "つり幸（川崎）",
-      "date": "2026-09-07",
-      "platform": "web",
-      "text": "午前アジ 第21さくら丸 シロギス 第三さくら丸 風波強く写真はありませんが 皆さん苦戦しながらも お土産にはなりました。 月曜日は悪天候の為、お休み 火曜日はご予約お待ちしています 水曜日もご予約お待ちしています",
-      "fish": "シロギス",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "0.4-3.0 kg　0-4 枚 大アジ交じりでした！！",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "35-56 cm　0-10 本 外道にヒラメ、マダイも！！",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "タチウオは控えめなアタリとなりましたが中・小型中心に良型も釣れました。後半のアジは派手さがないものの丸々と太ったアジが釣れました。 悪天候の中の出船でした。船酔いに見舞われたお客様もいらっしゃいましたが何とか皆様釣れました。テンヤ５～７尾、テンビン２～３４尾。 近場からスタートしました。ベイト反応は有りましたがアタリ無く移動、後半はなかなかアタリが出ませんでしたが次第にアタリが出ましたが波が高くバラシで数が伸びませんでした。 反応がなかなか見つからず苦戦し 荒天模様の影響か反応がばらけてしまい食いが悪かったです。時化明けに期待です。 近場のポイントで拾い釣りでした。中型が多かったです。",
-      "fish": "シロギス",
-      "catch": "1〜11",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-09-06",
       "platform": "web",
@@ -705,56 +827,6 @@
       "depth": null
     },
     {
-      "ship": "深川吉野屋",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "後半ようやくバタバタっと！ 2026/09/11 15:34 サワラは曇天陽気で高活性！！ 2026/09/10 16:23 雨＆風強まりちょっと早めに帰航・・ 2026/09/06 15:00",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉久（浦安）",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "サワラ９本、サゴシ３本！ あいにくの雨でしたが出船できました。 反応散らばってて１日通してポツリの単発ヒットでした。 雨の中お疲れ様でした。 サワラ９本、サゴシ３本 明日は悪天候の為、出船中止します。",
-      "fish": "サワラ",
-      "catch": "",
-      "source_url": "https://www.yoshikyu.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉久（浦安）",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "バッドコンディションで苦戦でした。。 今日も走水～台船西沖です。 朝から雨風のバッドコンディション！ こんな日に限って反応散り散りで活性低く難しい１日でした。 １日頑張れた方々は皆さんゲットできましたが、、、 早々にリタイヤの方もいて、、、",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.yoshikyu.com/",
-      "point": {
-        "name": "走水",
-        "latlng": [
-          35.317,
-          139.726
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "吉久（浦安）",
-      "date": "2026-09-06",
-      "platform": "web",
-      "text": "マダコ船もお休み頂きました。。 また水曜日からのご予約お待ちしております！”",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.yoshikyu.com/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-09-06",
       "platform": "web",
@@ -763,23 +835,6 @@
       "catch": "2〜10",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "弁天屋",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "1.80～3.00kg タチウオは半日を通し魚影濃く中・小型交じりで釣れました。後半のアジは中・良型交じりで釣れ順調な食いとなりました。 走水沖を狙い帰り際まで釣れ続きました。テンヤ３～１４尾、テンビン１１～５４尾。 昨日の好調ポイントから開始。ベイト少なくポイントを変え反応がまとまると連発し１日楽しめました。４人同時HITなども有りトップは２名様でした。船中１５尾。 本日も朝から好調に釣れて数が伸びました。２番手６８尾。 アタリ多く皆様数釣りがで",
-      "fish": "タチウオ",
-      "catch": "3〜13",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
-        ]
-      },
       "depth": null
     },
     {
@@ -840,39 +895,6 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "午後アジ 第21さくら丸",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "シロギス 第三さくら丸 雨水の影響もなく食い良く お土産十分でした。 日曜日も出船確定　空席多数です",
-      "fish": "シロギス",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-09-05",
-      "platform": "web",
-      "text": "タチウオ 第八さくら丸 反応良く、あたりは多かったです 火曜日からのご予約をお待ちしてます",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
