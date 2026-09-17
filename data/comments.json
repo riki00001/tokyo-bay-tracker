@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17 18:50 JST",
-  "cutoff": "2026-09-10",
-  "count": 91,
+  "updated_at": "2026-09-18 08:19 JST",
+  "cutoff": "2026-09-11",
+  "count": 90,
   "errors": [],
   "comments": [
     {
@@ -104,6 +104,17 @@
       "platform": "web",
       "text": "【午前チニング】乗合船 【午後チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-09-17",
+      "platform": "web",
+      "text": "0～2匹（30～45cm）、 0～2匹（55～80cm）、 3～7匹（35～51cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -481,17 +492,6 @@
       "platform": "web",
       "text": "【午前チニング】乗合船 他タチウオ・イナダ・トラフグ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
-      "catch": "0〜3",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-09-15",
-      "platform": "web",
-      "text": "合計2匹（30～42cm）、 0～3匹（50～86cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "0〜3",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -1099,17 +1099,6 @@
       "fish": "タチウオ",
       "catch": "5〜26",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-09-10",
-      "platform": "web",
-      "text": "本日はお客様揃わず休船でした・・・ 明日も時折、小雨がパラつく予報ですが風は穏やかそうですのでお客様揃い次第出船予定です！ 週末もタチウオ、ショートLTアジ、アカメフグ船で準備しております！",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     }
