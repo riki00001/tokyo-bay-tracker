@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 07:52 JST",
+  "updated_at": "2026-09-21 19:25 JST",
   "cutoff": "2026-09-14",
   "count": 78,
   "errors": [],
@@ -67,6 +67,17 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-09-20",
+      "platform": "web",
+      "text": "0～8匹（25～35cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜8",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -382,17 +393,6 @@
       "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-09-19",
-      "platform": "web",
-      "text": "0～8匹（60～95cm）、 10～33匹（20～38cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜8",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
