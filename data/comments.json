@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24 18:43 JST",
-  "cutoff": "2026-09-17",
-  "count": 100,
+  "updated_at": "2026-09-25 08:42 JST",
+  "cutoff": "2026-09-18",
+  "count": 98,
   "errors": [],
   "comments": [
     {
@@ -530,6 +530,17 @@
       "depth": null
     },
     {
+      "ship": "船宿いわた",
+      "date": "2026-09-23",
+      "platform": "web",
+      "text": "15～74匹（17～30cm）が釣れました！ 船宿いわたでよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "15〜74",
+      "source_url": "https://www.chowari.jp/ship/01322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-09-23",
       "platform": "web",
@@ -816,17 +827,6 @@
       "platform": "web",
       "text": "釣果更新遅くなり申し訳ございません...。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
       "fish": "シロギス",
-      "catch": "0〜24",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-09-22",
-      "platform": "web",
-      "text": "0～24匹（17～26cm）、 2～17匹（12～24cm）が釣れました！ 船宿いわたでよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "0〜24",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
@@ -1134,28 +1134,6 @@
           139.908
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-09-17",
-      "platform": "web",
-      "text": "・ルアー船(サワラ等)…9月2日より開始。6時30分出船。 ・夜釣りアナゴ船…夕方5時出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・シロギス船…毎日7時30分出船。 ・フグ船…毎日出船(7時)。 ・カワハギ船…7時出船。",
-      "fish": "シーバス",
-      "catch": "50〜65",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-09-17",
-      "platform": "web",
-      "text": "【午前チニング】乗合船 【午後チニング】乗合船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
-      "fish": "アジ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
       "depth": null
     }
   ]
