@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-27 19:22 JST",
-  "cutoff": "2026-09-20",
-  "count": 92,
+  "updated_at": "2026-09-28 08:32 JST",
+  "cutoff": "2026-09-21",
+  "count": 93,
   "errors": [],
   "comments": [
     {
@@ -352,11 +352,28 @@
       "ship": "林遊船",
       "date": "2026-09-27",
       "platform": "web",
-      "text": "0～2匹（75～85cm）、 合計2匹（75～85cm）、 5～39匹（18～28cm）、 0～2匹（55～85cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "text": "0～2匹（75～85cm）、 合計2匹（75～85cm）、 5～39匹（18～28cm）、 0～2匹（55～85cm）、 0～2匹（60～75cm）、 1～3匹（30～47cm）が釣れました！",
       "fish": "マダコ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-09-27",
+      "platform": "web",
+      "text": "ショートタチウオ船、タチウオ、60-143cm、9-25本。今日も走水スタートからの台船西コースで！ 朝イチバタバタってドラゴン釣れましたが長くは続かず… 中型メインにたまにいいやつって感じで… 1日難しい感じでアタリ出すのも一苦労な雰囲気でしたね(-｡-; それでも親父船は神龍浮上！！ 本船はスパドラゲット！",
+      "fish": "タチウオ",
+      "catch": "3〜27",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
       "depth": null
     },
     {
@@ -816,6 +833,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-09-25",
+      "platform": "web",
+      "text": "3～27匹（60～115cm）、 船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "3〜27",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-09-25",
       "platform": "web",
@@ -910,17 +938,6 @@
       "platform": "web",
       "text": "本日、今季初のカワハギへ。 直近のカワハギの状況は との、風の噂がありましたが。。 カワハギ釣り初めての方や 全員GETのオデコなしでした。 まずまずの釣果だったのでは♪全体的に",
       "fish": "カワハギ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-09-24",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
