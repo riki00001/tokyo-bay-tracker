@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05 21:03 JST",
-  "cutoff": "2026-09-28",
+  "updated_at": "2026-10-06 10:37 JST",
+  "cutoff": "2026-09-29",
   "count": 95,
   "errors": [],
   "comments": [
@@ -110,6 +110,28 @@
       "depth": null
     },
     {
+      "ship": "忠彦丸",
+      "date": "2026-10-05",
+      "platform": "web",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-05",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-10-05",
       "platform": "web",
@@ -205,6 +227,28 @@
       "depth": null
     },
     {
+      "ship": "林遊船",
+      "date": "2026-10-05",
+      "platform": "web",
+      "text": "他タチウオ・ワラサ・イナダ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
+      "fish": "アジ",
+      "catch": "0〜3",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-10-05",
+      "platform": "web",
+      "text": "ショートタチウオ船、今日も台船西で！ バリバリって時間も多く！ 中型メインにメーター級も多く混じってましたね！ 移動無くやりきりで、トップはエサ切れでしたね！ 水曜もこの調子でお願いします！ 潮見表・タイドグラフの詳細を見る",
+      "fish": "タチウオ",
+      "catch": "7〜52",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "一之瀬丸",
       "date": "2026-10-04",
       "platform": "web",
@@ -274,19 +318,8 @@
       "ship": "忠彦丸",
       "date": "2026-10-04",
       "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
       "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-04",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -1092,51 +1125,6 @@
       "catch": "18〜44",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-09-28",
-      "platform": "web",
-      "text": "タチウオ船で出船しました。ほとんどの方がレンタルだったのでレクチャー後に出船走水沖で合流させて頂き朝のうちは活性よくポツポツゲット出来ました。その後も今日は比較的素直に当たってくれました。後半風が出てくるとややテクニカルな様子でしたがF5サイズもチラホラと出てくれました。雨風強い中お疲れ様でした。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 東京都 品川区 鮫洲勝島運河",
-      "fish": "アジ",
-      "catch": "1〜11",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": {
-        "name": "走水沖",
-        "latlng": [
-          35.305,
-          139.745
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-09-28",
-      "platform": "web",
-      "text": "【午前ルアー五目】チャーター船 【午後シーバス】チャーター船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
-      "fish": "アジ",
-      "catch": "0〜1",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-09-28",
-      "platform": "web",
-      "text": "ショートタチウオ船、131センチ3本。今日も走水から！良型主体に！ ぽっちーんって感じで！ こちらも派手はないけど、型良し！ メーター級にドラも多く！ 今日は型は最高に良しでしたね！！ 潮見表・タイドグラフの詳細を見る",
-      "fish": "タチウオ",
-      "catch": "7〜33",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": {
-        "name": "走水",
-        "latlng": [
-          35.317,
-          139.726
-        ]
-      },
       "depth": null
     }
   ]
