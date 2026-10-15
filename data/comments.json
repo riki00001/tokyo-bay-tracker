@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-15 18:37 JST",
-  "cutoff": "2026-10-08",
-  "count": 106,
+  "updated_at": "2026-10-16 08:29 JST",
+  "cutoff": "2026-10-09",
+  "count": 105,
   "errors": [],
   "comments": [
     {
@@ -177,6 +177,28 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-10-15",
+      "platform": "web",
+      "text": "サワラ、サゴシ、メインに狙いましたサゴシはポチポチと釣れてくれ、そしてイナダも高活性！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "タチウオ",
+      "catch": "0〜9",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "えさ政（羽田）",
+      "date": "2026-10-15",
+      "platform": "web",
+      "text": "0～11匹（15～28cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜11",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-10-15",
       "platform": "web",
@@ -184,6 +206,28 @@
       "fish": "アジ",
       "catch": "0〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-10-15",
+      "platform": "web",
+      "text": "0～4匹（40～70cm）、 1～6匹（50～78cm）、 0～2匹（50～80cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "0〜4",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-10-15",
+      "platform": "web",
+      "text": "朝イチはポツポツは見れて、その後は激ムズ… 中盤は見るのがやっとでしたが、後半はだんだんと！ パターンハマった方は連チャンしたり！ 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す",
+      "fish": "タチウオ",
+      "catch": "4〜27",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -577,33 +621,11 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-10-13",
-      "platform": "web",
-      "text": "1～8匹（20～35cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "1〜8",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-10-13",
       "platform": "web",
       "text": "【午前ルアー五目】チャーター船 他タチウオ・イナダ・トラフグ 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
-      "catch": "15〜68",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-10-13",
-      "platform": "web",
-      "text": "合計1匹（80cm）、 15～68匹（18～26cm）、 0～2匹（70～83cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "15〜68",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -817,17 +839,6 @@
       "fish": "カワハギ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-10-12",
-      "platform": "web",
-      "text": "ルアー五目船、今日もはりきってルアー五目船行って参りました！ 狙いは釣り味よし！食べてよし！今盛り上がってるサワラ！ 朝の説明でもこちらをメインにやっていきますよー！ということで出船！ まず顔だしたのはタチウオ（汗） その後も、各所転々とやっていきますが本命サワラのお顔が（汗） サゴシクラスはたまーに出るも、ドラグが唸るようなサワラがなかなか見れません。",
-      "fish": "サワラ",
-      "catch": "0〜4",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
       "point": null,
       "depth": null
     },
@@ -1295,34 +1306,6 @@
       "fish": "カワハギ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-10-09",
-      "platform": "web",
-      "text": "ショートタチウオ船、今日も港前から！ ドラゴン乱舞を期待したのですが？当たりは悪くないけど.....。うーん？122cmが釣れただけで。早めに台船西に！そこはドラゴン級かミニ助って感じで逆に面白く(笑)最大筆頭に何本かゲット(笑)数もそれなりに釣れてくれて楽しめましたね！行ってみなきゃ分からないですが期待出来そうですね！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、65-126cm、8-50本。 今日もば。く。れ。つ走水〜台船西で！ サイズは中型〜中大ぐらいにメーター級も！ ドラもいっぱい泣きドラもいっぱいスパドラは無し…",
-      "fish": "タチウオ",
-      "catch": "10〜45",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": {
-        "name": "走水",
-        "latlng": [
-          35.317,
-          139.726
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-10-08",
-      "platform": "web",
-      "text": "すみませんm(__)mさて、本日のタチウオは 前回より型がUPした方 多数いらっしゃいました。残念ながら厳しい方も いらっしゃったようですが 全体的に、釣れていました。田島さん曰く 仕掛けをあまり動かさない時に",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
       "depth": null
     }
