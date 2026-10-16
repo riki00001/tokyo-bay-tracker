@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16 18:30 JST",
-  "cutoff": "2026-10-09",
+  "updated_at": "2026-10-17 08:11 JST",
+  "cutoff": "2026-10-10",
   "count": 104,
   "errors": [],
   "comments": [
@@ -146,6 +146,28 @@
           139.742
         ]
       },
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-16",
+      "platform": "web",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-16",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
       "depth": null
     },
     {
@@ -344,6 +366,28 @@
       "depth": null
     },
     {
+      "ship": "林遊船",
+      "date": "2026-10-16",
+      "platform": "web",
+      "text": "合計1匹（75cm）、 20～30匹（18～25cm）、 1～4匹（55～81cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "20〜30",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-10-16",
+      "platform": "web",
+      "text": "ショートタチウオ船、朝から台船西で！ 反応は細切れながらもやってるとポチーンと釣れたり釣れなかったり？反応の規模も大きくなく。移動しても駄目そうだったのでジッとやりきりでした！最大137cmのドラゴンもゲット出来たりしましたが、残念ながら１名様０の方も居ましたね。日に日に難しくなってます。しっかり準備して攻略お願いします！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、65-130cm、3-29本。今日も台船西で！ 朝イチモーニングあり！ 中盤は最近通りテクニカルに… 後半はポツポツと見れてきましたが、盛り上がってる感じではなかったですね…。",
+      "fish": "タチウオ",
+      "catch": "0〜19",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "小川丸",
       "date": "2026-10-15",
       "platform": "web",
@@ -483,17 +527,6 @@
       "depth": null
     },
     {
-      "ship": "林遊船",
-      "date": "2026-10-15",
-      "platform": "web",
-      "text": "0～4匹（40～70cm）、 1～6匹（50～78cm）、 0～2匹（50～80cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
-      "catch": "0〜4",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "教至丸",
       "date": "2026-10-15",
       "platform": "web",
@@ -571,17 +604,6 @@
       "platform": "web",
       "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
       "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-14",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -708,28 +730,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-13",
-      "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-13",
-      "platform": "web",
-      "text": "天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -982,6 +982,17 @@
       "platform": "web",
       "text": "今日も一日を通してよく晴れました。 寒暖差は相変わらず大きく 日中はかなり暑さを感じました。 「船宿 岩田屋 本店」の 「船宿 岩田屋 本店」の 潮見表・タイドグラフの詳細を見る",
       "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-10-12",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
@@ -1285,23 +1296,6 @@
       "catch": "0〜8",
       "source_url": "https://www.chowari.jp/ship/01322/catch/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-10-10",
-      "platform": "web",
-      "text": "ショートタチウオ船、ドラゴンも混じって好調キープでしたね！ ・ショートタチウオ船、タチウオ、65-137cm、7-58本。タチウオ、65-123cm、5-34本。今日も走水〜台船西で！ 中型メインでしたがたまにメーター級に 本船は137.130.130と3本ゲット！ 明日もジャンジャンバリバリお願いします！ 潮見表・タイドグラフの詳細を見る",
-      "fish": "タチウオ",
-      "catch": "10〜41",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": {
-        "name": "走水",
-        "latlng": [
-          35.317,
-          139.726
-        ]
-      },
       "depth": null
     }
   ]
