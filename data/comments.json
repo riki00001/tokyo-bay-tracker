@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21 08:34 JST",
+  "updated_at": "2026-10-21 18:50 JST",
   "cutoff": "2026-10-14",
-  "count": 102,
+  "count": 103,
   "errors": [],
   "comments": [
     {
@@ -55,6 +55,78 @@
       "text": "10月17日土曜日より出船開始！ ✨ 10月17日(土)より予約出船開始！ ✨ いよいよカワハギ船スタートです 11,500円（氷1つ付き） ※餌は付いておりません。 餌は別料金 1,200円",
       "fish": "カワハギ",
       "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "65-105 cm　0-8 本 18-28 cm　2-19 匹 タチウオはテクニカルで。。。 アジは風陰で辛抱釣りでした。。。",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "65-115 cm　1-14 本 反応ありましたが少しテクニカルに！！ ハマってくれた方は数伸びました！！",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "120-380 g　0-5 杯 南西の風強く広めに探索できずでした・・・ それでも要所要所には魚影確認！！ 今後に期待しましょう！！ ダウンショット、エギテンヤで狙って行きます！！！ ティップラン希望のお客様は４名様限定でご案内致します。",
+      "fish": "イカ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "１０月２１日水曜日　釣果！ 10/21(水)釣果報告 今日は「あかりの日」♪ ショートフィッシング天秤タチウオ船 65～105cm　6～22本 本日も走水周辺海域にて、居残りタチウオ狙いへ",
+      "fish": "サワラ",
+      "catch": "6〜22",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-21",
+      "platform": "web",
+      "text": "１０月２０日火曜日　釣果！ 10月20日(火) 釣果報告追加のお知らせ 昨日の釣果報告に記載漏れがございました‍♀️ 改めて釣果をご報告いたします✨ 18～30cm　13～30匹 ショートフィッシング天秤タチウオ船",
+      "fish": "アジ",
+      "catch": "13〜30",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
@@ -179,28 +251,6 @@
           139.738
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-19",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-19",
-      "platform": "web",
-      "text": "10月19日月曜日　釣果！ 10/19(月)釣果報告 ‍‍今日は「イクメンの日」♪ 17～28cm　3～23匹 17～28cm　24～75匹✨ 午後はトップ75匹‼️",
-      "fish": "タチウオ",
-      "catch": "3〜23",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
       "depth": null
     },
     {
@@ -415,56 +465,6 @@
       "fish": "アジ",
       "catch": "",
       "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-10-18",
-      "platform": "web",
-      "text": "18-29 cm　2-6 枚",
-      "fish": "カワハギ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-10-18",
-      "platform": "web",
-      "text": "65-118 cm　2-18 本 猿島沖～走水でぽちぽち！！",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "猿島沖",
-        "latlng": [
-          35.316,
-          139.785
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-18",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-18",
-      "platform": "web",
-      "text": "10月18日日曜日　釣果！ 10/18(日)釣果報告 ❄️今日は「冷凍食品の日」♪ 本日も忠彦丸をご利用いただき、ありがとうございました✨ 17～28cm　7～32匹 17～28cm　8～40匹",
-      "fish": "アジ",
-      "catch": "7〜32",
-      "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
     },
@@ -725,6 +725,17 @@
       "fish": "タチウオ",
       "catch": "0〜23",
       "source_url": "https://www.chowari.jp/ship/00458/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "荒川屋",
+      "date": "2026-10-17",
+      "platform": "web",
+      "text": "本日は２隻にて出船。朝から高波で船酔い者続出してしまいました。反応の割に厳しいスタートで９時過ぎの潮代わりを期待して粘りましたが、顔をみるもののスイッチが入りませんでした。型が良いのが救いでした。ゲストはイシモチ。午後船はスタートからポツリポツリで勢いは無かったですが、納竿までアタリがありました。ビギナ－さんも慣れて来たら釣れ始め、オカズはゲットできました。ゲストイシモチ。以上池島船長のコメントでした。 別船は、本日久しぶりの出船となり、ポイント探索からのスタートとなりました。７時４５分にポイントに入ると早々にアジの顔をみることができ、幸先の良い出だしとなりましたが、わずか１５分ほどの８時には",
+      "fish": "イシモチ",
+      "catch": "0〜11",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
       "depth": null
     },
