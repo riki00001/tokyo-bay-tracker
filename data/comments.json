@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-26 19:46 JST",
-  "cutoff": "2026-10-19",
-  "count": 93,
+  "updated_at": "2026-10-27 09:10 JST",
+  "cutoff": "2026-10-20",
+  "count": 89,
   "errors": [],
   "comments": [
     {
@@ -198,6 +198,17 @@
       "depth": null
     },
     {
+      "ship": "林遊船",
+      "date": "2026-10-26",
+      "platform": "web",
+      "text": "合計1匹（75cm）、 0～2匹（55～84cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "忠彦丸",
       "date": "2026-10-25",
       "platform": "web",
@@ -386,6 +397,17 @@
       "depth": null
     },
     {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-10-25",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "えさ政（羽田）",
       "date": "2026-10-25",
       "platform": "web",
@@ -446,17 +468,6 @@
       "platform": "web",
       "text": "【午前シーバス】乗合船 本日は悪天候の中お集まり頂いてありがとう御座いました。 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船）",
       "fish": "アジ",
-      "catch": "0〜8",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-10-25",
-      "platform": "web",
-      "text": "0～8匹（30～50cm）、 0～3匹（55～85cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "0〜8",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -614,17 +625,6 @@
       "depth": null
     },
     {
-      "ship": "荒川屋",
-      "date": "2026-10-24",
-      "platform": "web",
-      "text": "5～41匹（17～21cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
-      "catch": "5〜41",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "中山丸",
       "date": "2026-10-24",
       "platform": "web",
@@ -741,17 +741,6 @@
       "platform": "web",
       "text": "夏日が復活したかと思いきや 冬の気配を感じました。 体調も崩れがちですよね。 鼻の調子がいまひとつで。本日はタチウオの仕立船でした。 みなさん気合十分でしたね。 「船宿 岩田屋 本店」の",
       "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-10-24",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
@@ -1081,39 +1070,6 @@
       "fish": "カワハギ",
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-10-19",
-      "platform": "web",
-      "text": "14-27 cm　1-9 枚 今日も大勢のお客様にお越しいただきありがとうございます^_^ 今日は昨日の食いなく 単発 拾い釣りでした。。。 南西風あり釣辛かったです。 また明日出船しますので、ご予約お待ちしてます^_^ 飛び入りも大丈夫です！",
-      "fish": "カワハギ",
-      "catch": "",
-      "source_url": "https://www.esamasa.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "船宿いわた",
-      "date": "2026-10-19",
-      "platform": "web",
-      "text": "朝から半端に風強く風影ポイントから探ってみました。転々としましたがどこも型見れず反応だけが盛り上がる状況、、まさかの4箇所空振りでその後は型見れるポイントもありましたが9時半の時点で船中5匹とかなり厳しかったです。その後は何とか落ち着けて徐々に活性もアップ！お昼頃からは入れ食い状態となりダブルダブルダブルと何とかアジ釣りらしい雰囲気になってくれ皆さんお土産バッチリ確保して頂けました。風もどんどん増してきてたので13時に撤収しました。海悪い中最後まで頑張って頂きありがとうございました！サイズは中型主体に小ぶり混じりでした。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気",
-      "fish": "アジ",
-      "catch": "20〜84",
-      "source_url": "https://www.chowari.jp/ship/01322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-10-19",
-      "platform": "web",
-      "text": "朝イチモーニングあり！ 今日は中盤後半も難しいながらも！？ 回ってくるとポツポツと！ ドラは居ないですが、メーター級多く！ 帰りまで地味にですが見れてました！ ちょっと復活の兆しありの1日でした！",
-      "fish": "タチウオ",
-      "catch": "5〜30",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
