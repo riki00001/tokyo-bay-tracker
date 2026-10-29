@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28 20:00 JST",
-  "cutoff": "2026-10-21",
-  "count": 93,
+  "updated_at": "2026-10-29 09:32 JST",
+  "cutoff": "2026-10-22",
+  "count": 94,
   "errors": [],
   "comments": [
     {
@@ -155,6 +155,50 @@
       "depth": null
     },
     {
+      "ship": "忠彦丸",
+      "date": "2026-10-28",
+      "platform": "web",
+      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-28",
+      "platform": "web",
+      "text": "テンヤタチウオ船。太刀魚、サワラなどが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-10-28",
+      "platform": "web",
+      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00703/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "弁天屋",
+      "date": "2026-10-28",
+      "platform": "web",
+      "text": "1.10～1.30kg 0.40～1.50kg タチウオは前半に型を見ただけで撃沈でした。後半のアジは中・良型交じりでお土産は確保出来ました。 北風強かったです。中深場ポイントを探索しました。小～中サイズ主体でした。 前半は風陰ポイントを狙うも不発。後半は風が弱まりポイント移動し型を見れました。各ポイント、ベイト反応は多く今後も期待したいと思います。 中アジ主体に釣れ、３０尾前後の方目立ちお土産になりました。",
+      "fish": "マダイ",
+      "catch": "0〜2",
+      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "つり幸（川崎）",
       "date": "2026-10-28",
       "platform": "web",
@@ -174,6 +218,23 @@
       "catch": "０〜１",
       "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
       "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-10-28",
+      "platform": "web",
+      "text": "ショートタチウオ船、今日は走水から！ ポチ…ポチ…っとかなり遠いアタリで… 淀みあたりから台船西で！ じっくり構えて時が来るの待ち！！ たまにポロポロって出たりしますが！？ 待ってるような時は来ず…",
+      "fish": "タチウオ",
+      "catch": "2〜19",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": {
+        "name": "走水",
+        "latlng": [
+          35.317,
+          139.726
+        ]
+      },
       "depth": null
     },
     {
@@ -226,17 +287,6 @@
       "platform": "web",
       "text": "テンヤタチウオ船。太刀魚、サワラなどが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
       "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-27",
-      "platform": "web",
-      "text": "忠彦丸でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
@@ -437,39 +487,6 @@
       "fish": "アジ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-25",
-      "platform": "web",
-      "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-25",
-      "platform": "web",
-      "text": "天秤タチウオ船。太刀魚が釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-10-25",
-      "platform": "web",
-      "text": "フグ船。フグが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す この条件では釣果がありませんでした 他の条件に変更してみてください",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00703/catch/",
       "point": null,
       "depth": null
     },
@@ -954,15 +971,15 @@
       "ship": "弁天屋",
       "date": "2026-10-23",
       "platform": "web",
-      "text": "2.00～2.50kg 0.40～1.50kg タチウオは朝から好調で、連発する方も見られ、半数のお客様がツ抜けを達成しました。後半のアジはアタリ控えめでしたが、中アジを中心におかず分は確保出来ました。 竹岡沖各所で拾い釣りでした。上手くすると一場所数枚。空振りもありましたが一日楽しめました。 朝は近場を探りましたが、まとまった反応が少なく移動を繰り返しました。中盤からは反応が上向き2.5kg前後の型をGET。帰り途中の鳥山でもなんとか型を見ることができました。 小振りが中心でしたが、後半はアタリも増えまずまず",
+      "text": "走水沖水深60～70m～小柴沖水深15～25m 竹岡沖水深15～25m 中ノ瀬水深15～25m 走水沖水深60～70m 富岡沖水深15～25m 富岡沖水深15～20m",
       "fish": "マダイ",
       "catch": "1〜15",
-      "source_url": "https://www.chowari.jp/ship/00300/catch/",
+      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=190&pageID=1",
       "point": {
-        "name": "竹岡沖",
+        "name": "小柴沖",
         "latlng": [
-          35.268,
-          139.875
+          35.338,
+          139.648
         ]
       },
       "depth": null
