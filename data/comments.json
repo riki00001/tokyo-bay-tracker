@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29 20:19 JST",
-  "cutoff": "2026-10-22",
-  "count": 97,
+  "updated_at": "2026-10-30 09:32 JST",
+  "cutoff": "2026-10-23",
+  "count": 96,
   "errors": [],
   "comments": [
     {
@@ -182,6 +182,17 @@
       "depth": null
     },
     {
+      "ship": "えさ政（羽田）",
+      "date": "2026-10-29",
+      "platform": "web",
+      "text": "0～7匹（20～36cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "0〜7",
+      "source_url": "https://www.chowari.jp/ship/00322/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-10-29",
       "platform": "web",
@@ -189,6 +200,28 @@
       "fish": "アジ",
       "catch": "0〜8",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "林遊船",
+      "date": "2026-10-29",
+      "platform": "web",
+      "text": "0～8匹（30～48cm）、 0～2匹（55～77cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "0〜8",
+      "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-10-29",
+      "platform": "web",
+      "text": "何箇所かやるも見るばっかりで盛り上がりなく。 コツコツと拾い釣りのような？ たまーに連チャンしたりもするのでいいのかなーって思うと間が空いたり？ なんかしっくりこないけどなんとか釣れたかな？ お一人様０出ちゃいました。 ハマれば簡単に釣れてるように見えますが、ハマるのが難しいです。",
+      "fish": "タチウオ",
+      "catch": "0〜18",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -492,33 +525,11 @@
       "depth": null
     },
     {
-      "ship": "えさ政（羽田）",
-      "date": "2026-10-27",
-      "platform": "web",
-      "text": "0～10匹（13～26cm）が釣れました！ えさ政釣船店でよく釣れるのはどんな魚ですか？",
-      "fish": "カサゴ",
-      "catch": "0〜10",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-10-27",
       "platform": "web",
       "text": "【午前ルアー五目】チャーター船 午前ボート船（AM7:00出船） シーバス船（キャスティング・ジギング） クロダイ船（チニング） 午後ボート船（PM12:30出船） シーバス船（キャスティング・ジギング）",
       "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "林遊船",
-      "date": "2026-10-27",
-      "platform": "web",
-      "text": "合計1匹（78cm）が釣れました！ 林遊船でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
       "catch": "",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
       "point": null,
@@ -1141,28 +1152,6 @@
       "text": "ショートタチウオ船、タチウオの2隻目で！ １日台船西でやりきりました！ 簡単には釣れませんが？我慢してるとポツポツ釣れたりで！１人当たると？何人か当たったり？難しいなりに何とか皆さん型を見れました！サイズもメーターぐらいの混じりで120アップも船中6本！！まだ楽しめますかね(笑)明日も宜しくお願いします！今日も１日ありがとうございました！ ・ショートタチウオ船、タチウオ、 65-134cm、0-21本。今日も台船西で！ 朝イチモーニング無しでしたが、だんだんと！",
       "fish": "タチウオ",
       "catch": "4〜15",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-10-22",
-      "platform": "web",
-      "text": "・ルアー船(サワラ等)…毎日出船(6時30分)。 ・夜釣りアナゴ船…夕方5時出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・シロギス船…毎日出船(7時30分)。 ・フグ船…毎日出船(7時)。 ・カワハギ船…7時出船。",
-      "fish": "シーバス",
-      "catch": "23〜50",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-10-22",
-      "platform": "web",
-      "text": "ショートタチウオ船、朝イチは不穏な空気でしたが、だんだんと！ 型もドラやスパドラも出て！ パターン掴んだ方は連チャンも！ なんて言われてますが！ まだまだ終われません！！笑。 潮見表・タイドグラフの詳細を見る",
-      "fish": "タチウオ",
-      "catch": "7〜32",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
