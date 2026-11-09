@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 09:25 JST",
+  "updated_at": "2026-11-09 22:38 JST",
   "cutoff": "2026-11-02",
   "count": 95,
   "errors": [],
@@ -45,6 +45,45 @@
       "fish": "タチウオ",
       "catch": "",
       "source_url": "https://www.team-yoshinoya.com/tsuri/diary/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-11-09",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-11-09",
+      "platform": "web",
+      "text": "１１月９日月曜日　釣果！ 11/9(月)釣果報告 今日は「119番の日」♪ 17～28cm　20～52匹 本日は南本牧方面へ出船 朝は少しスロースタートでしたが、釣れ始めるとポツポツと順調にヒット✨",
+      "fish": "タチウオ",
+      "catch": "20〜52",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": {
+        "name": "本牧",
+        "latlng": [
+          35.408,
+          139.672
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "つり幸（川崎）",
+      "date": "2026-11-09",
+      "platform": "web",
+      "text": "午後アジ 第21さくら丸",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -357,6 +396,17 @@
       "platform": "web",
       "text": "ショートタチウオ船、モーニングもなし…反応も少なめ…1日当て返して見たり？見なかったりで。。 コツコツ拾えた方はツヌケで。。 かなり厳しい戦いでした。。 タチウオ夏の陣ロングランでしたが、11月14日（土）の出船で休船しますm(__)m ボウズなんて怖くねーぜ！ テンヤ叩きてーんだよ！",
       "fish": "タチウオ",
+      "catch": "0〜12",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-11-08",
+      "platform": "web",
+      "text": "0～12匹（60～110cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
       "catch": "0〜12",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
@@ -695,34 +745,12 @@
       "depth": null
     },
     {
-      "ship": "教至丸",
-      "date": "2026-11-07",
-      "platform": "web",
-      "text": "2～12匹（60～110cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "2〜12",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "忠彦丸",
       "date": "2026-11-06",
       "platform": "web",
       "text": "ご乗船ありがとうございました！",
       "fish": "不明",
       "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-11-06",
-      "platform": "web",
-      "text": "１１月６日金曜日　釣果！ 11/6(金)釣果報告 今日は「アパート記念日」♪ ショートフィッシング天秤タチウオ船 75～100cm　0～15本 タチウオはいるものの…",
-      "fish": "タチウオ",
-      "catch": "0〜15",
       "source_url": "https://www.tadahikomaru.jp/",
       "point": null,
       "depth": null
@@ -768,17 +796,6 @@
       "fish": "サワラ",
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "つり幸（川崎）",
-      "date": "2026-11-06",
-      "platform": "web",
-      "text": "タチウオ 第8さくら丸 昨日の雨風で連日のポイントでは反応がバラバラ 見切りをつけて湾奥ポイント探索 細切れながら反応あるよ〜と先発隊のお隣様に呼んでいただきポチポチとヒット 良いタイミングでは投入から1人2人、、、と7人目までヒットなんてありましたが簡単にはいきません。 明日は湾奥からスタート予定です、仕掛けは2.5m必要です",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.tsurikou.com/",
       "point": null,
       "depth": null
     },
@@ -863,17 +880,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-11-04",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
       "depth": null
     },
     {
