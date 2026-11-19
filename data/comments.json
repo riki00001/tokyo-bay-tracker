@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19 11:11 JST",
+  "updated_at": "2026-11-19 23:08 JST",
   "cutoff": "2026-11-12",
-  "count": 101,
+  "count": 100,
   "errors": [],
   "comments": [
     {
@@ -34,6 +34,17 @@
       "fish": "サバ",
       "catch": "",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-11-19",
+      "platform": "web",
+      "text": "17-27 cm　10-74 匹 ★明日20日（金）は強風の為、全船中止です！ 21日（土）はタチウオ船、ショートLTアジ船に確定！サワラ船受付中・・・ 盛況で出船、前半は近場にて手が合うとポチポチ(バースやブイは思わぬ高ダナでヒットが得られる事も)。予報通り南西風強まり波影エリアへ、もうひと声な活性でしたがジックリと。景気よくアジ乱舞する船上を目指して終盤は周辺ウロついてみるとハマれなくなり状況悪化、型程度でお開きに。格好よく終われませんでしたが73、64、54、52・・親子さん2人で20匹と釣果的には好調で！ 潮色と流れ：澄み ゆるい 風向きと強さ：西 弱い",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -199,6 +210,17 @@
       "depth": null
     },
     {
+      "ship": "荒川屋",
+      "date": "2026-11-18",
+      "platform": "web",
+      "text": "14～94匹（17～23cm）が釣れました！ 荒川屋でよく釣れるのはどんな魚ですか？",
+      "fish": "タチウオ",
+      "catch": "14〜94",
+      "source_url": "https://www.chowari.jp/ship/00007/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "中山丸",
       "date": "2026-11-18",
       "platform": "web",
@@ -250,6 +272,28 @@
       "fish": "不明",
       "catch": "",
       "source_url": "https://www.yoshikyu.com/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-11-18",
+      "platform": "web",
+      "text": "少し引きずった朝でしたが 日中は良いお天気に回復♪ 風も治まり良かったです。 エサが無くなる事も多かったです。難しい一日頑張りましたね!! 前野さんと鈴木さん親子♪ いつも有難うございます",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "岩田屋（浦安）",
+      "date": "2026-11-18",
+      "platform": "web",
+      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
+      "fish": "マダコ",
+      "catch": "",
+      "source_url": "https://www.chowari.jp/ship/00847/catch/",
       "point": null,
       "depth": null
     },
@@ -364,17 +408,6 @@
       "platform": "web",
       "text": "今日はアタリのいいポイントが数か所あり、手慣れた方は釣ってくれました。今日の海況はビギナ－さんには、波高く過酷な釣行となってしまいました。２番手５６尾。ホウボウ、黒鯛のゲストも。以上池島船長のコメントでした。 皆さんお疲れ様でした。久びさに厳しい釣行となってしまいましたね。くれぐれも体調崩さないようにご自愛くださいませ。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢八景平潟",
       "fish": "アジ",
-      "catch": "30〜70",
-      "source_url": "https://www.chowari.jp/ship/00007/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "荒川屋",
-      "date": "2026-11-17",
-      "platform": "web",
-      "text": "30～70匹（18～27cm）、 荒川屋でよく釣れるのはどんな魚ですか？",
-      "fish": "タチウオ",
       "catch": "30〜70",
       "source_url": "https://www.chowari.jp/ship/00007/catch/",
       "point": null,
@@ -834,17 +867,6 @@
       "depth": null
     },
     {
-      "ship": "岩田屋（浦安）",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "船宿 岩田屋 本店でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
-      "catch": "",
-      "source_url": "https://www.chowari.jp/ship/00847/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "えさ政（羽田）",
       "date": "2026-11-15",
       "platform": "web",
@@ -994,23 +1016,6 @@
       "depth": null
     },
     {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-11-14",
-      "platform": "web",
-      "text": "大貫沖水深15～20m",
-      "fish": "シロギス",
-      "catch": "1〜7",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": {
-        "name": "大貫沖",
-        "latlng": [
-          35.302,
-          139.855
-        ]
-      },
-      "depth": null
-    },
-    {
       "ship": "吉久（浦安）",
       "date": "2026-11-14",
       "platform": "web",
@@ -1107,34 +1112,6 @@
       "catch": "",
       "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-11-13",
-      "platform": "web",
-      "text": "18-32 cm　30- 前半は低活性なアタリ具合でしたが船中で何とか顔は出る状態だったので我慢大会。後半は好喰いスポットありつけてお土産増量できましたね！ 99、90、85、83・・30匹と大漁に！ 潮色と流れ：澄み ゆるい 風向きと強さ：北東 弱い",
-      "fish": "アジ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "吉野屋（浦安）",
-      "date": "2026-11-13",
-      "platform": "web",
-      "text": "木更津沖水深10～15m ・アジ船、ルアー船(サワラ等)、トラフグ船…6時30分出船。 ・フグ船、カワハギ、LTアジ船、タチウオ船、カサゴ船…7時出船。 ・シロギス船…7時30分出船。 ・リレー船(シロギス・アナゴ)…午後1時出船。 ・夜釣りアナゴ船…夕方5時出船。",
-      "fish": "シーバス",
-      "catch": "36〜85",
-      "source_url": "https://www.fishing-v.jp/choka/choka_detail.php?s=146&pageID=1",
-      "point": {
-        "name": "木更津沖",
-        "latlng": [
-          35.378,
-          139.908
-        ]
-      },
       "depth": null
     },
     {
