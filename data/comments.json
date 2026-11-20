@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20 10:58 JST",
+  "updated_at": "2026-11-20 22:51 JST",
   "cutoff": "2026-11-13",
-  "count": 101,
+  "count": 100,
   "errors": [],
   "comments": [
     {
@@ -34,6 +34,78 @@
       "fish": "サバ",
       "catch": "",
       "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "0.4-1.5 kg　0-2 枚 八景沖狙いで大アジ交じり！！ 黒ダイはトップ3枚でした！！ 強風で12時早上がりで！！",
+      "fish": "アジ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": {
+        "name": "八景沖",
+        "latlng": [
+          35.328,
+          139.638
+        ]
+      },
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "38-54 cm　1-8 本 強風でしたがアタリ活発に！！",
+      "fish": "マゴチ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "一之瀬丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "70-95 cm　0-6 本 風陰ポイントを転々と拾い釣り・・・。",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.ichinosemaru.net/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "ご乗船ありがとうございました！",
+      "fish": "不明",
+      "catch": "",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "忠彦丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "１１月２０日金曜日　釣果！ 午後は根岸湾奥方面へ！ 喰い出すまで少し時間がかかりましたが、コマセが効き始めるとアタリも活発に！！ ダブル・トリプルもありバッチリでした サイズも中型メインで良い感じ 強風のため20分ほど早上がりとなりましたが、皆さんお土産十分でした",
+      "fish": "マダコ",
+      "catch": "3〜13",
+      "source_url": "https://www.tadahikomaru.jp/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "中山丸",
+      "date": "2026-11-20",
+      "platform": "web",
+      "text": "本日は強風の為、全船中止です・・・ 明日21日（土）はタチウオ船、ショートLTアジ船に確定！ルアーサワラは配船の都合でお休みです 〜湾奥タチウオタックル〜 ロッド: 柔らかめの天秤タチウオ専用竿or硬めのLTアジ竿（先調子竿は不向き） リール: 手巻きベイトリール推奨 オモリ:40号（水深により60号の準備も）",
+      "fish": "タチウオ",
+      "catch": "",
+      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
@@ -494,23 +566,6 @@
       "ship": "忠彦丸",
       "date": "2026-11-16",
       "platform": "web",
-      "text": "１１月１６日月曜日　釣果！ 11/16(月)釣果報告 本日は「幼稚園記念日」♪ 17～28cm　14～92匹 今日も本牧方面からスタート！！ 開始早々から顔を見ることができ、ダブル・トリプルもあり好調な喰い✨",
-      "fish": "タチウオ",
-      "catch": "14〜92",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": {
-        "name": "本牧",
-        "latlng": [
-          35.408,
-          139.672
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-11-16",
-      "platform": "web",
       "text": "ライトアジ船。アジが釣れました。 潮見表・タイドグラフの詳細を見る 釣行当日の気象情報を表示 釣行当日の気象情報を隠す 神奈川県 横浜市 金沢漁港",
       "fish": "アジ",
       "catch": "",
@@ -654,73 +709,6 @@
           139.738
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "80-119 cm　3-21 本 湾奥ポイントで好調！！",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "0.4-1.5 g　1-7 匹 竹岡～大貫沖で順調に！！",
-      "fish": "イカ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "大貫沖",
-        "latlng": [
-          35.302,
-          139.855
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "16-27 cm　1-7 枚 竹岡沖でぽちぽち・・。",
-      "fish": "カワハギ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": {
-        "name": "竹岡沖",
-        "latlng": [
-          35.268,
-          139.875
-        ]
-      },
-      "depth": null
-    },
-    {
-      "ship": "一之瀬丸",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "18-28 cm　12-63 匹 中盤にあたり活発で数伸びました！！ マダイとイシモチも！！",
-      "fish": "マダイ",
-      "catch": "",
-      "source_url": "https://www.ichinosemaru.net/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "忠彦丸",
-      "date": "2026-11-15",
-      "platform": "web",
-      "text": "ご乗船ありがとうございました！",
-      "fish": "不明",
-      "catch": "",
-      "source_url": "https://www.tadahikomaru.jp/",
-      "point": null,
       "depth": null
     },
     {
@@ -1117,17 +1105,6 @@
       "fish": "カワハギ",
       "catch": "2〜33",
       "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "中山丸",
-      "date": "2026-11-13",
-      "platform": "web",
-      "text": "85-105 cm　2-17 本 湾奥肉厚！17本2名様 ★明日はタチウオ船、ショートLTアジ船2隻に確定！ルアーサワラ船は不成立 今日も朝から反応は広範囲に山盛り。 スタートからポツポツと型を出しますが昨日に比べると少し難易度は高め・・・ 個人差が出ながらもアタリはチョコチョコと出ていて順調でしたが中盤からは段々と変則移動となり更に難易度上昇。",
-      "fish": "タチウオ",
-      "catch": "",
-      "source_url": "https://www.nakayamamaru.com/category/Choka/",
       "point": null,
       "depth": null
     },
