@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26 23:45 JST",
-  "cutoff": "2026-11-19",
-  "count": 98,
+  "updated_at": "2026-11-27 12:25 JST",
+  "cutoff": "2026-11-20",
+  "count": 97,
   "errors": [],
   "comments": [
     {
@@ -93,6 +93,17 @@
       "depth": null
     },
     {
+      "ship": "釣り船鶴",
+      "date": "2026-11-26",
+      "platform": "web",
+      "text": "1～7匹（35～60cm）、 （最大60cm）が釣れました！ 釣り船鶴でよく釣れるのはどんな魚ですか？",
+      "fish": "カサゴ",
+      "catch": "1〜7",
+      "source_url": "https://www.chowari.jp/ship/01678/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
       "ship": "林遊船",
       "date": "2026-11-26",
       "platform": "web",
@@ -111,6 +122,28 @@
       "fish": "マダコ",
       "catch": "0〜2",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-11-26",
+      "platform": "web",
+      "text": "ショートアジ船、今日は朝イチすぐに型を見れましたが？連日とは違い全体的って感じで釣れず。そこからはかなりウロウロしてしまいました。最後の方にポツリポツリと何とか見れましたが、やはり人によっては見れた程度な感じでしたね。最近のアジは本当に難しいです。マメに誘ったり仕掛け動かしたりした方が良いです！明日も宜しくお願いします！今日も１日ありがとうございました！ ・LTショートアジ船、アジ、22-40cm、15-78匹。今日らLTアジでした！ 型も中型メイン(24〜26センチ)良型〜デカ混じりに！ 中盤空振り連発しましたが、後半にまた当たって！ リっと釣れてくれました！ 潮見表・タイドグラフの詳細を見",
+      "fish": "マダイ",
+      "catch": "2〜37",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
+      "point": null,
+      "depth": null
+    },
+    {
+      "ship": "教至丸",
+      "date": "2026-11-26",
+      "platform": "web",
+      "text": "2～37匹（22～36cm）、 教至丸でよく釣れるのはどんな魚ですか？",
+      "fish": "サバ",
+      "catch": "2〜37",
+      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     },
@@ -338,17 +371,6 @@
           139.726
         ]
       },
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-11-25",
-      "platform": "web",
-      "text": "11～72匹（20～38cm）が釣れました！ 教至丸でよく釣れるのはどんな魚ですか？",
-      "fish": "サバ",
-      "catch": "11〜72",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
-      "point": null,
       "depth": null
     },
     {
@@ -716,17 +738,6 @@
       "depth": null
     },
     {
-      "ship": "釣り船鶴",
-      "date": "2026-11-23",
-      "platform": "web",
-      "text": "0～5匹（35～60cm）、 釣り船鶴でよく釣れるのはどんな魚ですか？",
-      "fish": "マダコ",
-      "catch": "0〜5",
-      "source_url": "https://www.chowari.jp/ship/01678/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
       "ship": "林遊船",
       "date": "2026-11-23",
       "platform": "web",
@@ -901,23 +912,6 @@
       "catch": "",
       "source_url": "https://www.esamasa.com/category/Choka/",
       "point": null,
-      "depth": null
-    },
-    {
-      "ship": "えさ政（羽田）",
-      "date": "2026-11-22",
-      "platform": "web",
-      "text": "タチウオ＆アジ、【タチウオ】湾奥25M【アジ】横浜沖20M。今日も大勢のお客様にお越しいただき2隻で出船できました^_^ 反応を当てながら攻めて行くとやる気のある太刀魚はしっかり針掛りして釣り上げるのに成功しました。 良い時は1〜2本、見れましたがその後は当たりが出ない時間帯が長く、少し早く切り替えました。 良い反応が有り、コマセを撒き始めたら‥直ぐにご対面できました。 当たりは活発で楽しめました。 明日も出船しますのでご予約お待ちしてます^_^",
-      "fish": "アジ",
-      "catch": "0〜2",
-      "source_url": "https://www.chowari.jp/ship/00322/catch/",
-      "point": {
-        "name": "横浜沖",
-        "latlng": [
-          35.428,
-          139.698
-        ]
-      },
       "depth": null
     },
     {
@@ -1116,17 +1110,6 @@
       "fish": "アジ",
       "catch": "0〜4",
       "source_url": "https://www.chowari.jp/ship/00880/catch/",
-      "point": null,
-      "depth": null
-    },
-    {
-      "ship": "教至丸",
-      "date": "2026-11-21",
-      "platform": "web",
-      "text": "ショートアジ船、シケ後で心配してましたが、朝イチから中型メインにポチっと釣れて皆さん型を見れました！ 駄目になってからは沖に出て潮が速い時間は流して拾い釣りだったり？淀みは止めてやったりで最後まで頑張れました！朝イチ以外のアジは３０cm後半のデカアジばっかりでしたね！数釣れなくてもお土産バッチリでした！また明日も釣れたら良いですね(笑)今日も１日ありがとうございました！ ・LTショートアジ船、アジ、22-46cm、11-37匹。LTアジで出船でした！今日も台船西から！ 朝からポチ…ポチ…っと！デカ主体に！ 中盤ちょっと外しましたが…後半バシっと！ 誰かしら巻くかなぐらいありまして！",
-      "fish": "アジ",
-      "catch": "8〜28",
-      "source_url": "https://www.chowari.jp/ship/00845/catch/",
       "point": null,
       "depth": null
     }
